@@ -1,0 +1,19 @@
+============================================================
+QDArchive — Part 1 Acquisition Report
+Generated : 2026-03-05 02:12 UTC
+============================================================
+
+Total projects collected   : 1
+Projects with QDA files    : 1
+Projects with primary data : 1
+
+Breakdown by repository:
+  Zenodo                           1
+
+QDA file type breakdown:
+  .qdpx                  1
+
+Top licenses:
+  cc-by-4.0                        1
+
+============================================================
