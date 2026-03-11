@@ -1,22 +1,8 @@
-"""
-db.py — All database operations for the QDArchive pipeline.
-
-Functions:
-    init_db()        — create DB and table
-    insert_project() — save one project (ignores duplicates)
-    update_project() — update fields after download
-    get_all()        — fetch all rows
-    get_connection() — get a raw connection
-    summary()        — key statistics
-"""
-
 import json
 import sqlite3
 from datetime import datetime
 
 from config import DB_PATH
-
-# ── Schema ─────────────────────────────────────────────────────────────────────
 
 CREATE_TABLE_SQL = """
     CREATE TABLE IF NOT EXISTS projects (
@@ -40,8 +26,6 @@ CREATE_TABLE_SQL = """
     )
 """
 
-# ── Connection ─────────────────────────────────────────────────────────────────
-
 def get_connection(db_path: str = DB_PATH) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
@@ -55,11 +39,7 @@ def init_db(db_path: str = DB_PATH) -> sqlite3.Connection:
     print(f"[DB] Initialised → '{db_path}'")
     return conn
 
-
-# ── Write ──────────────────────────────────────────────────────────────────────
-
 def insert_project(conn: sqlite3.Connection, record: dict) -> bool:
-    """Insert one project. Returns True if inserted, False if duplicate."""
     record = {**record}
     record.setdefault("collected_at", datetime.utcnow().isoformat())
     record.setdefault("qda_file_types", "[]")
@@ -84,7 +64,6 @@ def insert_project(conn: sqlite3.Connection, record: dict) -> bool:
 
 
 def update_project(conn: sqlite3.Connection, project_id: int, fields: dict):
-    """Update specific fields on an existing row."""
     if not fields:
         return
     set_clause = ", ".join(f"{k} = ?" for k in fields.keys())
@@ -97,16 +76,18 @@ def update_project(conn: sqlite3.Connection, project_id: int, fields: dict):
     except sqlite3.Error as e:
         print(f"  [DB ERROR] update id={project_id}: {e}")
 
-
-# ── Read ───────────────────────────────────────────────────────────────────────
-
 def get_all(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return conn.execute(
         "SELECT * FROM projects ORDER BY has_qda_files DESC, id ASC"
     ).fetchall()
 
 
-# ── Stats ──────────────────────────────────────────────────────────────────────
+def get_by_source(conn: sqlite3.Connection, source: str) -> list[sqlite3.Row]:
+    """Fetch all rows for a specific source (e.g. 'Zenodo', 'FSD', 'Sikt')."""
+    return conn.execute(
+        "SELECT * FROM projects WHERE source = ? ORDER BY id ASC",
+        (source,)
+    ).fetchall()
 
 def summary(conn: sqlite3.Connection) -> dict:
     total        = conn.execute("SELECT COUNT(*) FROM projects").fetchone()[0]

@@ -2,31 +2,45 @@ DB_PATH      = "qdarchive.db"
 ARCHIVE_DIR  = "archive"
 CSV_PATH     = "qdarchive_export.csv"
 REPORT_PATH  = "report.txt"
+
 HEADERS = {
     "User-Agent": "QDArchive-Seeder/1.0 (research project; FAU Erlangen)"
 }
 
-REQUEST_TIMEOUT  = 30               # seconds per request
-REQUEST_RETRIES  = 3                # retries on failure
-POLITE_DELAY     = 1.0              # seconds between API calls
-FILE_DELAY       = 0.5              # seconds between file downloads
-MAX_FILE_SIZE    = 500 * 1024 * 1024  # skip files > 500 MB (unless QDA)
+REQUEST_TIMEOUT  = 30               
+REQUEST_RETRIES  = 3                
+POLITE_DELAY     = 1.0              
+FILE_DELAY       = 0.5
+MAX_FILE_SIZE    = 500 * 1024 * 1024 
 
-ZENODO_BASE_URL  = "https://zenodo.org/api/records"
-ZENODO_MAX_PAGES = 20
-ZENODO_PAGE_SIZE = 25
+ZENODO_MAX_PAGES = 100
+ZENODO_PAGE_SIZE = 100
+
+FSD_OAI_URL     = "https://services.fsd.tuni.fi/v0/oai"
+FSD_MAX_RECORDS = 500
+
+SIKT_OAI_URL     = "https://datacatalogue.cessda.eu/oai-pmh/v0/oai"
+SIKT_SET         = "SIKT"
+SIKT_MAX_RECORDS = 500
 
 QDA_EXTENSIONS = {
+    # REFI standard / QDAcity
     ".qdpx", ".qdc",
+    # MaxQDA
     ".mqda", ".mqbac", ".mqtc", ".mqex", ".mqmtr",
     ".mx24", ".mx24bac", ".mc24", ".mex24",
     ".mx22", ".mx20", ".mx18", ".mx12", ".mx11",
     ".mx5",  ".mx4",  ".mx3",  ".mx2",  ".m2k",
     ".loa",  ".sea",  ".mtr",  ".mod",  ".mex22",
+    # NVivo
     ".nvp", ".nvpx",
+    # ATLAS.ti
     ".atlasproj", ".hpr7",
+    # f4analyse
     ".f4p",
+    # QDA Miner
     ".ppj", ".pprj", ".qlt",
+    # Quirkos
     ".qpd",
 }
 
@@ -36,24 +50,18 @@ PRIMARY_EXTENSIONS = {
 }
 
 OPEN_LICENSE_KEYWORDS = [
-    "cc-by",
-    "cc-by-sa",
-    "cc-by-nc",
-    "cc-by-nd",
-    "cc0",
-    "cc-zero",
-    "public domain",
-    "other-open",
-    "other-at",
-    "mit",
-    "apache",
-    "gpl",
+    "cc-by", "cc by", "creative commons",
+    "cc0", "cc-0", "public domain",
+    "open access",
+    "cc-by-sa", "cc-by-nc", "cc-by-nd",
+    "cc-by-nc-sa", "cc-by-nc-nd",
+    "mit", "apache", "gpl",
+    "other-open", "other-at",
 ]
 
 QUERIES_QDA = [
-    "qdpx",
-    "refi-qda",
-    "qdc qualitative",
+    "qdpx",              
+    "refi-qda",          
     "maxqda",
     "nvivo",
     "atlas.ti",
@@ -65,6 +73,8 @@ QUERIES_QDA = [
 ]
 
 QUERIES_QUALITATIVE = [
+    "interview study",               
+    "qualitative research data",     
     "interview transcript qualitative",
     "thematic analysis data",
     "grounded theory interview",
