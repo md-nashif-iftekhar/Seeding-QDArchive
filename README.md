@@ -196,16 +196,7 @@ The SIKT set was removed from the CESSDA OAI-PMH catalogue. After investigation:
 - Surveybanken (surveybanken.sikt.no): JavaScript-rendered, no public JSON API
 - Legacy NSD OAI-PMH: returns HTML, not OAI-PMH XML
 
-Sikt focuses primarily on quantitative survey data.
-      Qualitative datasets exist but are limited.
-      Even with a registered account, no programmatic download API exists.
 This is documented as a technical challenge. Sikt metadata is only accessible via browser at https://surveybanken.sikt.no.
-
-What this module does:
-  - Harvests metadata from CESSDA catalogue filtered to SIKT set
-  - Filters locally for qualitative records
-  - Inserts into PROJECTS, KEYWORDS, PERSON_ROLE tables
-  - Files table populated by download.py with FAILED_LOGIN_REQUIRED status
 
 ### Zenodo — InvenioRDM API migration
 Zenodo migrated to InvenioRDM which changed the API parameters. `sort=bestmatch` and `size=100` cause `400 BAD REQUEST`. Fixed by removing `sort` parameter and setting `size=25` (maximum allowed).
