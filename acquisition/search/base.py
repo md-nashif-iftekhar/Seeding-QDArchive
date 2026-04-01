@@ -1,16 +1,6 @@
-"""
-search/base.py — Shared base class for all repository searchers.
-
-Provides:
-    get_json()            — HTTP GET with retry + back-off
-    has_open_license()    — license string check
-    detect_qda_types()    — find QDA extensions in a file list
-    detect_primary_data() — check for primary data files
-    search()              — abstract method every subclass must implement
-"""
-
 import os
 import time
+import socket
 import sqlite3
 import requests
 from abc import ABC, abstractmethod
@@ -21,38 +11,68 @@ from config import (
     QDA_EXTENSIONS, PRIMARY_EXTENSIONS,
 )
 
+_orig_getaddrinfo = socket.getaddrinfo
+
+def _getaddrinfo_ipv4(host, port, family=0, type=0, proto=0, flags=0):
+    return _orig_getaddrinfo(host, port, socket.AF_INET, type, proto, flags)
+
+socket.getaddrinfo = _getaddrinfo_ipv4
+
 
 class BaseSearcher(ABC):
 
     name: str = "Unknown"
-
-    # ── HTTP ──────────────────────────────────────────────────────────────────
-
     def get_json(self, url: str, params: dict = None) -> dict | None:
         for attempt in range(REQUEST_RETRIES):
             try:
                 resp = requests.get(
                     url, params=params,
-                    headers=HEADERS, timeout=REQUEST_TIMEOUT,
+                    headers=HEADERS,
+                    timeout=REQUEST_TIMEOUT,
                 )
                 resp.raise_for_status()
                 return resp.json()
+
             except requests.exceptions.HTTPError as e:
-                status = e.response.status_code if e.response else "?"
-                wait   = (2 ** attempt) * (10 if status == 429 else 1)
-                self.log(f"HTTP {status} — waiting {wait}s…")
+                status = e.response.status_code if e.response else 0
+                if status == 429:
+                    wait = 60
+                    self.log(f"Rate limited (429) — waiting {wait}s…")
+                elif status in (500, 502, 503, 504):
+                    wait = 2 ** attempt
+                    self.log(f"Server error ({status}) — retrying in {wait}s…")
+                else:
+                    self.log(f"HTTP {status} — skipping. Detail: {e}")
+                    return None
                 time.sleep(wait)
+
+            except requests.exceptions.SSLError as e:
+                self.log(f"SSL error — retrying in 5s…")
+                self.log(f"  Detail: {e}")
+                time.sleep(5)
+
+            except requests.exceptions.ConnectionError as e:
+                wait = 2 ** attempt
+                self.log(f"Connection error — retrying in {wait}s…")
+                self.log(f"  Detail: {e}")
+                time.sleep(wait)
+
+            except requests.exceptions.Timeout:
+                wait = 2 ** attempt
+                self.log(f"Timeout — retrying in {wait}s…")
+                time.sleep(wait)
+
             except requests.RequestException as e:
                 wait = 2 ** attempt
-                self.log(f"{e} — retrying in {wait}s…")
+                self.log(f"Request error ({type(e).__name__}) — retrying in {wait}s…")
+                self.log(f"  Detail: {e}")
                 time.sleep(wait)
+
         self.log(f"Giving up after {REQUEST_RETRIES} attempts: {url}")
         return None
 
     def polite_sleep(self):
         time.sleep(POLITE_DELAY)
-
-    # ── Helpers ───────────────────────────────────────────────────────────────
 
     def has_open_license(self, license_str: str) -> bool:
         if not license_str:
@@ -77,8 +97,6 @@ class BaseSearcher(ABC):
 
     def log(self, msg: str):
         print(f"  [{self.name}] {msg}")
-
-    # ── Interface ─────────────────────────────────────────────────────────────
 
     @abstractmethod
     def search(self, conn: sqlite3.Connection, queries: list[str]):

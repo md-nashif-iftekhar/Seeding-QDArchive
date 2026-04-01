@@ -1,19 +1,91 @@
 ============================================================
-QDArchive — Part 1 Acquisition Report
-Generated : 2026-03-05 02:12 UTC
+QDArchive — Part 1: Data Acquisition Report
+Generated : 2026-04-01 20:03 UTC
 ============================================================
 
-Total projects collected   : 1
-Projects with QDA files    : 1
-Projects with primary data : 1
+OVERVIEW
+----------------------------------------
+  Total projects  : 82,039
+  Total files     : 6,073
+  Total keywords  : 299,710
+  Total persons   : 295,797
 
-Breakdown by repository:
-  Zenodo                           1
+FILE DOWNLOAD RESULTS
+----------------------------------------
+  SUCCEEDED                             5507
+  FAILED_LOGIN_REQUIRED                  548
+  FAILED_TOO_LARGE                        10
+  FAILED_SERVER_UNRESPONSIVE               8
 
-QDA file type breakdown:
-  .qdpx                  1
+BY REPOSITORY
+----------------------------------------
+  Repo #1 — https://zenodo.org
+    Projects : 81,484
+    Files    : 5,254
+    Succeeded: 5,236
+    Failed   : 18
 
-Top licenses:
-  cc-by-4.0                        1
+  Repo #11 — https://www.fsd.tuni.fi/en
+    Projects : 555
+    Files    : 819
+    Succeeded: 271
+    Failed   : 548
+
+REPOSITORY NOTES
+----------------------------------------
+  Repo #1  — Zenodo
+    Full automated download via REST API.
+    No login required.
+
+  Repo #11 — FSD (Finnish Social Science Data Archive)
+    Metadata harvested via OAI-PMH.
+    File download NOT automatable:
+    FSD uses Shibboleth SSO which cannot be scripted
+    programmatically. Even with valid credentials,
+    login requires a browser-based SAML flow.
+    Status: FAILED_LOGIN_REQUIRED for all FSD files.
+
+  Repo #20 — Sikt (Norwegian data archive)
+    Metadata harvested via CESSDA OAI-PMH.
+    File download NOT automatable:
+    No public download API exists. Files require a
+    signed data access agreement per dataset via
+    minforskning.sikt.no.
+    Status: FAILED_LOGIN_REQUIRED for all Sikt files.
+
+TOP 20 KEYWORDS
+----------------------------------------
+  Biodiversity                              6675
+  Taxonomy                                  6357
+  Animalia                                  4690
+  Arthropoda                                2015
+  Insecta                                   1519
+  Sub-Saharan                               1378
+  Ethnography                               1066
+  African geography                          906
+  Chordata                                   869
+  African                                    829
+  Africa                                     828
+  Qualitative Research                       760
+  Hymenoptera                                678
+  qualitative methods                        663
+  Echinodermata                              660
+  biodiversity                               659
+  African Geography                          641
+  herbarium sheet                            563
+  Sub-Saharan Africa                         544
+  Plantae                                    539
+
+EXPORTED FILES
+----------------------------------------
+  qdarchive_projects.csv
+  qdarchive_files.csv
+  qdarchive_keywords.csv
+  qdarchive_persons.csv
+  report.txt
+
+ARCHIVE FOLDER
+----------------------------------------
+  C:\Users\Hp EliteBook 840 G6\Seeding-QDArchive\acquisition\archive
 
 ============================================================

@@ -1,19 +1,21 @@
-import os
 import re
 import sqlite3
 import xml.etree.ElementTree as ET
-from pathlib import Path
 
 import requests
-from dotenv import load_dotenv
 
 from search.base import BaseSearcher
-from db import insert_project, update_project
-from config import (
-    FSD_OAI_URL, FSD_MAX_RECORDS,
-    ARCHIVE_DIR, FILE_DELAY, QDA_EXTENSIONS,
-)
-load_dotenv()
+from db import insert_project, insert_keywords, insert_persons, project_exists
+from config import FSD_OAI_URL, FSD_MAX_RECORDS, REPOSITORIES, HEADERS
+
+REPO      = REPOSITORIES[11]
+REPO_ID   = 11
+REPO_URL  = REPO["url"]
+REPO_NAME = REPO["name"]
+METHOD    = REPO["method"]
+
+FSD_CATALOGUE    = "https://services.fsd.tuni.fi/catalogue"
+FSD_DOWNLOAD_URL = "https://services.fsd.tuni.fi/v0/download"
 
 NS = {
     "oai":    "http://www.openarchives.org/OAI/2.0/",
@@ -21,11 +23,86 @@ NS = {
     "oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
 }
 
-# FSD base URLs
-FSD_BASE_URL     = "https://services.fsd.tuni.fi"
-FSD_LOGIN_URL    = f"{FSD_BASE_URL}/Shibboleth.sso/Login"
-FSD_DOWNLOAD_URL = f"{FSD_BASE_URL}/v0/download"
-FSD_CATALOGUE    = f"{FSD_BASE_URL}/catalogue/study"
+_CONDITION_A_IDS_CACHE: set | None = None
+
+QUALITATIVE_KEYWORDS = [
+    # English
+    "qualitative", "interview", "focus group",
+    "ethnograph", "narrative", "discourse",
+    "thematic", "grounded theory", "observation",
+    "case study", "oral history", "fieldnote",
+    "field note", "transcript", "writing competition",
+    "diary", "diaries", "essay", "memoir",
+    # Finnish
+    "haastattel",        # interview / haastattelututkimus
+    "laadullinen",       # qualitative
+    "havainnointi",      # observation
+    "kenttätyö",         # fieldwork
+    "tapaustutkimus",    # case study
+    "fokusryhmä",        # focus group
+    "narratiivi",        # narrative
+    "kirjoitus",         # writing/text data
+    "kirjoitelma",       # essay/written data
+    "havaintomuistio",   # field notes
+    "kirjoituskilpailu", # writing competition
+    "muistelu",          # memoir/reminiscence
+    "päiväkirja",        # diary
+    "elämäntarina",      # life story
+    "ryhmäkeskustelu",   # group discussion
+]
+
+
+def fetch_condition_a_ids() -> set:
+    global _CONDITION_A_IDS_CACHE
+    if _CONDITION_A_IDS_CACHE is not None:
+        return _CONDITION_A_IDS_CACHE
+
+    all_ids  = set()
+    page     = 0
+    per_page = 100
+
+    print(f"  [FSD] Fetching Condition A IDs from catalogue…")
+
+    while True:
+        try:
+            resp = requests.get(
+                f"{FSD_CATALOGUE}/index",
+                params={
+                    "limit":                            per_page,
+                    "lang":                             "en",
+                    "page":                             page,
+                    "field":                            "publishing_date",
+                    "direction":                        "descending",
+                    "dissemination_policy_string_facet": "A",
+                    "data_kind_string_facet":           "Qualitative",
+                },
+                headers=HEADERS,
+                timeout=30,
+            )
+
+            if resp.status_code != 200:
+                print(f"  [FSD] Catalogue HTTP {resp.status_code} — stopping")
+                break
+
+            ids_on_page = set(re.findall(r"/catalogue/(FSD\d+)", resp.text))
+            new_ids     = ids_on_page - all_ids
+
+            if not new_ids:
+                break
+
+            all_ids.update(new_ids)
+            page += 1
+
+            if len(ids_on_page) < per_page // 2:
+                break
+
+        except Exception as e:
+            print(f"  [FSD] Catalogue fetch failed: {e}")
+            break
+
+    print(f"  [FSD] Found {len(all_ids)} Condition A qualitative datasets")
+    _CONDITION_A_IDS_CACHE = all_ids
+    return all_ids
 
 
 class FSDSearcher(BaseSearcher):
@@ -33,62 +110,13 @@ class FSDSearcher(BaseSearcher):
     name    = "FSD"
     OAI_URL = FSD_OAI_URL
 
-    def __init__(self):
-        self.session     = requests.Session()
-        self.session.headers.update({
-            "User-Agent": "QDArchive-Seeder/1.0 (FAU Erlangen)"
-        })
-        self.authenticated = False
-        self.username      = os.getenv("FSD_USERNAME")
-        self.password      = os.getenv("FSD_PASSWORD")
-
-
-    def login(self) -> bool:
-        if not self.username or not self.password:
-            self.log("[WARN] No credentials found in .env — download will be limited to metadata only.")
-            return False
-
-        try:
-            resp = self.session.get(
-                f"{FSD_BASE_URL}/profile/login",
-                timeout=30,
-            )
-            resp.raise_for_status()
-
-            csrf_match = re.search(
-                r'name=["\']_csrf["\'].*?value=["\']([^"\']+)["\']',
-                resp.text
-            )
-            csrf_token = csrf_match.group(1) if csrf_match else ""
-
-            login_resp = self.session.post(
-                f"{FSD_BASE_URL}/profile/login",
-                data={
-                    "username":  self.username,
-                    "password":  self.password,
-                    "_csrf":     csrf_token,
-                },
-                timeout=30,
-                allow_redirects=True,
-            )
-
-            if "logout" in login_resp.text.lower() or login_resp.status_code == 200:
-                self.authenticated = True
-                self.log("Login successful ✅")
-                return True
-            else:
-                self.log("[WARN] Login may have failed — check credentials in .env")
-                return False
-
-        except Exception as e:
-            self.log(f"[ERROR] Login failed: {e}")
-            return False
-        
     def search(self, conn: sqlite3.Connection, queries: list[str]):
         print(f"\n[{self.name}] Starting OAI-PMH metadata harvest…")
+        print(f"  Repository ID : {REPO_ID}")
+        print(f"  Condition A   : fetched dynamically from catalogue")
+        print(f"  Condition B/C : metadata + catalogue link only")
 
-        # Attempt login for download capability
-        self.login()
+        condition_a = fetch_condition_a_ids()
 
         saved      = 0
         resumption = None
@@ -105,215 +133,226 @@ class FSDSearcher(BaseSearcher):
                 self.log(f"[ERROR] XML parse error: {e}")
                 break
 
+            error_el = root.find(".//oai:error", NS)
+            if error_el is not None:
+                self.log(f"[ERROR] OAI-PMH error: {error_el.text}")
+                break
+
             for record in root.findall(".//oai:record", NS):
-                record_data = self._parse_record(record)
-                if record_data and self._is_qualitative(record_data):
-                    if insert_project(conn, record_data):
+                parsed = self._parse_record(record, condition_a)
+                if parsed and self._is_qualitative(parsed):
+                    project_id = self._save_record(conn, parsed)
+                    if project_id:
                         saved += 1
                 total_seen += 1
 
-            # OAI-PMH pagination token
             token_el = root.find(".//oai:resumptionToken", NS)
             if token_el is not None and token_el.text:
                 resumption = token_el.text
-                self.log(f"Harvested {total_seen} records, {saved} qualitative saved…")
+                self.log(
+                    f"  Harvested {total_seen} records, "
+                    f"{saved} qualitative saved. Continuing…"
+                )
                 self.polite_sleep()
             else:
                 break
 
-        print(f"[{self.name}] Metadata harvest done — {saved} qualitative projects saved.\n")
+        print(f"[{self.name}] Done — {saved} qualitative projects saved.\n")
 
     def _fetch_oai_page(self, resumption_token: str = None) -> str | None:
-        """Fetch one OAI-PMH page as raw XML."""
         params = (
             {"verb": "ListRecords", "resumptionToken": resumption_token}
             if resumption_token
             else {"verb": "ListRecords", "metadataPrefix": "oai_dc"}
         )
         try:
-            resp = self.session.get(self.OAI_URL, params=params, timeout=30)
+            resp = requests.get(
+                self.OAI_URL, params=params,
+                headers=HEADERS, timeout=30,
+            )
             resp.raise_for_status()
             return resp.text
         except Exception as e:
             self.log(f"[ERROR] OAI-PMH fetch failed: {e}")
             return None
 
-    def _parse_record(self, record: ET.Element) -> dict | None:
-        """Parse one OAI-PMH record into a flat dict."""
+    def _parse_record(self, record: ET.Element,
+                      condition_a: set) -> dict | None:
         try:
-            header     = record.find("oai:header", NS)
-            identifier = header.find("oai:identifier", NS).text if header is not None else ""
+            header = record.find("oai:header", NS)
+            if header is None:
+                return None
+            if header.get("status", "") == "deleted":
+                return None
+
+            identifier_el = header.find("oai:identifier", NS)
+            oai_id        = identifier_el.text.strip() if identifier_el is not None else ""
+
+            fsd_match = re.search(r"FSD\d+", oai_id)
+            fsd_id    = fsd_match.group(0) if fsd_match else ""
 
             metadata = record.find(".//oai_dc:dc", NS)
             if metadata is None:
                 return None
 
-            def get(tag):
-                el = metadata.find(f"dc:{tag}", NS)
-                return el.text.strip() if el is not None and el.text else ""
-
-            def get_all(tag):
+            def get_all(tag: str) -> list[str]:
                 return [
                     el.text.strip()
                     for el in metadata.findall(f"dc:{tag}", NS)
-                    if el.text
+                    if el.text and el.text.strip()
                 ]
 
-            title       = get("title")
-            description = get("description")
-            license_str = get("rights")
-            date        = get("date")
-            creators    = get_all("creator")
-            subjects    = get_all("subject")
+            titles       = get_all("title")
+            descriptions = get_all("description")
+            rights_list  = get_all("rights")
+            subjects     = get_all("subject")
+            creators     = get_all("creator")
+            languages    = get_all("language")
+            dates        = get_all("date")
+            identifiers  = get_all("identifier")
 
-            # Extract FSD study ID from identifier (e.g. "FSD3522")
-            fsd_id_match = re.search(r"FSD\d+", identifier)
-            fsd_id       = fsd_id_match.group(0) if fsd_id_match else ""
+            title = titles[1] if len(titles) > 1 else (titles[0] if titles else "")
 
-            source_link = (
-                f"{FSD_CATALOGUE}/{fsd_id}"
-                if fsd_id
-                else get("identifier")
-                or f"{self.OAI_URL}?verb=GetRecord&identifier={identifier}&metadataPrefix=oai_dc"
+            description = (
+                descriptions[1] if len(descriptions) > 1
+                else (descriptions[0] if descriptions else "")
             )
 
-            # Detect access condition (A/B/C/D) from rights field
-            condition = self._detect_condition(license_str)
+            rights = (
+                rights_list[1] if len(rights_list) > 1
+                else (rights_list[0] if rights_list else "")
+            )
+
+            condition = "A" if fsd_id in condition_a else "B"
+
+            doi = ""
+            for ident in identifiers:
+                if ident.startswith("10."):
+                    doi = f"https://doi.org/{ident}"
+                    break
+                elif "doi.org" in ident:
+                    doi = ident
+                    break
+
+            project_url = f"{FSD_CATALOGUE}/{fsd_id}" if fsd_id else oai_id
 
             if not title:
                 return None
 
             return {
-                "source":            self.name,
-                "source_link":       source_link,
-                "title":             title,
-                "description":       description[:500],
-                "license":           license_str,
-                "license_url":       "",
-                "authors":           str(creators),
-                "keywords":          str(subjects),
-                "publication_date":  date,
-                "has_qda_files":     0,
-                "qda_file_types":    "[]",
-                "has_primary_data":  0,
-                "file_count":        None,
-                "download_url":      f"{FSD_DOWNLOAD_URL}/{fsd_id}" if fsd_id else source_link,
-                "raw_metadata":      str({
-                    "identifier": identifier,
-                    "fsd_id":     fsd_id,
-                    "condition":  condition,
-                    "title":      title,
-                    "subjects":   subjects,
-                })[:2000],
+                "fsd_id":      fsd_id,
+                "oai_id":      oai_id,
+                "title":       title,
+                "description": description,
+                "rights":      rights,
+                "condition":   condition,
+                "doi":         doi,
+                "date":        dates[-1] if dates else "",
+                "language":    ", ".join(languages),
+                "creators":    creators,
+                "subjects":    subjects,
+                "project_url": project_url,
+                "_all_titles": titles,
+                "_all_descs":  descriptions,
+                "_all_subj":   subjects,
             }
+
         except Exception as e:
             self.log(f"[WARN] Could not parse record: {e}")
             return None
 
-    def download_files(self, conn: sqlite3.Connection):
-        from db import get_by_source
-        import time, json
+    def _save_record(self, conn: sqlite3.Connection,
+                     parsed: dict) -> int | None:
+        if project_exists(conn, parsed["project_url"]):
+            return None
 
-        rows = get_by_source(conn, self.name)
-        self.log(f"Downloading files for {len(rows)} FSD projects…")
+        project_id = insert_project(conn, {
+            "query_string":               None,
+            "repository_id":              REPO_ID,
+            "repository_url":             REPO_URL,
+            "project_url":                parsed["project_url"],
+            "version":                    None,
+            "title":                      parsed["title"],
+            "description":                (parsed["description"] or "")[:500],
+            "language":                   parsed["language"] or None,
+            "doi":                        parsed["doi"] or None,
+            "upload_date":                parsed["date"] or None,
+            "download_repository_folder": REPO_NAME,
+            "download_project_folder":    parsed["fsd_id"] or None,
+            "download_version_folder":    None,
+            "download_method":            METHOD,
+            "license":                    parsed["rights"] or None,
+            "license_url":                None,
+        })
 
-        for row in rows:
-            raw   = row["raw_metadata"] or ""
-            fsd_id    = ""
-            condition = "B"
+        if not project_id:
+            return None
 
-            try:
-                meta      = eval(raw)   # stored as str(dict)
-                fsd_id    = meta.get("fsd_id", "")
-                condition = meta.get("condition", "B")
-            except Exception:
-                pass
+        insert_keywords(conn, project_id, parsed["subjects"])
+        insert_persons(conn, project_id, [
+            {"name": name, "role": "UNKNOWN"}
+            for name in parsed["creators"]
+        ])
 
-            if not fsd_id:
-                self.log(f"[SKIP] No FSD ID for: {row['title'][:50]}")
-                continue
+        return project_id
 
-            if condition == "D":
-                self.log(f"[SKIP] Condition D (depositor permission required): {fsd_id}")
-                continue
+    @staticmethod
+    def try_condition_a_download(fsd_id: str, dest_folder) -> str:
+        from pathlib import Path
 
-            if condition in ("B", "C") and not self.authenticated:
-                self.log(f"[SKIP] Condition {condition} requires login — not authenticated: {fsd_id}")
-                continue
+        if not fsd_id:
+            return "FAILED_SERVER_UNRESPONSIVE"
 
-            # Create folder
-            folder = Path(ARCHIVE_DIR) / "FSD" / f"{row['id']:04d}_{fsd_id}"
-            folder.mkdir(parents=True, exist_ok=True)
+        zip_path = Path(dest_folder) / f"{fsd_id}.zip"
+        if zip_path.exists():
+            return "SUCCEEDED"
 
-            # Save metadata JSON
-            meta_path = folder / "_metadata.json"
-            if not meta_path.exists():
-                with open(meta_path, "w", encoding="utf-8") as f:
-                    json.dump(dict(row), f, indent=2, default=str)
+        url = f"{FSD_DOWNLOAD_URL}/{fsd_id}"
 
-            # Download ZIP
-            zip_path = folder / f"{fsd_id}.zip"
-            if zip_path.exists():
-                self.log(f"[SKIP] Already downloaded: {fsd_id}")
-                continue
+        try:
+            resp = requests.get(
+                url, headers=HEADERS,
+                timeout=120, stream=True, allow_redirects=True,
+            )
 
-            try:
-                self.log(f"Downloading {fsd_id} (Condition {condition})…")
-                resp = self.session.get(
-                    f"{FSD_DOWNLOAD_URL}/{fsd_id}",
-                    timeout=120,
-                    stream=True,
-                )
+            if resp.status_code in (401, 403):
+                return "FAILED_LOGIN_REQUIRED"
+            if resp.status_code == 404:
+                return "FAILED_SERVER_UNRESPONSIVE"
+            if resp.status_code >= 500:
+                return "FAILED_SERVER_UNRESPONSIVE"
 
-                if resp.status_code == 401:
-                    self.log(f"[SKIP] HTTP 401 — not authorised for {fsd_id}")
-                    continue
-                elif resp.status_code == 403:
-                    self.log(f"[SKIP] HTTP 403 — access denied for {fsd_id}")
-                    continue
+            content_type = resp.headers.get("Content-Type", "")
+            if "text/html" in content_type:
+                return "FAILED_LOGIN_REQUIRED"
 
-                resp.raise_for_status()
+            resp.raise_for_status()
 
-                total = 0
-                with open(zip_path, "wb") as f:
-                    for chunk in resp.iter_content(chunk_size=65536):
-                        f.write(chunk)
-                        total += len(chunk)
+            Path(dest_folder).mkdir(parents=True, exist_ok=True)
+            total = 0
+            with open(zip_path, "wb") as f:
+                for chunk in resp.iter_content(chunk_size=65536):
+                    f.write(chunk)
+                    total += len(chunk)
 
-                self.log(f"[OK] {fsd_id}.zip  ({total/1e3:.1f} KB)")
-                update_project(conn, row["id"], {
-                    "has_primary_data": 1,
-                    "file_count":       1,
-                })
+            print(f"      [OK]     {fsd_id}.zip  ({total/1e3:.1f} KB)")
+            return "SUCCEEDED"
 
-            except Exception as e:
-                self.log(f"[ERROR] {fsd_id}: {e}")
+        except requests.exceptions.Timeout:
+            return "FAILED_SERVER_UNRESPONSIVE"
+        except Exception as e:
+            print(f"      [ERROR]  {fsd_id}: {e}")
+            return "FAILED_SERVER_UNRESPONSIVE"
 
-            time.sleep(FILE_DELAY)
+    def _is_qualitative(self, parsed: dict) -> bool:
 
-    def _detect_condition(self, rights_str: str) -> str:
-        """Detect FSD access condition A/B/C/D from rights field."""
-        lower = (rights_str or "").lower()
-        if "condition a" in lower or "freely available" in lower or "cc by" in lower:
-            return "A"
-        elif "condition b" in lower:
-            return "B"
-        elif "condition c" in lower:
-            return "C"
-        elif "condition d" in lower:
-            return "D"
-        return "B"
+        if parsed.get("condition") == "A":
+            return True
 
-    def _is_qualitative(self, record: dict) -> bool:
-        qualitative_keywords = [
-            "qualitative", "interview", "haastattel",
-            "focus group", "ethnograph", "narrative",
-            "discourse", "thematic", "grounded theory",
-            "observation", "case study",
-        ]
-        text = (
-            (record.get("title") or "") + " " +
-            (record.get("description") or "") + " " +
-            (record.get("keywords") or "")
-        ).lower()
-        return any(kw in text for kw in qualitative_keywords)
+        text = " ".join([
+            *parsed.get("_all_titles", []),
+            *parsed.get("_all_descs",  []),
+            *parsed.get("_all_subj",   []),
+        ]).lower()
+
+        return any(kw in text for kw in QUALITATIVE_KEYWORDS)
