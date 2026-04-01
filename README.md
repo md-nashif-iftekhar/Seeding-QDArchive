@@ -29,17 +29,17 @@ This pipeline automatically searches qualitative research data repositories, dow
 
 ```
 acquisition/
-├── search.py               # Step 1: Search repositories, harvest metadata
-├── download.py             # Step 2: Download files
-├── export.py               # Step 3: Export database to CSV
-├── fsd_playwright.py       # FSD Condition A/B downloader via Playwright
-├── config.py               # Configuration: URLs, queries, file types
-├── db.py                   # SQLite database schema and functions
-├── requirements.txt        # Python dependencies
+├── search.py               
+├── download.py             
+├── export.py               
+├── fsd_playwright.py       
+├── config.py               
+├── db.py                   
+├── requirements.txt        
 ├── search/
-│   ├── zenodo.py           # Zenodo REST API searcher
-│   ├── fsd.py              # FSD OAI-PMH + catalogue scraper
-│   └── sikt.py             # Sikt CESSDA OAI-PMH searcher
+│   ├── zenodo.py           
+│   ├── fsd.py              
+│   └── sikt.py             
 └── archive/                # Downloaded files (not in git)
     ├── zenodo/
     ├── finnish-social-science-data-archive/
@@ -58,13 +58,14 @@ acquisition/
 ### Installation
 
 ```bash
+cd acquisition
 pip install -r requirements.txt
 playwright install chromium
 ```
 
 ### Credentials
 
-Create a `.env` file in the `acquisition/` folder:
+Create a `.env` file inside the `acquisition/` folder:
 
 ```
 FSD_USERNAME=your_fsd_username
@@ -79,8 +80,8 @@ FSD_PASSWORD=your_fsd_password
 
 ```bash
 # Delete old database if re-running from scratch
-del qdarchive.db   # Windows
-rm qdarchive.db    # Linux/Mac
+del qdarchive.db        # Windows
+rm qdarchive.db         # Linux/Mac
 
 # Step 1: Search all repositories
 python search.py
@@ -174,6 +175,7 @@ FSD uses Shibboleth SSO for authentication. The download approach depends on the
 FSD3892, FSD3847, FSD3524, FSD3208, FSD3166, FSD2981, FSD1249
 
 The pipeline dynamically scrapes the FSD catalogue to detect Condition A datasets:
+
 ```
 https://services.fsd.tuni.fi/catalogue/index
     ?dissemination_policy_string_facet=A
@@ -185,7 +187,7 @@ https://services.fsd.tuni.fi/catalogue/index
 ## Technical Challenges
 
 ### FSD — Shibboleth SSO
-The `/v0/download/` URL redirects to the FSD homepage without a valid browser session — even for Condition A (CC BY 4.0) datasets. The FSD requires a browser-based SAML login flow that cannot be completed with plain HTTP requests. Solution: Playwright browser automation handles the full SSO chain including the "Information Release" consent page.
+The `/v0/download/` URL redirects to the FSD homepage without a valid browser session — even for Condition A (CC BY 4.0) datasets. FSD requires a browser-based SAML login flow that cannot be completed with plain HTTP requests. Solution: Playwright browser automation handles the full SSO chain including the "Information Release" consent page.
 
 ### FSD — Condition detection from OAI-PMH
 The OAI-PMH `dc:type` field is always empty and `dc:rights` always contains the same generic text regardless of condition. Condition A/B/C/D is only visible in the HTML catalogue page, not in the OAI-PMH metadata.
@@ -193,13 +195,13 @@ The OAI-PMH `dc:type` field is always empty and `dc:rights` always contains the 
 ### Sikt — API unavailable (April 2026)
 The SIKT set was removed from the CESSDA OAI-PMH catalogue. After investigation:
 - CESSDA OAI-PMH: SIKT set no longer exists (45,418 records from other providers, 0 from Sikt)
-- Surveybanken (surveybanken.sikt.no): JavaScript-rendered, no public JSON API
-- Legacy NSD OAI-PMH: returns HTML, not OAI-PMH XML
+- Surveybanken (surveybanken.sikt.no): JavaScript-rendered application, no public JSON API
+- Legacy NSD OAI-PMH endpoint (nsd.no): returns HTML, not OAI-PMH XML
 
 This is documented as a technical challenge. Sikt metadata is only accessible via browser at https://surveybanken.sikt.no.
 
 ### Zenodo — InvenioRDM API migration
-Zenodo migrated to InvenioRDM which changed the API parameters. `sort=bestmatch` and `size=100` cause `400 BAD REQUEST`. Fixed by removing `sort` parameter and setting `size=25` (maximum allowed).
+Zenodo migrated to InvenioRDM which changed the API parameters. `sort=bestmatch` and `size=100` cause `400 BAD REQUEST`. Fixed by removing the `sort` parameter and setting `size=25`.
 
 ---
 
