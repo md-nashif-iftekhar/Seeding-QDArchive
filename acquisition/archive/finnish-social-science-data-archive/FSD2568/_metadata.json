@@ -1,0 +1,20 @@
+{
+  "id": 65,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2568",
+  "version": null,
+  "title": "My Well-being 2010: Writing Competition",
+  "description": "The data comprise 72 written texts, sent to the writing competition \"Minun hyvinvointini [My Well-being]\" conducted by the co-ordination project Kolmas L\u00e4hde (Third Source). In the competition announcement, people were asked to write in their own words about the concept of well-being, what their own well-being consisted of, how they promoted their well-being, how other people affected it, and what was the role of culture or physical exercise in their well-being. The dataset is only available in ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2568",
+  "upload_date": "2011-03-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2568",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

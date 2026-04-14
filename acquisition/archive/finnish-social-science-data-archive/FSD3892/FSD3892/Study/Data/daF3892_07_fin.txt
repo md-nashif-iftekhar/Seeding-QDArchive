@@ -1,0 +1,237 @@
+FSD3892 Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023. Aineistoon ja sen tekijöihin tulee viitata asianmukaisesti kaikissa julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.
+
+Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).
+
+
+Vastauskieli: Suomi
+Vastaajan edustama organisaatio tai organisaation yleisnimi: Suomen Kuntaliitto
+Vastaajan edustaman organisaation alue: Koko Suomi
+
+
+5. Mitä tietoja tallennatte organisaation sisäisesti kasvatuksen tai koulutuksen järjestämistä varten?
+
+-
+
+6. Tallennatteko tietoja muita tarkoituksia varten? Jos tallennatte, mitä tietoja tallennatte ja mitä tarkoituksia varten?
+
+-
+
+7. Mihin tallennatte eri tietoja?
+
+-
+
+8. Minkälaisia ongelmia olette kohdanneet tietojen tallentamisessa?
+
+-
+
+9. Mikäli käytätte ostopalveluja, minkälaisia tietojen käsittelyn haasteita siihen liittyy?
+
+Kuntien varhaiskasvatuksen osalta olisi hyvä tarkentaa, miten tietojen kerääminen tapahtuu palvelusetelin ja yksityisen hoidon tuen ja kotihoidontuen  osalta.
+
+10. Mihin organisaationne tiedon käsittelyn käytännöt perustuvat?
+
+Kuntaliitto ei kerää yksilökohtaista tietoa. Kuntaliiton toteuttama tietojen keruu ja käsittely tapahtuu palvelujen järjestämisen arviointia ja kehittämistä varten.
+
+11. Mistä saatte apua tiedon käsittelyyn liittyvissä mahdollisissa ongelmissa?
+
+-
+
+12. Hyödynnättekö tuottamianne kasvatus- ja koulutustietoja johonkin toiseen tarkoitukseen kuin mitä varten olette ne alun perin keränneet?
+
+Kyllä
+
+12a. Jos hyödynnätte, niin mitä kasvatus- ja koulutustietoja hyödynnätte?
+
+Kyselyin ja haastatteluin kerättyä tietoa sivistyspalveluiden järjestämisestä käytetään edunvalvonnassa ja palveluiden kehittämisessä.
+
+12b. Jos hyödynnätte, niin mihin eri tarkoituksiin ja minkä sääntelyn perusteella?
+
+-
+
+12c. Jos hyödynnätte, niin miten ja millä tietoteknisillä välineillä?
+
+-
+
+13. Oletteko havainneet ongelmia tuottamienne kasvatus- ja koulutustietojen hyödyntämisessä?
+
+-
+
+13a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+13b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+-
+
+13d. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13e. Jos olette havainneet ongelmia, liittyvätkö ne tietoihin ja niiden sisältöön?
+
+-
+
+13f. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13g. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin?
+
+-
+
+13h. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+14. Luovutatteko tuottamianne kasvatus- ja koulutustietoja muille toimijoille?
+
+-
+
+14a. Jos luovutatte, niin kenelle luovutatte?
+
+-
+
+14b. Jos luovutatte, niin mitä tietoja luovutatte?
+
+-
+
+14.c Jos luovutatte, niin mihin tarkoitukseen tiedot on teiltä pyydetty?
+
+-
+
+14d. Jos luovutatte, niin minkä lain ja pykälän perusteella tiedot on teiltä pyydetty?
+
+-
+
+14e. Jos luovutatte, niin miten luovuttaminen käytännössä tapahtuu?
+
+-
+
+14f. Jos luovutatte, luovutatteko tietoja oma-aloitteisesti?
+
+-
+
+14g. Kuvailkaa asiaa tarkemmin
+
+-
+
+15. Oletteko havainneet ongelmia tietojen luovuttamisessa muille toimijoille?
+
+Kyllä
+
+15a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+Kyllä
+
+15b. Kuvailkaa ongelmaa tarkemmin
+
+Liittyy opiskeluhuoltolakiin ja tietosuojalainsäädäntöön. Opiskeluhuoltopalveluiden työntekijöiden tiedonsaantioikeudet ovat sote-uudistuksen jälkeisessä tilanteessa herättäneet epätietoisuutta ja kysymyksiä toimintatavoista (mm. tietojärjestelmien käyttö, tietojen luovutus, katseluyhteys) koulutuksen järjestäjien keskuudessa. T
+
+15c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+Kyllä
+
+15e. Kuvailkaa ongelmaa tarkemmin
+
+Ks edellinen kohta. Tiedonkulkuun ja dokumentointiin liittyvien yhteistyömallien kehittäminen opetuksen ja koulutuksen järjestäjien sekä hyvinvointialueen ammattilaisten välillä on koettu haastavaksi lainsäädännön reunaehtojen vuoksi.
+
+15f. Jos olette havainneet ongelmia, liittyvätkö ne luovutettaviin tietoihin?
+
+Kyllä
+
+15g. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15h. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin, joilla tietoja käsitellään ja hyödynnetään?
+
+Kyllä
+
+15i. Kuvailkaa ongelmaa tarkemmin
+
+Koulun oppilastietojärjestelmän, esim Wilman käyttömahdollisuudet  opiskeluhuollon psykologien ja kuraattorien työssä on epäselvää. Tietosuojalainsäädäntö rajoittaa tietojen saantia/luovutusta ilman lain perustetta.
+
+15j. Oletteko kieltäytyneet tietojen luovuttamisesta?
+
+-
+
+15k. Jos olette kieltäytyneet, niin millä perusteella?
+
+-
+
+16. Hyödynnättekö muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassanne?
+
+-
+
+16a. Jos hyödynnätte, niin minkä toimijan tietoja hyödynnätte?
+
+-
+
+16b. Jos hyödynnätte, niin mitä tietoja hyödynnätte?
+
+-
+
+16c. Jos hyödynnätte, niin mihin tarkoitukseen?
+
+-
+
+16d. Jos hyödynnätte, niin millä perusteella?
+
+-
+
+16e. Jos hyödynnätte, niin miten tietojen luovutus käytännössä tapahtuu?
+
+-
+
+17. Oletteko havainneet ongelmia tietojen saamisessa muilta toimijoilta?
+
+-
+
+17a. Jos olette havainneet ongelmia, niin liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+17b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+
+17c. Jos olette havainneet ongelmia, niin liittyvätkö ne toimintamalleihin?
+
+-
+
+17d. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17e. Jos olette havainneet ongelmia, niin liittyvätkö ne pyydettyihin tietoihin?
+
+-
+
+17f. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17g. Jos olette havainneet ongelmia, niin liittyvätkö ne tietojärjestelmiin?
+
+-
+
+17h. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17i. Onko teille kieltäydytty luovuttamasta pyytämiänne tietoja?
+
+-
+
+17j. Jos kyllä, niin millä perusteella tietojen luovuttamisesta on kieltäydytty?
+
+-
+
+
+

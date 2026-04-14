@@ -1,0 +1,20 @@
+{
+  "id": 110,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1013",
+  "version": null,
+  "title": "Finnish Voter Barometer 1986",
+  "description": "The variables describe the following: household's economic situation, satisfaction in the government's action, opinions on the agreement reached through collective bargaining, interest in politics, political alienation, parties' principles and orientation towards the future, left/right dimension, definition and changing of one's party, voting in the 1984 municipal elections, and voting for the same party. Some variables are connected with the interview situation and the social structure of the s",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1013",
+  "upload_date": "2002-03-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1013",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

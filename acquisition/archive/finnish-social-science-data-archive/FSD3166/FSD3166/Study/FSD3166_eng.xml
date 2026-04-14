@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ddi:codebook:2_5" version="2.5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xml:lang="en">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI description: Writing Competition on the Future of Work in Finland 2016-2017</titl>
+        <parTitl xml:lang="fi">DDI-kuvailu: Suomalaisen työn tulevaisuus -kirjoituskilpailu 2016-2017</parTitl>
+        <IDNo agency="FSD">3166</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="FSD">Finnish Social Science Data Archive</producer>
+        <copyright>Finnish Social Science Data Archive</copyright>
+        <prodPlac>Finnish Social Science Data Archive</prodPlac>
+      </prodStmt>
+      <verStmt>
+        <version date="2017-04-04" type="mef_eng">1.0.0</version>
+      </verStmt>
+      <biblCit>Writing Competition on the Future of Work in Finland 2016-2017 [metadata]. Metadata version 1.0.0 (2017-04-04). Finnish Social Science Data Archive [producer and distributor]. DOI: https://doi.org/10.60686/t-fsd3166; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3166</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3166" />
+    </citation>
+    <notes xml:lang="fi">FSD:n aineistokuvailut (FSD metadata records), joiden tekijä on Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive), on lisensoitu Creative Commons 1.0 Yleismaailmallinen (CC0 1.0) -lisenssillä.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.fi" />
+    </notes>
+    <notes xml:lang="en">FSD:n aineistokuvailut (FSD metadata records) by Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive) are licensed under a Creative Commons 1.0 Universal (CC0 1.0) license.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+    </notes>
+    <notes xml:lang="sv">FSD:n aineistokuvailut (FSD metadata records) av Finlands samhällsvetenskapliga dataarkiv (Finnish Social Science Data Archive) är licensierade under en Creative Commons 1.0 Universiell (CC0 1.0) licens.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.sv" />
+    </notes>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Writing Competition on the Future of Work in Finland 2016-2017</titl>
+        <parTitl xml:lang="fi">Suomalaisen työn tulevaisuus -kirjoituskilpailu 2016-2017</parTitl>
+        <IDNo agency="FSD">3166</IDNo>
+        <IDNo agency="URN">urn:nbn:fi:fsd:T-FSD3166</IDNo>
+        <IDNo agency="DOI">10.60686/t-fsd3166</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="VTT Technical Research Centre of Finland Ltd">Dufva, Mikko</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <copyright>In accordance with the agreement between FSD and the depositor.</copyright>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="FSD" URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</distrbtr>
+        <distDate date="2018-08-01" />
+      </distStmt>
+      <serStmt ID="S8" URI="https://services.fsd.tuni.fi/catalogue/series/8?lang=en">
+        <serName>Individual datasets</serName>
+        <serInfo>
+          <p>Individual datasets that do not belong to any series.</p>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2017-04-04" type="main_data">1.0</version>
+      </verStmt>
+      <biblCit>Dufva, Mikko (VTT Technical Research Centre of Finland Ltd): Writing Competition on the Future of Work in Finland 2016-2017 [dataset]. Data version 1.0 (2017-04-04). Finnish Social Science Data Archive [distributor]. DOI: https://doi.org/10.60686/t-fsd3166; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3166</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3166" />
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">employment</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">future</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">future society</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">job characteristics</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">labour market</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">labour relations</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">unemployment</keyword>
+        <topcClas vocab="OKM" vocabURI="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">Social sciences</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Employment</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Unemployment</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Working conditions</topcClas>
+      </subject>
+      <abstract>
+        <p>The data contain short texts concerning the future of work in Finland. The data were collected in connection with a writing contest whose participants were asked to think about the future of Finnish work with the help of imaginary personas. The invitation to participate included a list of personas that the participants could choose from, and they could also invent their own. The participants were asked to write a short text regarding the life of the persona in the year 2036. The listed alternatives for the personas included e.g. a freelancer in the field of culture, a downshifter, an online platform worker, a craftsperson, a civil servant promoting 'experimentation culture', a factory owner, a healthcare service professional, and a marginalised person. The data collectors wished for depictions of work tasks and practices, work communities and collaboration, competencies, and how the personas organise their livelihood.</p>
+        <p>The data were collected as part of the "Dialogue, Work and the Future" project funded by the Prime Minister's Office.</p>
+        <p>The dataset is only available in Finnish.</p>
+      </abstract>
+      <sumDscr>
+        <timePrd event="single" date="2036" />
+        <collDate event="start" date="2016-12-07" />
+        <collDate event="end" date="2017-01-06" />
+        <nation abbr="FI">Finland</nation>
+        <geogCover>Finland</geogCover>
+        <anlyUnit>Individual
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">Individual</concept>
+        </anlyUnit>
+        <anlyUnit>Event/Process/Activity
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">EventOrProcessOrActivity</concept>
+        </anlyUnit>
+        <anlyUnit>Media unit: Text
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">MediaUnit.Text</concept>
+        </anlyUnit>
+        <universe clusion="I">The Finnish population</universe>
+        <dataKind>Qualitative</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth>Cross-section
+          <concept vocab="DDI Time Method" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TimeMethod:1.2.3">CrossSection</concept>
+        </timeMeth>
+        <dataCollector affiliation="VTT Technical Research Centre of Finland Ltd">Dufva, Mikko</dataCollector>
+        <sampProc>Non-probability: Availability
+          <concept vocab="DDI Sampling Procedure" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:SamplingProcedure:2.0.2">Nonprobability.Availability</concept>
+        </sampProc>
+        <sampProc>
+          <p>The writing contest was advertised on the website of the project as well as on Twitter, Facebook and the National Foresight Network's Yammer network.</p>
+        </sampProc>
+        <collMode>Self-administered writings and/or diaries: Web-based
+          <concept vocab="DDI Mode of Collection" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:ModeOfCollection:5.0.1">SelfAdministeredWritingsAndDiaries.WebBased</concept>
+        </collMode>
+        <resInstru>Data collection guidelines: Self-administered writings guide
+          <concept vocab="DDI Type of Instrument" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TypeOfInstrument:1.1.2">DataCollectionGuidelines.SelfAdministeredWritingsGuide</concept>
+        </resInstru>
+      </dataColl>
+      <stdyClas type="A">Detailed and specific data description in Finnish and English. The data are checked and processed in detail. If necessary, the data are anonymised.</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</accsPlac>
+        <collSize>Four texts in txt format.</collSize>
+      </setAvail>
+      <useStmt>
+        <restrctn>The dataset is (A) openly available for all users without registration (CC BY 4.0).</restrctn>
+        <citReq>The data and its creators shall be cited in all publications and presentations for which the data have been used. The bibliographic citation may be in the form suggested by the archive or in the form required by the publication.</citReq>
+        <deposReq>Notify FSD of all publications where you have used the data by sending the citation information to user-services.fsd@tuni.fi.</deposReq>
+        <disclaimer>The original data creators and the archive bear no responsibility for any results or interpretations arising from the reuse of the data.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl xml:lang="fi">Dufva, Mikko &amp; Halonen, Minna &amp; Kari, Mika &amp; Koivisto, Tapio &amp; Koivisto, Raija &amp; Myllyoja, Jouko (2017) Kohti jaettua ymmärrystä työn tulevaisuudesta. Valtioneuvoston selvitys- ja tutkimustoiminnan julkaisusarja 33/2017.
+        <citation>
+          <titlStmt>
+            <titl>Kohti jaettua ymmärrystä työn tulevaisuudesta</titl>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2017" />
+          </distStmt>
+        </citation>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+</codeBook>

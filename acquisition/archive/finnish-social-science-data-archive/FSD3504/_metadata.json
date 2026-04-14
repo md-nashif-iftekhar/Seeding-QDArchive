@@ -1,0 +1,20 @@
+{
+  "id": 18,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3504",
+  "version": null,
+  "title": "Amateur Naturalism and Technology 2020-2021",
+  "description": "The dataset consists of texts by nature enthusiasts on utilising technology in their nature-related hobbies. The data were collected for a study on the impact of technology on people's connection with nature and knowledge of nature. The invitation to write was aimed at all nature enthusiasts who had experiences of or opinions on technology, even if they had not utilised technology in their hobby. The data were collected during the coronavirus pandemic, so some texts also reference COVID-19. The ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3504",
+  "upload_date": "2022-02-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3504",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

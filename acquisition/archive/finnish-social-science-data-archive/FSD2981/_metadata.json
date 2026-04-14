@@ -1,0 +1,20 @@
+{
+  "id": 312,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2981",
+  "version": null,
+  "title": "Cultural Heritage of Finland 2014",
+  "description": "Finland's National Board of Antiquities and the Finnish Local Heritage Federation conducted this survey to gather views and ideas on cultural heritage. Data were gathered with an open web consultation where anyone could respond to a survey containing open-ended questions. The aim was to gather information for the preparation of the ratification of Council of Europe Framework Convention on the Value of Cultural Heritage for Society (Faro Convention). Questions charted, for instance, what kind of ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2981",
+  "upload_date": "2015-07-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2981",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

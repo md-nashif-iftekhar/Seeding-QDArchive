@@ -1,0 +1,20 @@
+{
+  "id": 282,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2719",
+  "version": null,
+  "title": "Children's Media Barometer 2011",
+  "description": "The survey focused on media use and experiences of media education of children aged 7 - 11 in Finland. Media devices in the respondents' room or elsewhere at home and amount of television, videos or other recorded programmes watched were investigated. Some questions covered habits of playing video games (online, on pc or game console), frequency of Internet use, reading habits and how often an adult read to the respondents. The respondents were asked how often they read comics, newspapers and ma",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2719",
+  "upload_date": "2012-05-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2719",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

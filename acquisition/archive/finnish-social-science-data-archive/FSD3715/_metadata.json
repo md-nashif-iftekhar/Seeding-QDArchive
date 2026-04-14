@@ -1,0 +1,20 @@
+{
+  "id": 232,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3715",
+  "version": null,
+  "title": "Social Networks in Intergovernmental Panel on Climate Change and Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services 2016-2021",
+  "description": "The data includes a compilation of group memberships for experts appointed to the work of the Intergovernmental Panel on Climate Change (IPCC), the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES), the Future Earth Programme and the World Climate Research Programme (WCRP). The data was collected as part of the Government's analysis, assessment and research activities (VN TEAS) project on the state and potential of Finnish science diplomacy. The data includ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3715",
+  "upload_date": "2024-09-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3715",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

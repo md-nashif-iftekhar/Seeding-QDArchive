@@ -1,0 +1,20 @@
+{
+  "id": 150,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2007",
+  "version": null,
+  "title": "Environmental Disputes of Tampere 1996-2000",
+  "description": "The study consists of interviews conducted between 1996 and 2000, in connection with a study on the politicisation of urban environment and the formation of environmental problems in society. The respondents were citizens of Tampere who have a long experience in working with environmental issues. Topics included local administration, political culture, environmental activity, and environmental problems and disputes specific to Tampere. The data include 35 interviews with a total length of 183 pa",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2007",
+  "upload_date": "2007-06-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2007",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

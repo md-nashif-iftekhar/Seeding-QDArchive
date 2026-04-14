@@ -1,0 +1,20 @@
+{
+  "id": 463,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1325",
+  "version": null,
+  "title": "Father-Son Relationships and the War 1999-2001",
+  "description": "Interviews of Finnish men who had been children during the Second World War (1939-1945). The interviews covered war-time memories, life at home during the war, and the impact of war on people in general. The main theme of the study was the respondents' relationships with their fathers. The fathers' attitudes towards their children and wife was studied as well as their parenting methods. The respondents were also asked whether their fathers had expressed tenderness or other emotions, what kind of",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1325",
+  "upload_date": "2005-04-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1325",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,218 @@
+Tämä ZIP-paketti sisältää aineiston
+
+FSD3524 Sinuiksi-palvelun kysymykset ja asiantuntijavastaukset 2014-2015
+
+Aineiston kuvailu: https://urn.fi/urn:nbn:fi:fsd:T-FSD3524
+Aineiston DOI: https://doi.org/10.60686/t-fsd3524
+
+Lataamalla aineiston olet sitoutunut noudattamaan käyttöehtoja. Aineiston
+käyttöehdot ovat:
+
+Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).
+Ailan käyttöehdot: https://services.fsd.tuni.fi/docs/eula?lang=fi
+Aineistojen yleiset käyttöehdot: https://services.fsd.tuni.fi/docs/terms-of-use?lang=fi
+
+
+Aineistoon ja sen tekijöihin on viitattava asianmukaisesti kaikissa
+julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman
+malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi
+muokata julkaisun käytäntöjen mukaisesti.
+
+Malliviittaustiedot:
+
+Sinuiksi ry: Sinuiksi-palvelun kysymykset ja asiantuntijavastaukset 2014-2015 [data]. Dataversio 1.0 (2022-12-20). Yhteiskuntatieteellinen tietoarkisto [jakaja]. DOI: https://doi.org/10.60686/t-fsd3524; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3524
+
+
+Jos sinulla on kysyttävää näistä tai muista aineistoistamme, voit ottaa yhteyttä asiakaspalveluumme:
+asiakaspalvelu.fsd@tuni.fi tai +358 29 452 0411
+
+
+Ystävällisin terveisin
+Tietoarkiston asiakaspalvelu
+
+
+--
+Käyttötarkoitus ja aineiston hävittäminen:
+Asiakas saa käyttää aineistoa ainoastaan ilmoittamaansa käyttötarkoitukseen, minkä jälkeen aineisto on hävitettävä. Jos käyttötarkoitus muuttuu, on haettava uutta käyttölupaa.
+
+--
+Vastuuvapauslauseke:
+Aineiston alkuperäiset tekijät ja tietoarkisto eivät ole vastuussa aineiston jatkokäytössä tuotetuista tuloksista ja tulkinnoista.
+
+--
+ZIP-paketin avaaminen:
+Tallenna liitetiedosto ensin oman koneesi kiintolevylle. Esimerkiksi Windowsissa resurssienhallinta (Oma tietokone) osaa näyttää ja purkaa tiedostot. Vaihtoehtoisesti purkamiseen voi käyttää erillistä ohjelmaa (esim. WinZip, 7-zip).
+
+--
+Aineisto-oppaan avaaminen:
+Aineisto-opas (dgF) on FSDNNNN-kansiossa (esim. FSD1000) ja se on luettavissa verkkoselaimella. Kansiot 'css', 'img' ja 'js' sisältävät html-hakemiston aputiedostoja eikä niitä tarvitse avata. Säilytä olemassa oleva kansiorakenne, jotta tiedostot toimivat halutulla tavalla.
+
+--
+SPSS portable -tiedoston avaaminen:
+Valitse SPSS:n pudotusvalikosta File -> Open -> Data ja kohdasta 'Files of type' tiedostomuoto SPSS portable (*.por). HUOM! Jos ääkköset eivät näy oikein (ongelma on ilmennyt erityisesti SPSS:n version 21 kanssa): Valitse ensin pudotusvalikosta Edit -> Options -> General -> Character encoding for data and syntax -> Local. Avaa tiedosto edellä mainitulla tavalla.
+
+--
+Kvalitatiivisen aineiston html-hakemisto:
+Suurin osa kvalitatiivisista aineistoista sisältää html-hakemiston, jonka avulla aineistoa ja sen taustatietoja on helppo selailla. Jotta hakemisto toimii oikein, pura aineiston zip-paketti ja säilytä olemassa oleva kansiorakenne. Aloita aineiston selaaminen tiedostosta index.html, joka sisältää linkit varsinaisiin datatiedostoihin.
+
+--
+ZIP-paketti sisältää tiedostot:
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_001_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_002_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_003_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_004_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_005_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_006_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_007_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_008_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_009_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_010_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_011_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_012_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_013_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_014_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_015_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_016_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_017_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_018_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_019_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_020_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_021_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_022_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_023_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_024_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_025_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_026_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_027_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_028_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_029_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_030_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_031_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_032_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_033_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_034_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_035_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_036_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_037_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_038_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_039_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_040_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_041_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_042_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_043_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_044_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_045_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_046_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_047_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_048_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_049_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_050_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_051_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_052_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_053_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_054_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_055_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_056_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_057_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_058_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_059_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_060_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_061_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_062_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_063_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_064_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_065_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_066_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_067_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_068_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_069_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_070_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_071_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_072_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_073_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_074_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_075_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_076_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_077_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_078_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_079_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_080_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_081_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_082_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_083_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_084_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_085_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_086_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_087_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_088_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_089_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_090_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_091_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_092_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_093_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_094_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_095_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_096_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_097_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_098_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_099_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_100_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_101_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_102_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_103_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_104_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_105_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_106_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_107_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_108_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_109_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_110_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_111_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_112_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_113_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_114_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_115_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_116_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_117_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_118_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_119_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_120_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_121_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_122_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_123_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_124_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_125_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_126_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_127_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_128_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_129_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_130_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_131_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_132_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_133_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_134_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_135_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_136_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_137_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_138_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_139_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_140_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_141_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_142_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_143_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_144_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_145_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_146_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_147_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_148_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_149_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_150_fin.odt
+  Data (suomenkielinen): FSD3524/Study/Data/daF3524_151_fin.odt
+  Koneluettava DDI-kuvailu (suomenkielinen): FSD3524/Study/FSD3524_fin.xml
+  Koneluettava DDI-kuvailu (englanninkielinen): FSD3524/Study/FSD3524_eng.xml
+  Saatekirje (suomenkielinen): FSD3524/LUEMINUT.txt
+  Saatekirje (englanninkielinen): FSD3524/README.txt
+
+
+--
+Lisätiedot: https://www.fsd.tuni.fi/

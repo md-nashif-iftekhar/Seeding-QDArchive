@@ -1,0 +1,20 @@
+{
+  "id": 582,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/d5281063-8453-4332-ae9f-4e25bd2e4965/8",
+  "version": "8",
+  "title": "School Election 1995, Survey Among Pupils",
+  "description": "Since 1989 school elections have been carried out in upper secondary schools in connection with municipal and county elections. The trial elections at the upper secondary schools in Norway have gradually established long traditions. The elections play an important role in the schools' pre-electoral work and are considered as essential means in the attempts at making first-time voters take advantage of their democratic rights. Great emphasis is also put on the election outside the education system. The results from the school elections usually get a lot of media coverage, and are seen as important indicators of how successful each of the parties is at conveying their messages to the youth. Electoral researchers also see the school elections as sensitive and valuable \u201celection polls\u201d. The current data file is from a questionnaire carried out at the same time as the school election in 1995. At the schools that participate in the school election, the students first vote in the school election and then they answer the questionnaire. \n\n60.588 interviews are registered for the trial election survey in 1995. Out of these, 5.007 interviews are chosen, and they constitute the current analysis file. Data from each school was first connected with information about the municipality where the school is located. In practice, this means that a few extra variables describing the surroundings of the respondents, were added to each interview. Among other things, we have added information about which county the school is located in, if the school is located in an urban or rural municipality, the proportion of unemployment in the municipality and the average income in the municipality. This is done to provide opportunities for studying the extent to which features of the environment or the environment itself is part of shaping attitudes and behavior. We have also added one variable showing the No percentage in the municipality of the school at the referendum regarding the EC on the 25th of September 1972. When all the 61.000 interviews were gathered in one data file, we could start the work of drawing the sample that was to be sent back to the schools.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "1995-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD0804-2",
+  "download_version_folder": "8",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

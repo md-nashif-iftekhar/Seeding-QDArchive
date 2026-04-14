@@ -1,0 +1,20 @@
+{
+  "id": 414,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2632",
+  "version": null,
+  "title": "Interviews of Former Finnish Activists 2010",
+  "description": "The data consist of face-to-face interviews of six persons who had been involved in radical activism in the 1990s and 2000s in Finland. The same persons had been interviewed by researcher Ari Rasimus in 2000-2001 (see FSD2371 Interviews of Finnish Activists 2000-2001). The interviewees had been members of an ecological movement or an animal rights movement, but were no longer engaged in such activism at the time of the second interview round in 2010. The main themes of the loosely constructed in",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2632",
+  "upload_date": "2011-07-26",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2632",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 67,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3400",
+  "version": null,
+  "title": "YouGamble 2017: Additional Finnish Data",
+  "description": "This survey charted the gambling, social media usage and subjective well-being of young people aged 15-30 years in Finland. The study was conducted as part of the \"Problem Gambling and Social Media: Social Psychological Study on Youth Behavior in Online Gaming Communities\" research project. The aim of the project was to analyse how young social media users assess, adopt and share gambling-related online content and how online group processes affect their gambling and gambling-related attitudes. ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3400",
+  "upload_date": "2020-11-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3400",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

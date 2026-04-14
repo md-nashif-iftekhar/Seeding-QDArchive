@@ -1,0 +1,20 @@
+{
+  "id": 38,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2309",
+  "version": null,
+  "title": "Conflict and Stress in Teaching 1993",
+  "description": "The survey charted how various conflicts create stress in teachers' work and how teachers cope with stress. The archived data consist of 50 interviews conducted with primary teachers in East Vantaa in 1993. The interviewees were aged between 23 and 59 years. Topics covered the teachers' opinions on the content of their job, stress symptoms, strenuousness and frequency of social conflicts, solutions to conflicts and their consequences, and how the teachers' work community related to the conflicts",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2309",
+  "upload_date": "2008-04-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2309",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

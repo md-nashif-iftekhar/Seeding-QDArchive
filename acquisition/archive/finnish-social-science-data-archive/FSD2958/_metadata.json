@@ -1,0 +1,20 @@
+{
+  "id": 197,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2958",
+  "version": null,
+  "title": "Citizen Deliberation on Immigration: Survey Data 2012",
+  "description": "The data contain the responses to five surveys conducted in connection with citizen forum organised by the Social Science Research Institute at \u00c5bo Akademi University and funded by the Academy of Finland. The Deliberation across enclaves was an experiment on democratic deliberation, which culminated in two deliberation days organised in Turku, Finland. The aim of the research project was to study the impact of deliberation on the participants' attitudes, especially in relation to immigration. Ba",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2958",
+  "upload_date": "2015-03-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2958",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 400,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3538",
+  "version": null,
+  "title": "Interviews on Nonreligion with Young Adults in the Capital Region 2018",
+  "description": "The dataset consists of interviews with young adults born in the 1980s or 1990s who live in the Finnish capital region and identify themselves as nonreligious. During the interview, the interviewees were asked to fill out the Gallup Ecclesiastica 2015 survey collected by the Church Research Institute and comment on the questions out loud. The interviewer also presented the participants with additional questions on the themes of the interview. The questions in the Gallup Ecclesiastica survey cove",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3538",
+  "upload_date": "2022-07-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3538",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

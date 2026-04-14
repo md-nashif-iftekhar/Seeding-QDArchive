@@ -1,0 +1,20 @@
+{
+  "id": 468,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3876",
+  "version": null,
+  "title": "Experiences on Shared Custody and Sharing Children's Expenses 2024",
+  "description": "The data consists of writings in which respondents describe their experiences of shared custody and shared child expenses after divorce. The data were originally collected for a Master's thesis. In the writing call, respondents were asked to write in their own words and in a free-form way about their own family's alternating housing practices. However, the writer was asked to take into account the writing prompts provided in the writing call. These questions asked about the way in which a child ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3876",
+  "upload_date": "2025-06-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3876",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

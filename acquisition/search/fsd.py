@@ -34,21 +34,21 @@ QUALITATIVE_KEYWORDS = [
     "field note", "transcript", "writing competition",
     "diary", "diaries", "essay", "memoir",
     # Finnish
-    "haastattel",        # interview / haastattelututkimus
-    "laadullinen",       # qualitative
-    "havainnointi",      # observation
-    "kenttätyö",         # fieldwork
-    "tapaustutkimus",    # case study
-    "fokusryhmä",        # focus group
-    "narratiivi",        # narrative
-    "kirjoitus",         # writing/text data
-    "kirjoitelma",       # essay/written data
-    "havaintomuistio",   # field notes
-    "kirjoituskilpailu", # writing competition
-    "muistelu",          # memoir/reminiscence
-    "päiväkirja",        # diary
-    "elämäntarina",      # life story
-    "ryhmäkeskustelu",   # group discussion
+    "haastattel",
+    "laadullinen",
+    "havainnointi",
+    "kenttätyö",
+    "tapaustutkimus",
+    "fokusryhmä",
+    "narratiivi",
+    "kirjoitus",
+    "kirjoitelma",
+    "havaintomuistio",
+    "kirjoituskilpailu",
+    "muistelu",
+    "päiväkirja",
+    "elämäntarina",
+    "ryhmäkeskustelu",
 ]
 
 

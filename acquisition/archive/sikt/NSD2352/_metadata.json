@@ -1,0 +1,20 @@
+{
+  "id": 586,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/265e97a7-6528-4987-8727-3014af6fe2ee/9",
+  "version": "9",
+  "title": "Urbanizing India: Urbanization, Exclusion and Climate Challenges, 2016",
+  "description": "India will face three related social challenges in the coming decades: Managing an inclusive and peaceful transition from rural to urban society, ensuring sustained social and economic inclusion and tackling environmental change. While often conceived of as disparate, urbanization processes are embedded in complex and interacting ethnic, religious and political contexts that shape India's inclusiveness, security, and prosperity. Environmentally induced rural resource scarcity may be driving migration to cities; new groups in densely populated urban settlements may exacerbate social tensions; and the areas most vulnerable to the effects of climate change are often informal urban and peri-urban areas. The questions were answered from a multi-disciplinary perspective using mixed methodologies, drawing upon previous project team expertise in both quantitative and qualitative research projects in India. Three separate research packages explored: (1) Urban Expansion (2) Exclusion and Inequality (3) Environmental Change.\n\nThe data are includes surveydata and replication data files for:\nWischnath, Gerdis and Halvard Buhaug. 2014. Rice or riots: On food production and conflict severity across India. \nWischnath, Gerdis and Halvard Buhaug. 2014. On climate variability and civil war in Asia.\n\nData are freely available for downloading.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2016-03-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD2352",
+  "download_version_folder": "9",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

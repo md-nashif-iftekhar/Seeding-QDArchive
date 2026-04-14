@@ -1,0 +1,20 @@
+{
+  "id": 537,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3411",
+  "version": null,
+  "title": "University Students' Perceptions of Expertise 2019-2020",
+  "description": "This dataset consists of 11 writings where generalist degree students describe their academic expertise and its development throughout their university studies. In this context, generalist degree refers to fields of study where students graduate as experts in the more broad field they studied rather than studies that lead to a specific occupational title (e.g. doctor). In the invitation to write, the students were asked to describe their general expertise at present as well as whether they felt ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3411",
+  "upload_date": "2020-12-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3411",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

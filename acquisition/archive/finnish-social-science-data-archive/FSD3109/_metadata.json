@@ -1,0 +1,20 @@
+{
+  "id": 189,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3109",
+  "version": null,
+  "title": "Horse Dealer Interviews 2012",
+  "description": "The data contain Finnish horse dealers' interviews that examined the impact of the interaction between man and horse on the trade situation. Ethical questions on the wellbeing of horses in horse trading were also studied. The interviewees were asked about things such as the fulfilment of customers' expectations of horses, the impact of the chemistry between the horse and the customer on the sales process, how the dealers guided the customers, and how the dealers knew whether the horse was suitab",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3109",
+  "upload_date": "2017-09-07",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3109",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

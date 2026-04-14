@@ -1,0 +1,20 @@
+{
+  "id": 25,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3772",
+  "version": null,
+  "title": "Experiences of Being Talked Past in the Daily Lives of Disabled People 2023",
+  "description": "The dataset consists of self-administered written texts on the experiences people with disabilities have had with dismissive behaviour and being talked past in their everyday lives. The data was collected using FSD's Penna textual data collection tool. The writing guidelines directed participants to write a free-form account of their experiences of dismissive behaviour and being talked past as a disabled person, for example, when service providers talk to a person who is assisting the disabled p",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3772",
+  "upload_date": "2024-03-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3772",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

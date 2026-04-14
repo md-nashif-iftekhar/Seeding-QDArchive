@@ -1,0 +1,20 @@
+{
+  "id": 509,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1293",
+  "version": null,
+  "title": "Depression Treatment and Recovery 2002",
+  "description": "An online survey on depression, conducted by a Finnish newspaper. The data consist of responses to open-ended questions about the treatment of depression and recovery from depression. Questions covered, among others, causes of depression, treatment received by the respondents, experiences of drug therapy, future expectations, and recovery process. The dataset is only available in Finnish.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1293",
+  "upload_date": "2005-03-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1293",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

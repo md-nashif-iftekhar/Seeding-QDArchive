@@ -1,0 +1,20 @@
+{
+  "id": 180,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3412",
+  "version": null,
+  "title": "Finnish Memories of Life-changing Teachers 2020",
+  "description": "This dataset consists of 32 texts written by people who have meaningful memories of life-changing teachers. In the invitation to write, the participants were asked to describe the characteristics of the teacher that had changed their life as well as the actions of the teacher that had been especially significant and influential for them. The participants were also asked to describe more specifically how the teacher had affected their life. The texts contain stories from different levels of educa",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3412",
+  "upload_date": "2021-06-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3412",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

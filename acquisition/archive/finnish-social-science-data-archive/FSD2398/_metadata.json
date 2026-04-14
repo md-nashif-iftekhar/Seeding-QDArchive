@@ -1,0 +1,20 @@
+{
+  "id": 248,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2398",
+  "version": null,
+  "title": "Life Stories of Women Care Entrepreneurs",
+  "description": "The study charted how care entrepreneurs formed their professional identities. The data, collected in 2004-2005, consist of 33 life stories written by women who worked as entrepreneurs in the field of care all over Finland. The topics discussed in the life stories included reasons for becoming a care entrepreneur, creating the enterprise, operation, principles and values of the enterprise, difficulties, the future, and good sides of being an entrepreneur. The archived material includes 101 pages",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2398",
+  "upload_date": "2009-12-21",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2398",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

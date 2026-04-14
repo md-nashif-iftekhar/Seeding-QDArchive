@@ -1,0 +1,20 @@
+{
+  "id": 243,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2855",
+  "version": null,
+  "title": "Identity of Finnish Social Medicine Practitioners 1999",
+  "description": "The survey charted views of the members of the Society for Social Medicine in Finland on the field of social medicine and the identity of social medicine practitioners and researchers. Relating to the Society for Social Medicine in Finland, the respondents were asked when they had joined it, what was their reason for joining it, whether they had been a member or a deputy member of the Society's board, whether they were a member of a section of the Society, and what the significance of the Societ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2855",
+  "upload_date": "2014-04-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2855",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

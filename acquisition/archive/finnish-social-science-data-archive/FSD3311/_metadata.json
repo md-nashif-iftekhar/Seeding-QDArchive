@@ -1,0 +1,20 @@
+{
+  "id": 75,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3311",
+  "version": null,
+  "title": "Tales and Stories from Finland and Abroad Told by Children 2000-2013",
+  "description": "The data consist of tales and stories told by children that were collected in different cities in Finland by using the storycrafting method. The data include stories elicited from both individual children and groups. The stories originate from several countries, and the children were allowed to tell the stories in their mother tongue. Some of the foreign language stories were later translated either into Finnish or into multiple different languages, and both the original story and the translatio",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3311",
+  "upload_date": "2020-05-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3311",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

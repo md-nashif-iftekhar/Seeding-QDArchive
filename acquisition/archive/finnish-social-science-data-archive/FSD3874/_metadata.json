@@ -1,0 +1,20 @@
+{
+  "id": 121,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3874",
+  "version": null,
+  "title": "Finnish Government Media Conferences on COVID-19 2020",
+  "description": "The data consists of transcripts of media conferences organised by the Finnish Government on measures to prevent the COVID-19 pandemic. The media conferences were mainly attended by Prime Minister Sanna Marin, the Prime Minister's Cabinet Ministers, national authorities, various experts and media representatives. The media conferences provide an update on the coronavirus pandemic, as well as information on government policies and restrictions to prevent the spread of the disease. The focus will ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3874",
+  "upload_date": "2024-09-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3874",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

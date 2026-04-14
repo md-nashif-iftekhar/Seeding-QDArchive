@@ -1,0 +1,20 @@
+{
+  "id": 556,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2965",
+  "version": null,
+  "title": "Female Linux Users: Interviews 2010-2012",
+  "description": "The study focused on female users of the Linux operating system, their experiences of the system, and attitudes to and expectations of female users in the male-dominated Linux community. The data consist of nine interview transcripts. The interviewees were highly educated, 20-36 years old Finns and the interviews were carried out in ICR, Skype, Microsoft Messenger or Facebook. There is a related questionnaire survey on Linux user perspectives (see FSD2964). Background variables included the part",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2965",
+  "upload_date": "2015-07-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2965",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

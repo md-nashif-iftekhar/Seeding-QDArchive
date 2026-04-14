@@ -1,0 +1,20 @@
+{
+  "id": 477,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2221",
+  "version": null,
+  "title": "Opinions on Alcohol: Partial Data",
+  "description": "An Internet survey on alcohol use, conducted by a Finnish newspaper. The data contain the longest responses to open-ended question on attitudes to alcohol given by 43 respondents (see FSD1257 Alcohol Use 2002). The respondents gave their opinions on Finnish alcohol policy, Finnish drinking habits, advantages and disadvantages of alcohol use, etc. The dataset is only available in Finnish.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2221",
+  "upload_date": "2007-06-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2221",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

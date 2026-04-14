@@ -1,0 +1,20 @@
+{
+  "id": 14,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3955",
+  "version": null,
+  "title": "Finnish Opinions on Security Policy and National Defence 2024",
+  "description": "The annual Finnish Opinions on Security Policy National Defence survey charted Finnish public opinion on foreign policy, defence policy, security, military alliances, military service, and international armed conflicts at the time of the survey. Some questions examined views on factors affecting safety and security. This survey round also included questions about the Russian invasion of Ukraine. Opinions were charted on the success of foreign policy in the previous few years, funds allocated to ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3955",
+  "upload_date": "2025-07-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3955",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

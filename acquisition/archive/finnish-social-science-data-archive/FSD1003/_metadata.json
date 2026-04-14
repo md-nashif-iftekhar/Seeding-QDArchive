@@ -1,0 +1,20 @@
+{
+  "id": 233,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1003",
+  "version": null,
+  "title": "Finnish Voter Barometer 1976",
+  "description": "The variables describe the following: image of the parties, membership in organisations, interest in politics, important information sources in view of voting, voting in the 1975 parliamentary elections, voting certainty, party choices, satisfaction in the government, forming of the new cabinet, opinions on parties and politics, overall economic situation, agreement reached through collective bargaining, and opinions on the party system. Some variables are connected with the interview situation ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1003",
+  "upload_date": "2002-03-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1003",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

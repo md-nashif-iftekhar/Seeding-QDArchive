@@ -1,0 +1,8 @@
+Title      : Lasten ja nuorten vapaa-aika 2020
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD3990
+License    : Tietoarkiston ja aineiston luovuttajan tekemän sopimuksen mukaisesti.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3990
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

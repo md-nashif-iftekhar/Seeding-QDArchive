@@ -1,0 +1,20 @@
+{
+  "id": 336,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3303",
+  "version": null,
+  "title": "EduMAP: Interviews with Adult Education Policy-Makers and Personnel on the Social Exclusion of Young Adults 2017: Turkey",
+  "description": "This dataset includes interviews with educational personnel and policy-makers in the adult education sector in Turkey working with vulnerable young adults. The interviews discuss contents of study programmes provided by the organisation, pedagogical approaches, gender equality, life management, social problems, socioeconomic status, and active participatory citizenship. The dataset is a ten-interview sample of the interviews collected in Turkey for the Europe-wide EduMAP project (Adult Education",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3303",
+  "upload_date": "2019-04-29",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3303",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

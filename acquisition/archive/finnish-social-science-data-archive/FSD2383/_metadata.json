@@ -1,0 +1,20 @@
+{
+  "id": 51,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2383",
+  "version": null,
+  "title": "Waitresses 2004: Theme Interviews",
+  "description": "The data were collected through theme interviews of eight waitresses or restaurateurs in Pirkanmaa region, Finland. The female interviewees, aged approximately 30-65, had long careers in the industry, and the restaurants they worked in could accommodate 45-220 customers. The restaurants were located in suburbs or rural population centres. The interviews probed topics such as prevention of negative social and health effects caused by alcohol, purpose of the alcohol law, and different customer sit",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2383",
+  "upload_date": "2009-05-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2383",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

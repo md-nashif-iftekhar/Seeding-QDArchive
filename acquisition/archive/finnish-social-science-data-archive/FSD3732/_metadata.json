@@ -1,0 +1,20 @@
+{
+  "id": 469,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3732",
+  "version": null,
+  "title": "Everyday Experiences of Poverty: Self-administered Writings by Young People 2022",
+  "description": "The data consists of writings by young people aged 15-21, sharing their experiences of poverty in their everyday lives. The data was collected using FSD's Penna textual data collection tool and contains 77 responses. The writing guidelines directed participants to write a free-form account of how poverty is experienced and how poverty affects their everyday lives. Respondents were also asked to describe the ways in which they cope with poverty in their everyday lives. Moreover, respondents were ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3732",
+  "upload_date": "2025-06-30",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3732",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

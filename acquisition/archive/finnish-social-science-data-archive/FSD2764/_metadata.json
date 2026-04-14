@@ -1,0 +1,20 @@
+{
+  "id": 534,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2764",
+  "version": null,
+  "title": "Attitudes towards Corporal Punishment of Children in Finland 2004",
+  "description": "The data are part of Central Union for Child Welfare study that investigates the use of corporal punishment in upbringing and attitudes towards it in Finland. Face-to-face interviews were carried out in summer 2004 as part of an Omnibus study conducted monthly by Taloustutkimus. The respondents were asked what was the biggest threat facing a child's well-being (e.g. lack of parenting, drugs) at the time and whether they thought corporal punishment was acceptable at least in some cases. Those who",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2764",
+  "upload_date": "2012-09-17",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2764",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

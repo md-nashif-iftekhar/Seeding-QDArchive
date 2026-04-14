@@ -1,0 +1,20 @@
+{
+  "id": 163,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3453",
+  "version": null,
+  "title": "Implementation of Intervention Strategies for Physical Activity Promotion in Upper Secondary Schools: Interviews with Students in Teacher Education 2017-2018",
+  "description": "The dataset consists of interviews with students teachers who participated in a course on motivational interaction on their experiences of practising and using interaction techniques and the usefulness of the different techniques. The courses took place in autumn 2017 and spring 2018 and were mainly aimed at student teachers of physical education. A total of 35 student teachers attended the courses, 19 of whom agreed to be interviewed. The data were collected as part of the national 'Let's Move ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3453",
+  "upload_date": "2024-03-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3453",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

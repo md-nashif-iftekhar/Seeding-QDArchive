@@ -1,0 +1,20 @@
+{
+  "id": 539,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1304",
+  "version": null,
+  "title": "Homosexuality in a Daily Newspaper",
+  "description": "A case study on references to homosexuality in Finland's leading national newspaper Helsingin Sanomat between December 2002 and February 2003. There is a monthly summary of how many times homosexuality had been mentioned and in which section of the newspaper. More detailed information on the references to homosexuality, and on the story/article/news item in which they appeared are also provided. The dataset is only available in Finnish.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1304",
+  "upload_date": "2005-03-17",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1304",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

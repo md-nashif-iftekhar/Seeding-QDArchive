@@ -1,0 +1,20 @@
+{
+  "id": 557,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD4013",
+  "version": null,
+  "title": "Interviews with Finnish Adults on Digital Gaming Practices and Aesthetic Experiences 2023",
+  "description": "The data consists of thematic interviews that deal with digital gaming practices and aesthetic experiences related to games. The interviews also discuss, among other things, the significance of gaming in an individual's everyday life, identity, and community activities. The interview framework is divided into five sections: gaming routines, the community aspect of gaming, the feel of the game, the story and rules, and self-formation. The data was collected as part of the research project 'Aesthe",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd4013",
+  "upload_date": "2025-10-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD4013",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

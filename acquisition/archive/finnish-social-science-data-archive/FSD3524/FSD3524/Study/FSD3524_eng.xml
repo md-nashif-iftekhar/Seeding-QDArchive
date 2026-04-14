@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ddi:codebook:2_5" version="2.5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xml:lang="en">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI description: Anonymous Questions and Expert Responses in the Sinuiksi Online Question and Answer Service 2014-2015</titl>
+        <parTitl xml:lang="fi">DDI-kuvailu: Sinuiksi-palvelun kysymykset ja asiantuntijavastaukset 2014-2015</parTitl>
+        <IDNo agency="FSD">3524</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="FSD">Finnish Social Science Data Archive</producer>
+        <copyright>Finnish Social Science Data Archive</copyright>
+        <prodPlac>Finnish Social Science Data Archive</prodPlac>
+      </prodStmt>
+      <verStmt>
+        <version date="2022-12-20" type="mef_eng">1.0.0</version>
+      </verStmt>
+      <biblCit>Anonymous Questions and Expert Responses in the Sinuiksi Online Question and Answer Service 2014-2015 [metadata]. Metadata version 1.0.0 (2022-12-20). Finnish Social Science Data Archive [producer and distributor]. DOI: https://doi.org/10.60686/t-fsd3524; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3524</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3524" />
+    </citation>
+    <notes xml:lang="fi">FSD:n aineistokuvailut (FSD metadata records), joiden tekijä on Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive), on lisensoitu Creative Commons 1.0 Yleismaailmallinen (CC0 1.0) -lisenssillä.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.fi" />
+    </notes>
+    <notes xml:lang="en">FSD:n aineistokuvailut (FSD metadata records) by Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive) are licensed under a Creative Commons 1.0 Universal (CC0 1.0) license.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+    </notes>
+    <notes xml:lang="sv">FSD:n aineistokuvailut (FSD metadata records) av Finlands samhällsvetenskapliga dataarkiv (Finnish Social Science Data Archive) är licensierade under en Creative Commons 1.0 Universiell (CC0 1.0) licens.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.sv" />
+    </notes>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Anonymous Questions and Expert Responses in the Sinuiksi Online Question and Answer Service 2014-2015</titl>
+        <parTitl xml:lang="fi">Sinuiksi-palvelun kysymykset ja asiantuntijavastaukset 2014-2015</parTitl>
+        <IDNo agency="FSD">3524</IDNo>
+        <IDNo agency="URN">urn:nbn:fi:fsd:T-FSD3524</IDNo>
+        <IDNo agency="DOI">10.60686/t-fsd3524</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Sinuiksi. Sinuiksi tuki- ja neuvontapalvelu [Sinuiksi. Sinuiksi online question and answer service]</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <copyright>In accordance with the agreement between FSD and the depositor.</copyright>
+        <grantNo agency="Academy of Finland">287983</grantNo>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="FSD" URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</distrbtr>
+        <distDate date="2023-06-14" />
+      </distStmt>
+      <serStmt ID="S8" URI="https://services.fsd.tuni.fi/catalogue/series/8?lang=en">
+        <serName>Individual datasets</serName>
+        <serInfo>
+          <p>Individual datasets that do not belong to any series.</p>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2022-12-20" type="main_data">1.0</version>
+      </verStmt>
+      <biblCit>Sinuiksi: Anonymous Questions and Expert Responses in the Sinuiksi Online Question and Answer Service 2014-2015 [dataset]. Data version 1.0 (2022-12-20). Finnish Social Science Data Archive [distributor]. DOI: https://doi.org/10.60686/t-fsd3524; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3524</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3524" />
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">sexual orientation</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">sexual behaviour</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">gender expression</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">gender identity</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">LGBTQI+</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">interpersonal relations</keyword>
+        <keyword vocab="YSO" vocabURI="http://www.yso.fi/onto/yso/">support services</keyword>
+        <topcClas vocab="OKM" vocabURI="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">Social sciences</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Gender and gender roles</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Minorities</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Social conditions and indicators</topcClas>
+      </subject>
+      <abstract>
+        <p>The dataset consists of questions sent to the Sinuiksi online question and answer service for sexual and gender minorities and the expert responses received. The questions mainly concern experiences related to sexuality and gender, as well as various challenges in life. The individuals who sent questions were mainly young people. The data were collected as part of the Just the two of us? Affective inequalities in intimate relationships research project.</p>
+        <p>Many of the topics in the question-answer pairs relate to different themes of sexuality, such as sexual orientation, sexual identity, and sex. These include reflections on issues such as asexuality and sexual diversity. The material also covers issues related to gender, such as gender diversity, gender identity, gender expression and conflicting experiences of one's own gender. The question-answer pairs reflect a range of concerns and challenges in life. Many of these relate to a need for peer support and the difficulty of expressing feelings. In addition to these, themes that appear in the data include mental health, identity, coming out, dating, loneliness, bullying, romantic relationships, and other relationships.</p>
+        <p>The dataset is only available in Finnish.</p>
+      </abstract>
+      <sumDscr>
+        <collDate event="single" date="2016" />
+        <nation abbr="FI">Finland</nation>
+        <geogCover>Finland</geogCover>
+        <anlyUnit>Individual
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">Individual</concept>
+        </anlyUnit>
+        <universe clusion="I">Individuals who sent messages to the Sinuiksi online question and answer service and the Sinuiksi experts who replied to the messages</universe>
+        <dataKind>Qualitative</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth>Cross-section
+          <concept vocab="DDI Time Method" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TimeMethod:1.2.3">CrossSection</concept>
+        </timeMeth>
+        <dataCollector affiliation="Tampere University">Kolehmainen, Marjo</dataCollector>
+        <sampProc>Total universe/Complete enumeration
+          <concept vocab="DDI Sampling Procedure" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:SamplingProcedure:2.0.2">TotalUniverseCompleteEnumeration</concept>
+        </sampProc>
+        <sampProc>
+          <p>All questions that were sent to the Sinuiksi online question and answer service in 2014 and 2015 and the expert responses received were selected as data units.</p>
+        </sampProc>
+        <collMode>Recording
+          <concept vocab="DDI Mode of Collection" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:ModeOfCollection:5.0.1">Recording</concept>
+        </collMode>
+        <resInstru>Other research instrument
+          <concept vocab="DDI Type of Instrument" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TypeOfInstrument:1.1.2">Other</concept>
+          <txt>The question-answer pairs were copied from the Sinuiksi website and saved in ODT file format</txt>
+        </resInstru>
+      </dataColl>
+      <stdyClas type="A">Detailed and specific data description in Finnish and English. The data are checked and processed in detail. If necessary, the data are anonymised.</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</accsPlac>
+        <collSize>151 question-answer pairs in ODT format.</collSize>
+        <complete>One data file was removed during the archiving process, as it was a duplicate of another data file in the dataset.</complete>
+      </setAvail>
+      <useStmt>
+        <restrctn>The dataset is (A) openly available for all users without registration (CC BY 4.0).</restrctn>
+        <citReq>The data and its creators shall be cited in all publications and presentations for which the data have been used. The bibliographic citation may be in the form suggested by the archive or in the form required by the publication.</citReq>
+        <deposReq>Notify FSD of all publications where you have used the data by sending the citation information to user-services.fsd@tuni.fi.</deposReq>
+        <disclaimer>The original data creators and the archive bear no responsibility for any results or interpretations arising from the reuse of the data.</disclaimer>
+      </useStmt>
+      <notes>The data were anonymised at FSD by removing any personal data and indirect identifiers such as names, pseydonyms and contact details of the persons who submitted the questions and third parties. In addition, mentions of locations, family, and social media use were coarsened into broader categories or removed. Changes made at FSD are marked with [square brackets].</notes>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl xml:lang="en">Lahti, Annukka &amp; Kolehmainen, Marjo (2020). LGBTIQ+ break-up assemblages: At the end of the rainbow. Journal of Sociology. 56(4), 608-628. doi:10.1177/1440783320964545
+        <citation>
+          <titlStmt>
+            <titl>LGBTIQ+ break-up assemblages: At the end of the rainbow</titl>
+            <IDNo agency="DOI">10.1177/1440783320964545</IDNo>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2020" />
+          </distStmt>
+          <holdings URI="https://doi.org/10.1177/1440783320964545" />
+        </citation>
+      </relPubl>
+      <relPubl xml:lang="en">Recker, J., &amp;amp; Perry, A. (2024). Data on the Margins - Data from LGBTIQ+ Populations in European Social Science Data Archives. Data Science Journal 23(1), 39. https://doi.org/10.5334/dsj-2024-039
+        <citation>
+          <titlStmt>
+            <titl>Data on the Margins - Data from LGBTIQ+ Populations in European Social Science Data Archives</titl>
+            <IDNo agency="DOI">10.5334/dsj-2024-039</IDNo>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2024" />
+          </distStmt>
+          <holdings URI="https://doi.org/10.5334/dsj-2024-039" />
+        </citation>
+      </relPubl>
+      <relPubl xml:lang="fi">Sahla, Erika (2024). "Tahtoisin siis kysyä olenko normaali". Heteronormatiivisuuden ylläpitäminen nuorten seksuaalineuvontapalveluun lähettämissä huolissa. Yhteiskuntatutkimuksen kandidaatintutkielma. Tampere: Tampereen yliopisto.
+        <citation>
+          <titlStmt>
+            <titl>"Tahtoisin siis kysyä olenko normaali". Heteronormatiivisuuden ylläpitäminen nuorten seksuaalineuvontapalveluun lähettämissä huolissa</titl>
+            <IDNo agency="URN">URN:NBN:fi:tuni-202401081159</IDNo>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2024" />
+          </distStmt>
+          <holdings URI="https://urn.fi/URN:NBN:fi:tuni-202401081159" />
+        </citation>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+</codeBook>

@@ -1,0 +1,20 @@
+{
+  "id": 174,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2269",
+  "version": null,
+  "title": "Finnish National Election Study 2007",
+  "description": "The survey consists of two parts which were collected after the 2007 parliamentary elections in Finland with the help of face-to-face interviews and a supplementary, self-administered questionnaire. Swedish-speaking population is over-represented in the data. The interview data form Finland's contribution to the international Comparative Study of Electoral Systems program (CSES). The respondents were asked about their interest in politics and how much they had followed the elections in different",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2269",
+  "upload_date": "2009-03-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2269",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 22,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3966",
+  "version": null,
+  "title": "Clients' Experiences about Discretion in Disability Social Work and Disability Services 2022",
+  "description": "The data consists of writings in which clients describe their experiences of the use of discretion in disability social work and disability services. The data was collected as part of a larger research project (HaraVa 2022-2023) funded by the Ministry of Social Affairs and Health. The writing invitation asked people to write freely and in their own way about their own experiences of using discretion in disability services and social work for people with disabilities. The writing invitation asked",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3966",
+  "upload_date": "2025-04-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3966",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

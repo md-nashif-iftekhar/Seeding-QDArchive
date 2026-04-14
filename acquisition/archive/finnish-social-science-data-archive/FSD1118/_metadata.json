@@ -1,0 +1,20 @@
+{
+  "id": 73,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1118",
+  "version": null,
+  "title": "Finnish Local Government Barometer 1997: Inhabitants",
+  "description": "The survey studied public opinion on the present, the future of local administration in Finland, and the financial situation of municipalities. The respondents were asked which provinces were attractive in terms of livelihood and employment, which provinces they would like to visit as tourists, which provinces will manage future transitions in society, which favour entrepreneurship, and which are committed to improving their future prospects. Attitudes towards consolidation of municipalities wer",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1118",
+  "upload_date": "2002-04-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1118",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

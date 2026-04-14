@@ -1,0 +1,20 @@
+{
+  "id": 364,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3368",
+  "version": null,
+  "title": "Substance Abuse Treatment in Outpatient Clinics: Client Meetings 2008-2009",
+  "description": "This dataset consists of counselling session discussions between A-clinic employees and clients regarding the client's substance use and the causes and consequences connected to it. The aim was to record two meetings for each of the 36 clients. The data were collected as part of a research project on the adherence of motivational interviewing in the initial substance abuse setting and its effect on clients' substance abuse harm reduction (the MISA project), funded by the Academy of Finland. This",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3368",
+  "upload_date": "2021-02-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3368",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

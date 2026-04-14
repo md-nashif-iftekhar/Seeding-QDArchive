@@ -1,0 +1,20 @@
+{
+  "id": 60,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2381",
+  "version": null,
+  "title": "Clothing Design for Ageing Women 2001-2002: Interviews",
+  "description": "The study charted the views of the women born in the 1940s or 1950s (post-WW2 generation/baby boomers) and those designing clothes for their age group. The topics investigated included clothing and its relationship with ageing. 8 clothes designers were interviewed twice for the study in 2001-2002. Their opinions were charted on topics such as the kind of outfits suited for 50-60-year-old women, designing process, defining target group, the significance of age and generation for clothing design, ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2381",
+  "upload_date": "2009-12-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2381",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

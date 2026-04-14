@@ -1,0 +1,20 @@
+{
+  "id": 553,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2716",
+  "version": null,
+  "title": "Community-based Mental Health Rehabilitation of Young Adults 2010-2012: Staff Group Interviews",
+  "description": "The data consist of transcripts of 11 group interviews conducted in Finland. The interview participants were staff members of outpatient rehabilitation units focusing on young adults suffering from serious mental disorders. The group interviews were conducted after the rehabilitation period of a client and again three months later when the follow-up period of the client who had participated in the rehabilitation had ended. Each client case was discussed: the starting point, progress during the r",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2716",
+  "upload_date": "2012-07-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2716",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

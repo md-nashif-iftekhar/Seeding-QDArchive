@@ -1,0 +1,20 @@
+{
+  "id": 453,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3096",
+  "version": null,
+  "title": "Youth Media Participation in Argentina, Egypt, Finland and India 2009-2011",
+  "description": "The aim of this study was to chart the media participation of adolescents in Argentina, Egypt, Finland and India. The questions surveyed personal, social and public use of media as well as media literacy. First, the respondents were asked what media equipment (e.g. newspapers, radio, television, mobile phone, music players, video game consoles, computers) they had access to at home or somewhere else, and how often the respondents used them. They were also asked if a variety of media-related serv",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3096",
+  "upload_date": "2018-06-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3096",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

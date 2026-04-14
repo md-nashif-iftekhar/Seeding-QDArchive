@@ -1,4 +1,4 @@
-DB_PATH      = "qdarchive.db"
+DB_PATH = "../23240175-seeding.db"
 ARCHIVE_DIR  = "archive"
 CSV_PATH     = "qdarchive_export.csv"
 REPORT_PATH  = "report.txt"
@@ -14,11 +14,6 @@ FILE_DELAY       = 0.5
 MAX_FILE_SIZE    = 500 * 1024 * 1024
 
 REPOSITORIES = {
-    1:  {
-        "name":   "zenodo",
-        "url":    "https://zenodo.org",
-        "method": "API-CALL",
-    },
     11: {
         "name":   "finnish-social-science-data-archive",
         "url":    "https://www.fsd.tuni.fi/en",
@@ -31,15 +26,12 @@ REPOSITORIES = {
     },
 }
 
-ZENODO_MAX_PAGES = 400
-ZENODO_PAGE_SIZE = 25
-
 FSD_OAI_URL     = "https://services.fsd.tuni.fi/v0/oai"
 FSD_MAX_RECORDS = 2000
 
-SIKT_OAI_URL     = "https://datacatalogue.cessda.eu/oai-pmh/v0/oai"
-SIKT_SET         = "SIKT"
-SIKT_MAX_RECORDS = 10000
+SIKT_OAI_URL     = "https://api.nsd.no/graphql"
+SIKT_SET         = None
+SIKT_MAX_RECORDS = 5000
 
 QDA_EXTENSIONS = {
     ".qdpx", ".qdc",
@@ -84,6 +76,8 @@ QUERIES_QDA = [
     "maxqda",
 ]
 QUERIES_QUALITATIVE = [
+    "qualitative",
+    "interview",
     "interview study",
     "qualitative research data",
     "interview transcript",
@@ -96,6 +90,13 @@ QUERIES_QUALITATIVE = [
     "discourse analysis transcript",
     "oral history transcript",
     "qualitative longitudinal",
+    # Norwegian qualitative terms
+    "intervju",
+    "kvalitativ",
+    "fokusgrupppe",
+    "feltarbeid",
+    "observasjon",
+    "narrativ",
 ]
 
 ALL_QUERIES = QUERIES_QDA + QUERIES_QUALITATIVE

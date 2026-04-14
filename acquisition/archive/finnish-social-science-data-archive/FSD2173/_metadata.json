@@ -1,0 +1,20 @@
+{
+  "id": 514,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2173",
+  "version": null,
+  "title": "Finnish Local Government 2004: Social Services for Elderly and Disabled 2000: Local Government Officers",
+  "description": "The dataset is part of the social and health services research in the Finnish Local Government 2004 research programme. The main themes were the administration, service provision, and development policies of home help and municipal services for the elderly and the disabled. The respondents were local government officers responsible for services for the elderly and the disabled and home help services in research municipalities. Social services for the elderly and the disabled were also studied in",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2173",
+  "upload_date": "2012-12-12",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2173",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

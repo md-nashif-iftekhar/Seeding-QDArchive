@@ -1,0 +1,20 @@
+{
+  "id": 23,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3868",
+  "version": null,
+  "title": "Experiences of Intergenerational Poverty 2024",
+  "description": "The data consists of writings in which respondents talk about their experiences of poverty inherited from their childhood. The data was originally collected for a Master's thesis on what poverty and exclusion look and feel like in the everyday lives of families with children from one generation to the next. The writing call was open to anyone who had lived in a low-income family as a child and who was themselves a family member and low-income earner at the time of the collection. In the writing ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3868",
+  "upload_date": "2025-01-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3868",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

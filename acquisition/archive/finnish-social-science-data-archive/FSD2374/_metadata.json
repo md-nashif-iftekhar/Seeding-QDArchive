@@ -1,0 +1,20 @@
+{
+  "id": 137,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2374",
+  "version": null,
+  "title": "Educational Paths of Deaf and Disabled Young People 2007: Interviews",
+  "description": "The study focused on the educational paths of disabled and deaf young people, concentrating particularly on the time following the completion of lower secondary and upper secondary education, and it utilised an approach based on personal experience. The data consist of 22 interview transcriptions in Finnish. The respondents recounted their experiences of being disabled in relation to studying and education. Other main interview themes were their study history, motivation and interest in studying",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2374",
+  "upload_date": "2008-09-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2374",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

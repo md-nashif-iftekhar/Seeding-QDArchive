@@ -1,0 +1,6 @@
+bindWithDelay - MIT - http://github.com/bgrins/bindWithDelay
+Datatables.net - MIT - https://datatables.net/
+Foundation - MIT - https://foundation.zurb.com/
+jquery - MIT - https://jquery.com/
+Moment.js - MIT - https://momentjs.com
+what-input - MIT - https://github.com/ten1seven/what-input

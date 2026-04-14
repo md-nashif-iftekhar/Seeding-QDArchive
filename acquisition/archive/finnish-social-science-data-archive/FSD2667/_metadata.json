@@ -1,0 +1,20 @@
+{
+  "id": 484,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2667",
+  "version": null,
+  "title": "Finnish Working Life Barometer 2005",
+  "description": "The annual survey studied employee opinion on the quality of working life in Finland. Main themes were psychosocial working environment, job characteristics, pay systems, job satisfaction, employment security, training and development, capacity to work, and bullying and discrimination at work. The year 2005 survey contained amended and new questions on pay systems. First, the respondents were asked how many years they had worked for the employer they were working for at the time, type of contrac",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2667",
+  "upload_date": "2011-12-09",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2667",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

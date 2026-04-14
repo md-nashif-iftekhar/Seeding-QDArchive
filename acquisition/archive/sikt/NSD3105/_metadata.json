@@ -1,0 +1,20 @@
+{
+  "id": 566,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/c149e642-f75a-43bc-b678-c8a0b0e4e738/6",
+  "version": "6",
+  "title": "School Election 2019, National Study",
+  "description": "\"The School Election 2019, nationwide opinion poll\" is a national survey (telephone interview) conducted by Sentio on behalf of Sikt - Norwegian Agency for Shared Services in Education and Research. The 20 questions included in the survey are some of the same questions that were asked to students in high school in the School Election Survey 2019. In addition, the survey contains standard background variables. The survey was conducted from August 27 to September 3, 2019.\n\nInformation about School Elections can be found at the internet address: https://sikt.no/skolevalg\n\nThe data is freely available for research and education. A prerequisite for the use of data and tables from the survey is that the following is included in the foreword, footnote, or other in the publication: \"The publication uses data from the School Election Survey 2019. The survey is funded by the Norwegian Directorate for Education and Training, conducted and facilitated for research purposes by  Sikt - Norwegian Agency for Shared Services in Education and Research. Neither Sikt nor the Norwegian Directorate for Education and Training is responsible for further processing of data, or how analysis results are interpreted.\" ",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2019-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD3105",
+  "download_version_folder": "6",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

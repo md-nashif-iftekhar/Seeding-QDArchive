@@ -1,0 +1,20 @@
+{
+  "id": 433,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3079",
+  "version": null,
+  "title": "Memories and Mental Images of Phenomena Related to Radioactivity 2015",
+  "description": "The twenty texts in the data deal with the participants' personal memories or life experiences related to radioactivity and nuclear safety. The texts deal with a variety of topics introduced in the writing invitation guidelines, such as early memories of radioactive phenomena, news coverage of nuclear weapon tests, the participants' experiences with the nuclear power industry or radioactive substances, nuclear safety, and nuclear accidents. Background information included the participant's name ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3079",
+  "upload_date": "2017-07-07",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3079",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 235,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3393",
+  "version": null,
+  "title": "Stories of Being Unemployed 2018",
+  "description": "The dataset consists of 165 texts on experiences of being unemployed in Finland. The texts are written in varying styles and lengths. Data collection was conducted in collaboration by the Finnish Literature Society and Lena N\u00e4re. The invitation to write directed the participants to write about their own experiences of unemployment or how they had experienced the unemployment of someone close to them. Main themes in many of the texts included the reasons behind unemployment, such as sickness, tem",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3393",
+  "upload_date": "2021-07-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3393",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 54,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD4014",
+  "version": null,
+  "title": "Introduction Interviews of Actively Gaming Adolescents 2022-2024",
+  "description": "The data includes initial interviews from a three-year longitudinal study. The interviewees are 7th-9th graders who actively play digital games. The aim of the initial interviews was to form an overall picture of the youth's life situation in the beginning of the data collection. The interviews cover the youth's gaming habits, family and school life, and social relationships. In addition, their experiences of school bullying, leisure activities, and future study goals were discussed. Background ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd4014",
+  "upload_date": "2025-11-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD4014",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

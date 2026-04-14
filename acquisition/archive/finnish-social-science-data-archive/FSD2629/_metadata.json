@@ -1,0 +1,20 @@
+{
+  "id": 213,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2629",
+  "version": null,
+  "title": "Young People and Politics 2009",
+  "description": "The study charted the political activity of Finnish young people and the political atmosphere in their environment. The respondents were first asked about their childhood home, such as whether newspapers had been read, how many books there had been in the household, what the education of the parents was like and whether the parents had usually voted, and how often politics had been discussed. The next set of questions focused on the role of politics in the respondents' lives at the time of the s",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2629",
+  "upload_date": "2013-08-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2629",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

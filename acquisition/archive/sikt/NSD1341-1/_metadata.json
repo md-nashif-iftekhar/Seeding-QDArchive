@@ -1,0 +1,20 @@
+{
+  "id": 575,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/c4e7c0ca-c140-407f-b789-9a3ae2802ea9/9",
+  "version": "9",
+  "title": "School Election 2009, National Study",
+  "description": "\"School Election 2009, National Study\" is a nationwide survey (telephone interview) carried out by Sentio Research on behalf of Sikt - Norwegian Agency for Shared Services in Education and Research (previously Norwegian Social Science Data Services\"(NSD)). The questions in the survey are mostly same questions that are asked pupils in Norwegian high schools in the School Election 2009.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2009-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD1341-1",
+  "download_version_folder": "9",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

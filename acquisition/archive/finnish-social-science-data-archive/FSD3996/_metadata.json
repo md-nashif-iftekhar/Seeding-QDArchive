@@ -1,0 +1,20 @@
+{
+  "id": 432,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3996",
+  "version": null,
+  "title": "Quality and Effectiveness of Social Work: Client Interviews on Social Welfare Services 2024-2025",
+  "description": "The data consists of interviews with working-age people, families with children, and older people, in which social welfare services are examined. The data was collected as part of the SULAVA project, which studied the quality and effectiveness of social welfare services in the Inland Finland cooperation area in 2024-2025. The interviews examined clients' views on service processes, including how smoothly services were accessed and the changes hoped for as a result of the client relationship. The",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3996",
+  "upload_date": "2026-01-12",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3996",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

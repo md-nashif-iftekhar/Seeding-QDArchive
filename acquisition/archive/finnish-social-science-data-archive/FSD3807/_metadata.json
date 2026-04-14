@@ -1,0 +1,20 @@
+{
+  "id": 19,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3807",
+  "version": null,
+  "title": "Postmemory of Family Separation 2021",
+  "description": "The survey explores the mental wellbeing of descendants of Ingric people who have experienced forced emigration, ethnic persecution and family separation in Finland today. The data focuses on the descendants' family relationships and their connection to their Ingric background, as well as on wartime experiences. First, the survey asked about the respondent's family background in Ingria, and then asked about the respondent's personal relationship to being Ingric. Next, the respondent was asked ab",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3807",
+  "upload_date": "2024-09-12",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3807",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

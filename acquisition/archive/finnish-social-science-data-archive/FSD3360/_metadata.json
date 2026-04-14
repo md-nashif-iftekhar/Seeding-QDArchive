@@ -1,0 +1,20 @@
+{
+  "id": 524,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3360",
+  "version": null,
+  "title": "Helsingin Sanomat Loneliness Survey 2014",
+  "description": "This survey charted Finnish experiences of loneliness. The survey was conducted by the newspaper Helsingin Sanomat in 2014 (N: 27,851). Themes of the survey included, among others, the circumstances and consequences of loneliness, satisfaction with life and well-being. The survey included an open-ended question q9 \"What does loneliness feel like?\", which can be utilised in qualitative analysis. Open-ended responses are only available in Finnish. First, the circumstances and consequences of lonel",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3360",
+  "upload_date": "2020-11-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3360",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

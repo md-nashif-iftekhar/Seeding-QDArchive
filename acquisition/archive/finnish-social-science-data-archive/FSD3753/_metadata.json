@@ -1,0 +1,20 @@
+{
+  "id": 24,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3753",
+  "version": null,
+  "title": "Finnish Experiences of Domestic Violence 2022-2023",
+  "description": "The dataset consists of self-administered written texts in which people describe their experiences of domestic violence and their recovery from it. The data was collected using FSD's Penna textual data collection tool for the Violence to Safety doctoral dissertation. In the writing invitation, participants were asked to share their experiences of domestic violence. The researcher also listed some specific questions that the participants could use in formulating their thoughts. The first question",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3753",
+  "upload_date": "2026-03-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3753",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

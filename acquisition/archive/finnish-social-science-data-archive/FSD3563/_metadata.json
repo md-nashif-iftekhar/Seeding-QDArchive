@@ -1,0 +1,20 @@
+{
+  "id": 106,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3563",
+  "version": null,
+  "title": "18-25-Year-Olds' Experiences of Wearing Face Masks during the COVID-19 Pandemic in Finland 2020-2021",
+  "description": "The dataset consists of interviews with people aged 18-25 living in the Finnish capital region, in which the interviewees reflect on their experiences of wearing face masks during the coronavirus pandemic. The research is part of the Citizen Shield project funded by the Academy of Finland. The interviews examined the type of face masks the interviewees have used, why they had chosen to use the type of masks they have used, and what features make certain types of masks good or bad for the intervi",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3563",
+  "upload_date": "2023-07-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3563",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,8 @@
+Title      : Finnish Local Government Barometer 1997: Municipal Managers, Chairmen of Municipal Executive Boards
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD1119
+License    : In accordance with the agreement between FSD and the depositor.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD1119
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

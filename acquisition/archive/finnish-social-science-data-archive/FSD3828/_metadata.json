@@ -1,0 +1,20 @@
+{
+  "id": 172,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3828",
+  "version": null,
+  "title": "Children in Foster Care 1940-1990: Life Experiences 2018",
+  "description": "The data consists of interviews with people who spent their childhood in foster care. In the interviews, the respondents talk extensively about their own childhood memories and life experiences. The interviewees were placed or fostered either in a foster family, children's home, reform school or other child protection institution between 1940 and 1990. First, the interviewees were asked about their early childhood and what kind of family they were born into. They were also asked about their expe",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3828",
+  "upload_date": "2024-08-21",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3828",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 508,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2759",
+  "version": null,
+  "title": "Environment and Climate Change in My Life 2010-2011: Writing Competition",
+  "description": "The data consist of 81 texts sent to a national writing competition 'Ilmastonmuutos ja ymp\u00e4rist\u00f6 el\u00e4m\u00e4ss\u00e4ni [Environment and Climate Change in My Life]' conducted by the Finnish Literature Society (SKS). People were asked to write about their own experiences and ideas relating to climate change and environmental issues in the form of an autobiography or diary, or both. The texts are in Finnish. Themes explored included: thoughts upon first hearing about climate change, significance of environmen",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2759",
+  "upload_date": "2012-11-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2759",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

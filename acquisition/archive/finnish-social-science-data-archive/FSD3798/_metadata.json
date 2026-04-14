@@ -1,0 +1,20 @@
+{
+  "id": 360,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3798",
+  "version": null,
+  "title": "Health and Digital Gaming: Follow-up Gamer Interviews 2022",
+  "description": "The dataset consists of interview transcripts with people who spend a lot of time playing video games. The interviewees include people who play video games competitively for at least 30 hours a week and people who have sought help for compulsive gaming. The interviews are follow-up interviews, and the same individuals were interviewed for the first time a year earlier. For the dataset containing the first round of interviews, see dataset FSD3678 archived at FSD. In the first part of the follow-u",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3798",
+  "upload_date": "2024-03-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3798",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

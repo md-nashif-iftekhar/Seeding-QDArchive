@@ -1,0 +1,20 @@
+{
+  "id": 426,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3331",
+  "version": null,
+  "title": "ISSP 2018: Religion IV: Finnish Data",
+  "description": "The 2018 International Social Survey Programme study charted Finnish values, moral views and religiosity. The themes were examined with several types of questions and attitudinal statements. The respondents were asked how happy they felt with life in general and how satisfied they were with their relationships with family members and relatives. Moreover, questions charted attitudes toward extramarital sexual relations of a married person and sexual relations between two adults of the same gender",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3331",
+  "upload_date": "2019-06-25",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3331",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

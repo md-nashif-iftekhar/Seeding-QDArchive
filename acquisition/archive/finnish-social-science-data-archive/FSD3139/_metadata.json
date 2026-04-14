@@ -1,0 +1,20 @@
+{
+  "id": 170,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3139",
+  "version": null,
+  "title": "Pets as Family Members 2014-2015",
+  "description": "This dataset contains written responses about Finnish people's experiences with pets in childhood and in the present. Most of the memories concern cats and dogs, but stories about other pets are included as well. The respondents wrote about the role of the pet in the family and interaction with the pet, for instance. They also wrote about having to give up the pet or put it down as well as emotions relating to these situations. Many respondents reminisced pets in childhood homes and how their at",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3139",
+  "upload_date": "2018-06-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3139",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

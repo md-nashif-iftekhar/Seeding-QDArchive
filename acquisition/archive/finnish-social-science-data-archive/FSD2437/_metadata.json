@@ -1,0 +1,20 @@
+{
+  "id": 165,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2437",
+  "version": null,
+  "title": "Work Fatigue Interviews 2001",
+  "description": "The data consist of 34 interviews of persons who had taken part in courses aimed at treating burnout symptoms in a Finnish rehabilitation centre in 2001. The semi-structured interviews had both pre-prepared questions and more open interview sections. The main themes were: 1) the way the interview subjects experienced burnout (work fatigue) at the time of the interview, 2) reasons behind and background of the burnout (e.g. different symptoms, connection to working life or private life), 3) how th",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2437",
+  "upload_date": "2009-10-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2437",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

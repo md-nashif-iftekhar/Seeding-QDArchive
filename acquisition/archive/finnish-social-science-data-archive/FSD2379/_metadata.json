@@ -1,0 +1,20 @@
+{
+  "id": 82,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2379",
+  "version": null,
+  "title": "Older People's Experiences of Home Care Services 1999",
+  "description": "The survey charting the feedback from home care customers was conducted through both questionnaires and interviews. The aim of the survey was to explore the living environment and social relations of the respondents, as well as how they manage by themselves, their use of services, and assistance received. The interviews were conducted after collecting data through the questionnaire. The questions in the questionnaires and interviews were almost identical. The respondents were asked to estimate t",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2379",
+  "upload_date": "2009-07-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2379",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

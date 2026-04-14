@@ -1,0 +1,20 @@
+{
+  "id": 371,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2997",
+  "version": null,
+  "title": "Nordic Member of Parliament Survey 1995-1996: Finnish Data",
+  "description": "The data were collected as part of the Nordleg project which collected information from Nordic members of parliament. The survey charted the activity of the Members of the Finnish Parliament as well as their opinions and views on the Finnish society, politics, influence of the EU and other political actors in Finland, mass media, and gender equality in the Parliament. The respondents were first asked whether they thought that the majority of their party's voters would be in favour or against dif",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2997",
+  "upload_date": "2016-06-21",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2997",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

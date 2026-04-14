@@ -1,0 +1,20 @@
+{
+  "id": 262,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1321",
+  "version": null,
+  "title": "Living Conditions of Social Assistance Recipients and Social Work 1996",
+  "description": "The survey charted the living conditions, life experiences and client relationship of social assistance recipients and social work. First, the respondents were asked to assess their childhood and childhood home, for example, who had looked after them the most and whether there had been serious conflicts or drinking problems in the family. The respondents were asked how many times they had moved during their lifetime and why. They were also asked to state different illnesses that reduced their wo",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1321",
+  "upload_date": "2004-06-29",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1321",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

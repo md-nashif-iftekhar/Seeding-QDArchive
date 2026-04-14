@@ -1,0 +1,20 @@
+{
+  "id": 458,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3939",
+  "version": null,
+  "title": "Inappropriate and Violent Treatment in Emergency Services and First Responders 2024",
+  "description": "The study examined the prevalence of inappropriate and violent treatment in Finland's rescue services and emergency medical care, as well as the impacts of these phenomena and potential preventive measures. The survey is part of the Zero Tolerance project (Pelastustoimen nollatoleranssi syrjinn\u00e4lle ja h\u00e4irinn\u00e4lle - faktaa vai fiktiota?), which explores the prevalence, manifestation, measures, and effects of inappropriate and violent treatment experienced in the rescue and emergency medical servi",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3939",
+  "upload_date": "2025-08-07",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3939",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

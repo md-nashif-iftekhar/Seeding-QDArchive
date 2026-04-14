@@ -1,0 +1,20 @@
+{
+  "id": 241,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2795",
+  "version": null,
+  "title": "Everyday Experiences of Poverty 2012: Follow-up Study",
+  "description": "The dataset contains texts written in 2012 by persons who had taken part in the writing competition titled 'Everyday Experiences of Poverty' in 2006 in Finland (see FSD2413). The invitation for the study was sent to selected participants of the 2006 competition. The purpose of the study was to explore what the situations of the persons were like six years after the original writing competition. In the data, the respondents describe their life and experiences relating to poverty or overcoming pov",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2795",
+  "upload_date": "2013-06-19",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2795",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

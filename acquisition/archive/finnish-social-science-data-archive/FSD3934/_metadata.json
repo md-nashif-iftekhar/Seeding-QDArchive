@@ -1,0 +1,20 @@
+{
+  "id": 2,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3934",
+  "version": null,
+  "title": "Experiences of Domestic Violence in Childhood 2024",
+  "description": "The data consists of writings by adults who experienced domestic violence as children. In the writings the respondents describe their childhood experiences of violence and how they coped with them. The written responses sought to obtain answers from persons who had experienced physical or psychological violence from a close relative during childhood. The writing instructions asked respondents to describe the nature of the violence they had experienced and who it was directed at. Respondents were",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3934",
+  "upload_date": "2025-09-09",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3934",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

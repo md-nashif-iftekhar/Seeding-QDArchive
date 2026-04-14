@@ -1,0 +1,20 @@
+{
+  "id": 149,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3088",
+  "version": null,
+  "title": "Amateur Naturalism and Activities of Nature and Wildlife Organizations: Printed Media Data 1972-2011",
+  "description": "The data contain newspaper articles that deal with different forms of amateur naturalism, published in the Tampere region between 1972 and 2011. The articles can be divided into four categories: 1) observations of nature, amateur naturalism, and nature databases, 2) renovation of water bodies important to birds, 3) Natural History Museum of Tampere, and 4) general naturalism. The articles vary in style, and include editorials and letters to the editor in addition to news items. The data files ha",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3088",
+  "upload_date": "2017-08-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3088",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

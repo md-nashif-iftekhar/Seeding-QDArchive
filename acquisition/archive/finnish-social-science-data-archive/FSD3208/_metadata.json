@@ -1,0 +1,20 @@
+{
+  "id": 379,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3208",
+  "version": null,
+  "title": "Gustaf Alfred af H\u00e4llstr\u00f6m: library and purchases of printed works 1845-1861",
+  "description": "This dataset comprises a list of printed works owned and purchased between 1845-1861 by Gustaf Alfred af H\u00e4llstr\u00f6m (1827-1899), a landowner from Vihti and a member of the Diet of Finland. The data also include 44 photographs of the hand-written manuscripts which are archived in the National Library of Finland's archive for the noble families Gadolin and af H\u00e4llstr\u00f6m. The data specify each purchased and owned work along with information on the time of purchase, bibliographic information, price an",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3208",
+  "upload_date": "2018-09-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3208",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

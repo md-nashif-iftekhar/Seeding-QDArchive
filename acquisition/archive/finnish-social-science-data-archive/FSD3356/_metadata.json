@@ -1,0 +1,20 @@
+{
+  "id": 107,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3356",
+  "version": null,
+  "title": "Finnish Perceptions of Poverty and Welfare Support 2015",
+  "description": "This survey, conducted by the newspaper Helsingin Sanomat in 2015, charted Finnish views on poverty and social security. The survey was conducted as part of the \"Two Finlands - growing inequality\" project, which in turn was part of the \"Is Finland Becoming Polarized?\" programme funded by Kone Foundation. The survey included two open-ended questions, q8 \"Describe a person who is poor in Finland; how do you recognise a poor person?\" and q9 \"What kind of standard of living should a poor person sett",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3356",
+  "upload_date": "2021-06-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3356",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

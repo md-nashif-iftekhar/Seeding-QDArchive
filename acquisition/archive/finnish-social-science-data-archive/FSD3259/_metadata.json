@@ -1,0 +1,20 @@
+{
+  "id": 148,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3259",
+  "version": null,
+  "title": "Understanding People and Understanding Things 2013",
+  "description": "The psychological study charted beliefs, thinking and reasoning. It surveyed, among others, the respondents' religiosity, spatial awareness, capacity for empathy, ability to understand other people and the inanimate nature, as well as their intuitive, reflective and flexible thinking. Some of the batteries of questions included standardised measures and some were developed by the researchers. The goal of the project was to examine reasoning skills, intuitive skills in psychology and physics and ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3259",
+  "upload_date": "2019-07-30",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3259",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

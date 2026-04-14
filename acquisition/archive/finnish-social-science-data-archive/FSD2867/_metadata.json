@@ -1,0 +1,20 @@
+{
+  "id": 17,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2867",
+  "version": null,
+  "title": "Historical Consciousness in Finland 2010: Interviews",
+  "description": "The qualitative study charted historical consciousness and notions of the past in Finland. Data were collected through face-to-face interviews. The interviewee sample was randomly drawn from among the individuals who had responded to a survey on the same subject in 2009 (FSD2932) and had indicated willingness to participate in a subsequent interview. In addition, students of a upper secondary school in Helsinki were interviewed. The archived data consist of 58 interview transcriptions. Interview",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2867",
+  "upload_date": "2015-07-13",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2867",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

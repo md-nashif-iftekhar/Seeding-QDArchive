@@ -1,0 +1,20 @@
+{
+  "id": 476,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2781",
+  "version": null,
+  "title": "Outsourced Health Services: Interviews of Office-holders and Medical Staff 2008",
+  "description": "The data consist of transcribed interviews of Finnish medical staff and office-holders working in local government. The interviews focused on their experiences of and views on the outsourcing of health services. The medical staff comprised nine physicians and ten nurses who worked in outsourced health centres in three different municipalities in Southern Finland. The dataset contains seven group interviews of the medical staff. In addition, five office-holders, who had been involved in decision-",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2781",
+  "upload_date": "2013-07-01",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2781",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 536,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3524",
+  "version": null,
+  "title": "Anonymous Questions and Expert Responses in the Sinuiksi Online Question and Answer Service 2014-2015",
+  "description": "The dataset consists of questions sent to the Sinuiksi online question and answer service for sexual and gender minorities and the expert responses received. The questions mainly concern experiences related to sexuality and gender, as well as various challenges in life. The individuals who sent questions were mainly young people. The data were collected as part of the Just the two of us? Affective inequalities in intimate relationships research project. Many of the topics in the question-answer ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3524",
+  "upload_date": "2023-06-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3524",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

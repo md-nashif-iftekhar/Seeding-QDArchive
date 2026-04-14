@@ -1,0 +1,20 @@
+{
+  "id": 195,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2373",
+  "version": null,
+  "title": "Professional Role, Identity and Information Acquisition of Teachers 2003-2004",
+  "description": "20 teachers of J\u00e4ms\u00e4 vocational school were interviewed about their conceptions of their identities and roles as teachers and also about their ways of information retrieval. The interviewees were asked, among others, questions about their job and tasks at work, importance and role of information seeking, and changes in the teaching profession. The dataset is only available in Finnish.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2373",
+  "upload_date": "2009-02-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2373",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

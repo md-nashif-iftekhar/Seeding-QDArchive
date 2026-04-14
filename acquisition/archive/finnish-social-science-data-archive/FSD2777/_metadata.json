@@ -1,0 +1,20 @@
+{
+  "id": 342,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2777",
+  "version": null,
+  "title": "Development Cooperation Survey 2012",
+  "description": "The survey charted Finnish opinions on and knowledge of the country's development cooperation, its importance, content, objectives, and allocation. Some questions focused on the UN Millennium Development Goals. The respondents were asked whether they considered development cooperation important, and why. Views on the effectiveness of development cooperation were charted as well as its greatest challenges. Familiarity with the UN Millennium Development Goals and views on the most important goals ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2777",
+  "upload_date": "2012-12-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2777",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 123,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3354",
+  "version": null,
+  "title": "Environmental Issues and Decision-Making 2018",
+  "description": "The data consist of expert interviews on the significance of controlling climate change and taking climate change mitigation into account in environment policy. 37 experts on forestry, agriculture and environment policies who worked in different sectors, organisations and occupations were interviewed. The interviews were conducted within a few weeks from the publication of the IPCC special report on the impacts of global warming of 1.5\u00b0C above pre-industrial levels. In addition to the interviews",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3354",
+  "upload_date": "2020-07-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3354",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

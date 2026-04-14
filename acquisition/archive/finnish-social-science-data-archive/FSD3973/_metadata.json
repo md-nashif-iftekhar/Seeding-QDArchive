@@ -1,0 +1,20 @@
+{
+  "id": 151,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3973",
+  "version": null,
+  "title": "Memories of Celebrating Birthdays 2023-2024",
+  "description": "The data consists of responses to a writing collection organized by the Finnish Literature Society. In their writings, people share their memories of celebrating birthdays. The call for writings provided respondents with several helpful questions to make writing easier. The questions asked, for example, how birthdays have been celebrated in the respondent's family and circle of friends, how the respondents have celebrated their birthdays throughout their life, how it feels to celebrate birthdays",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3973",
+  "upload_date": "2025-09-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3973",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

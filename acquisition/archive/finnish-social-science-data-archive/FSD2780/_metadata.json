@@ -1,0 +1,20 @@
+{
+  "id": 441,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2780",
+  "version": null,
+  "title": "Interviews of Paramedics 2010",
+  "description": "The data consist of transcribed interviews of 17 paramedics in Finland. Three interviews were conducted at a private health care service provider and five were conducted at a public one. The paramedics were interviewed in pairs with the exception of one three-person group. The interviews were part of a wider ethnographic field study and they were conducted during the shifts of the paramedics. Themed cards were used to make continuing the interview possible afterwards if it was interrupted by an ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2780",
+  "upload_date": "2013-06-12",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2780",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

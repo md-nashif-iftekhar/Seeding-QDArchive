@@ -1,0 +1,20 @@
+{
+  "id": 55,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3836",
+  "version": null,
+  "title": "Effectivity of Promotion of Social Inclusion, Well-being, and Activeness (ESF): Interviews 2019-2022",
+  "description": "The data consists of interviews with participants in ESF projects promoting inclusion. The interviews cover the interviewees' experiences of the project and its impact on their well-being, inclusion and activity. The interviews aimed to collect small success stories describing changes in the experience of inclusion and the mechanisms of impact in the implementation of the projects. The interviews started with the interviewee's background information and life situation, followed by an inquiry on ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3836",
+  "upload_date": "2024-06-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3836",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

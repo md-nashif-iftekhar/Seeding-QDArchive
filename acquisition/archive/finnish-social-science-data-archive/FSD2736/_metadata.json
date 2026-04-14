@@ -1,0 +1,20 @@
+{
+  "id": 166,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2736",
+  "version": null,
+  "title": "Ethnography of Practical Nurse Education: Student Interviews 2007-2010",
+  "description": "The data are part of a wider ethnographic study in which the everyday life in an educational institution for social and health care in the capital area of Finland was observed. The study also included teacher interviews (FSD2735) and field notes (FSD2575). The dataset comprises 35 student interviews, 18 of which were individual interviews, 16 paired interviews and one an interview of three people. Eight students were interviewed more than once. All of the interviewees belonged to the classes whi",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2736",
+  "upload_date": "2012-11-27",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2736",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

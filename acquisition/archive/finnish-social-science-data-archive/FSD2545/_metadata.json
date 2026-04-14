@@ -1,0 +1,20 @@
+{
+  "id": 86,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2545",
+  "version": null,
+  "title": "Sexual Autobiographies of Estonians 1996",
+  "description": "This qualitative dataset contains Estonian autobiographies, received through a biography writing competition conducted by the research project \"Mosaic life. Upbringing, gender and sexuality in Finland, the Baltic countries and St. Petersburg\". The competition announcement was published in 17 newspapers in Estonia and in addition, leaflets were distributed in various academic institutions. In the announcement, the researchers specified what kind of issues they were interested in, and instructed p",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2545",
+  "upload_date": "2010-10-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2545",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 206,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3243",
+  "version": null,
+  "title": "Young People in the Limelight: Photography Workshops 2015-2016",
+  "description": "This dataset was collected during photography workshops for young people in Finland. The data consist of three field journals of the researchers, and transcripts of 17 interviews: one group interview with workshop instructors, two individual interviews with the instructors, four peer interviews with students at the workshops, one student peer interview conducted as a radio programme, and nine individual student interviews. The data were collected at three workshops during the summer, autumn and ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3243",
+  "upload_date": "2019-07-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3243",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,7 +1,6 @@
 import sqlite3
-
+from datetime import datetime
 from config import DB_PATH
-
 
 SCHEMA_SQL = """
 
@@ -27,16 +26,16 @@ CREATE TABLE IF NOT EXISTS projects (
 );
 
 CREATE TABLE IF NOT EXISTS files (
-    id          INTEGER PRIMARY KEY AUTOINCREMENT,
-    project_id  INTEGER NOT NULL REFERENCES projects(id),
-    file_name   TEXT    NOT NULL,
-    file_type   TEXT,
-    status      TEXT    CHECK(status IN (
-                    'SUCCEEDED',
-                    'FAILED_SERVER_UNRESPONSIVE',
-                    'FAILED_LOGIN_REQUIRED',
-                    'FAILED_TOO_LARGE'
-                ))
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id      INTEGER NOT NULL REFERENCES projects(id),
+    file_name       TEXT    NOT NULL,
+    file_type       TEXT,
+    status          TEXT    CHECK(status IN (
+                        'SUCCEEDED',
+                        'FAILED_SERVER_UNRESPONSIVE',
+                        'FAILED_LOGIN_REQUIRED',
+                        'FAILED_TOO_LARGE'
+                    ))
 );
 
 CREATE TABLE IF NOT EXISTS keywords (
@@ -54,24 +53,19 @@ CREATE TABLE IF NOT EXISTS person_role (
                 ))
 );
 
+CREATE TABLE IF NOT EXISTS licenses (
+    id          INTEGER PRIMARY KEY AUTOINCREMENT,
+    project_id  INTEGER NOT NULL REFERENCES projects(id),
+    license     TEXT
+);
+
 """
-
-VALID_FILE_STATUSES = {
-    "SUCCEEDED",
-    "FAILED_SERVER_UNRESPONSIVE",
-    "FAILED_LOGIN_REQUIRED",
-    "FAILED_TOO_LARGE",
-}
-
-VALID_PERSON_ROLES = {"UPLOADER", "AUTHOR", "OWNER", "OTHER", "UNKNOWN"}
-
 
 def get_connection(db_path: str = DB_PATH) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
     return conn
-
 
 def init_db(db_path: str = DB_PATH) -> sqlite3.Connection:
     conn = get_connection(db_path)
@@ -126,12 +120,14 @@ def insert_project(conn: sqlite3.Connection, record: dict) -> int | None:
             record.get("license_url"),
         ))
         conn.commit()
-        return cursor.lastrowid if cursor.rowcount == 1 else None
+
+        if cursor.rowcount == 1:
+            return cursor.lastrowid
+        return None
 
     except sqlite3.Error as e:
         print(f"  [DB ERROR] insert_project: {e}")
         return None
-
 
 def update_project(conn: sqlite3.Connection, project_id: int, fields: dict):
     if not fields:
@@ -146,19 +142,16 @@ def update_project(conn: sqlite3.Connection, project_id: int, fields: dict):
     except sqlite3.Error as e:
         print(f"  [DB ERROR] update_project id={project_id}: {e}")
 
-
 def project_exists(conn: sqlite3.Connection, project_url: str) -> bool:
     row = conn.execute(
         "SELECT 1 FROM projects WHERE project_url = ?", (project_url,)
     ).fetchone()
     return row is not None
 
-
 def get_all_projects(conn: sqlite3.Connection) -> list[sqlite3.Row]:
     return conn.execute(
         "SELECT * FROM projects ORDER BY repository_id, id"
     ).fetchall()
-
 
 def get_projects_by_repo(conn: sqlite3.Connection,
                          repository_id: int) -> list[sqlite3.Row]:
@@ -173,8 +166,14 @@ def insert_file(conn: sqlite3.Connection,
                 file_type: str,
                 status: str) -> int | None:
 
-    if status not in VALID_FILE_STATUSES:
-        print(f"  [DB WARN] Invalid status '{status}' for file '{file_name}', defaulting to FAILED_SERVER_UNRESPONSIVE")
+    valid = {
+        "SUCCEEDED",
+        "FAILED_SERVER_UNRESPONSIVE",
+        "FAILED_LOGIN_REQUIRED",
+        "FAILED_TOO_LARGE",
+    }
+    if status not in valid:
+        print(f"  [DB WARN] Invalid status '{status}' for file '{file_name}'")
         status = "FAILED_SERVER_UNRESPONSIVE"
 
     try:
@@ -188,14 +187,12 @@ def insert_file(conn: sqlite3.Connection,
         print(f"  [DB ERROR] insert_file: {e}")
         return None
 
-
 def get_files_for_project(conn: sqlite3.Connection,
                            project_id: int) -> list[sqlite3.Row]:
     return conn.execute(
         "SELECT * FROM files WHERE project_id = ? ORDER BY id",
         (project_id,)
     ).fetchall()
-
 
 def insert_keywords(conn: sqlite3.Connection,
                     project_id: int,
@@ -213,7 +210,6 @@ def insert_keywords(conn: sqlite3.Connection,
             print(f"  [DB ERROR] insert_keyword '{kw}': {e}")
     conn.commit()
 
-
 def get_keywords_for_project(conn: sqlite3.Connection,
                               project_id: int) -> list[str]:
     rows = conn.execute(
@@ -226,7 +222,8 @@ def insert_person(conn: sqlite3.Connection,
                   project_id: int,
                   name: str,
                   role: str = "UNKNOWN"):
-    if role not in VALID_PERSON_ROLES:
+    valid_roles = {"UPLOADER", "AUTHOR", "OWNER", "OTHER", "UNKNOWN"}
+    if role not in valid_roles:
         role = "UNKNOWN"
 
     name = (name or "").strip()
@@ -242,13 +239,11 @@ def insert_person(conn: sqlite3.Connection,
     except sqlite3.Error as e:
         print(f"  [DB ERROR] insert_person '{name}': {e}")
 
-
 def insert_persons(conn: sqlite3.Connection,
                    project_id: int,
                    persons: list[dict]):
     for p in persons:
         insert_person(conn, project_id, p.get("name", ""), p.get("role", "UNKNOWN"))
-
 
 def get_persons_for_project(conn: sqlite3.Connection,
                              project_id: int) -> list[sqlite3.Row]:
@@ -257,37 +252,80 @@ def get_persons_for_project(conn: sqlite3.Connection,
         (project_id,)
     ).fetchall()
 
+def insert_license(conn: sqlite3.Connection,
+                   project_id: int,
+                   license: str):
+    if not license:
+        return
+    try:
+        conn.execute(
+            "INSERT INTO licenses (project_id, license) VALUES (?, ?)",
+            (project_id, license.strip())
+        )
+        conn.commit()
+    except sqlite3.Error as e:
+        print(f"  [DB ERROR] insert_license: {e}")
+
+def migrate_licenses(conn: sqlite3.Connection):
+    rows = conn.execute(
+        "SELECT id, license FROM projects WHERE license IS NOT NULL AND license != ''"
+    ).fetchall()
+
+    count = 0
+    for row in rows:
+        pid = row[0]
+        license = row[1]
+        existing = conn.execute(
+            "SELECT COUNT(*) FROM licenses WHERE project_id = ?", (pid,)
+        ).fetchone()[0]
+        if existing == 0:
+            insert_license(conn, pid, license)
+            count += 1
+
+    print(f"[DB] Migrated {count} license records to licenses table.")
+
 def summary(conn: sqlite3.Connection) -> dict:
-    total_projects = conn.execute("SELECT COUNT(*) FROM projects").fetchone()[0]
-    total_files    = conn.execute("SELECT COUNT(*) FROM files").fetchone()[0]
+    total_projects = conn.execute(
+        "SELECT COUNT(*) FROM projects"
+    ).fetchone()[0]
 
-    file_counts = {
-        row[0]: row[1]
-        for row in conn.execute("""
-            SELECT status, COUNT(*)
-            FROM files
-            GROUP BY status
-        """)
-    }
+    total_files = conn.execute(
+        "SELECT COUNT(*) FROM files"
+    ).fetchone()[0]
 
-    by_repo = {
-        row[1]: row[2]
-        for row in conn.execute("""
-            SELECT repository_id, repository_url, COUNT(*)
-            FROM projects
-            GROUP BY repository_id
-            ORDER BY repository_id
-        """)
-    }
+    succeeded = conn.execute(
+        "SELECT COUNT(*) FROM files WHERE status='SUCCEEDED'"
+    ).fetchone()[0]
+
+    failed_login = conn.execute(
+        "SELECT COUNT(*) FROM files WHERE status='FAILED_LOGIN_REQUIRED'"
+    ).fetchone()[0]
+
+    failed_large = conn.execute(
+        "SELECT COUNT(*) FROM files WHERE status='FAILED_TOO_LARGE'"
+    ).fetchone()[0]
+
+    failed_server = conn.execute(
+        "SELECT COUNT(*) FROM files WHERE status='FAILED_SERVER_UNRESPONSIVE'"
+    ).fetchone()[0]
+
+    by_repo = {}
+    for row in conn.execute("""
+        SELECT repository_id, repository_url, COUNT(*)
+        FROM projects
+        GROUP BY repository_id
+        ORDER BY repository_id
+    """):
+        by_repo[row[1]] = row[2]
 
     return {
         "total_projects": total_projects,
-        "total_files":    total_files,
+        "total_files": total_files,
         "files": {
-            "succeeded":          file_counts.get("SUCCEEDED", 0),
-            "failed_login":       file_counts.get("FAILED_LOGIN_REQUIRED", 0),
-            "failed_too_large":   file_counts.get("FAILED_TOO_LARGE", 0),
-            "failed_server":      file_counts.get("FAILED_SERVER_UNRESPONSIVE", 0),
+            "succeeded": succeeded,
+            "failed_login": failed_login,
+            "failed_too_large": failed_large,
+            "failed_server": failed_server,
         },
         "by_repository": by_repo,
     }

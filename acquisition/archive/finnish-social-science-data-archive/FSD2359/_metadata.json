@@ -1,0 +1,20 @@
+{
+  "id": 394,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2359",
+  "version": null,
+  "title": "Finnish Attitudes towards Immigrants 2007",
+  "description": "The interviews charted attitudes of the Finns towards foreign job seekers, refugees, and welcoming immigrants from five different nationalities. The same set of questions was used in broader interview surveys charting attitudes towards immigrants conducted in 1987, 1993, 1998, and 2003. First question explored the respondents' opinions on whether Finland should accept more, fewer or the same number of refugees and foreign job seekers. Their views were also probed on Estonians, Russians, Poles, C",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2359",
+  "upload_date": "2009-07-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2359",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

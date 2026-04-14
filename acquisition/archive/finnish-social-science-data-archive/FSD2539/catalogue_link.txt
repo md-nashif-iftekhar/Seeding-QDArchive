@@ -1,0 +1,8 @@
+Title      : Employment Survey of Joensuu University Graduates 2003-2006
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD2539
+License    : In accordance with the agreement between FSD and the depositor.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2539
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

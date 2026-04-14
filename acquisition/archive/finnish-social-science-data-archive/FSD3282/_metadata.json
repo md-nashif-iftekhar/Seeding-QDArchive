@@ -1,0 +1,20 @@
+{
+  "id": 540,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3282",
+  "version": null,
+  "title": "Finnish Drinking Habits Survey 2016",
+  "description": "The Finnish Drinking Habits Survey 2016 charted alcohol use, use of other substances, drinking occasions, consumed quantities of alcohol, consequences of alcohol use and attitudes toward alcohol in Finland. Some questions also covered gambling. The Finnish Drinking Habits Surveys have been conducted in intervals of eight years beginning from 1968; FSD's holdings include datasets from 2008 and 2016. The data comprise three parts: the 'main data' collected with face-to-face interviews, background ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3282",
+  "upload_date": "2019-03-27",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3282",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

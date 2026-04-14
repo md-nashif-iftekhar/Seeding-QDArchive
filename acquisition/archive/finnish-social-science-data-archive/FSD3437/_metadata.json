@@ -1,0 +1,20 @@
+{
+  "id": 401,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3437",
+  "version": null,
+  "title": "Intervention Study on Increasing Physical Activity and Reducing Sedentary Behaviour of Vocational Students: Student Interviews 2015-2017",
+  "description": "The data from the student interviews was collected in the Let's Move It -project, which studied the sedentary behaviour and physical activity of vocational school students over a one-year period. The first interviews were conducted shortly after the intervention period of about two months. Follow-up interviews were collected about a year after the first ones. The study was funded by the Ministry of Education and Culture (OKM/81/626/2014) and the Ministry of Social Affairs and Health (201310238).",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3437",
+  "upload_date": "2024-08-30",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3437",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}
