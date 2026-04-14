@@ -1,0 +1,20 @@
+{
+  "id": 381,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3365",
+  "version": null,
+  "title": "The Role of Local Organisations in Immigrant Integration in Jyv\u00e4skyl\u00e4 2018",
+  "description": "This dataset consists of interview transcripts with employees of five organisations involved in immigrant integration in Jyv\u00e4skyl\u00e4, Finland. For most of the organisations studied in this dataset, organised activities are not exclusively aimed at immigrants, but rather at all residents in the city regardless of their background. There are six interviews in total, including one pair interview. Interview questions focused on, for example, how the interviewee's organisation supported the integration",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3365",
+  "upload_date": "2020-08-03",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3365",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

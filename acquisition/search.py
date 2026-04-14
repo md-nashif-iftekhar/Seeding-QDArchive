@@ -1,16 +1,22 @@
+"""
+search.py — Step 1: Query all repositories and collect metadata into the database.
+
+Run:
+    python search.py                    # search all repositories
+    python search.py --only zenodo      # Zenodo only
+    python search.py --only fsd         # FSD only
+    python search.py --only sikt        # Sikt only
+    python search.py --only fsd sikt    # FSD and Sikt only
+
+Output:
+    qdarchive.db   — SQLite database with all collected project metadata
+"""
+
 import argparse
-import traceback
 
 from config import DB_PATH, ALL_QUERIES
 from db import init_db, summary
 from search import ALL_SEARCHERS
-
-
-REPO_NAME_MAP = {
-    "zenodo": "Zenodo",
-    "fsd":    "FSD",
-    "sikt":   "Sikt",
-}
 
 
 def parse_args():
@@ -20,8 +26,11 @@ def parse_args():
     parser.add_argument(
         "--only",
         nargs="+",
-        choices=REPO_NAME_MAP.keys(),
-        help="Only search specified repositories (default: all). Example: --only fsd sikt"
+        choices=["zenodo", "fsd", "sikt"],
+        metavar="REPO",
+        help="Only search specified repositories. "
+             "Choices: zenodo, fsd, sikt. "
+             "Example: --only fsd sikt"
     )
     return parser.parse_args()
 
@@ -29,9 +38,16 @@ def parse_args():
 def main():
     args = parse_args()
 
+    # Filter searchers based on --only argument
+    name_map = {
+        "zenodo": "zenodo",
+        "fsd":    "finnish-social-science-data-archive",
+        "sikt":   "sikt",
+    }
+
     if args.only:
-        selected = {REPO_NAME_MAP[r] for r in args.only}
-        searchers = [s for s in ALL_SEARCHERS if s.name in selected]
+        selected_names = [name_map[r] for r in args.only]
+        searchers = [s for s in ALL_SEARCHERS if s.name in selected_names]
     else:
         searchers = ALL_SEARCHERS
 
@@ -54,6 +70,7 @@ def main():
             break
         except Exception as e:
             print(f"[ERROR] {searcher.name}: {e}")
+            import traceback
             traceback.print_exc()
 
     stats = summary(conn)
@@ -63,11 +80,11 @@ def main():
     print("SEARCH COMPLETE")
     print("=" * 60)
     print(f"  Total projects : {stats['total_projects']:,}")
-    print()
-    print("  By repository:")
+    print(f"")
+    print(f"  By repository:")
     for repo_url, count in stats["by_repository"].items():
         print(f"    {repo_url:<45} {count:>6} projects")
-    print()
+    print(f"")
     print(f"  Database       : {DB_PATH}")
     print("=" * 60)
     print("\nNext step:  python download.py")

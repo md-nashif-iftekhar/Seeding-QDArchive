@@ -1,0 +1,20 @@
+{
+  "id": 105,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2727",
+  "version": null,
+  "title": "Human Rights in Development and Food Security in Malawi 2006",
+  "description": "The study explored human rights-based approaches to development cooperation in Malawi, focusing on what the approach implied in the areas of development, HIV/AIDS and food security. The data consist of interviews of actors providing or receiving development aid in Malawi. Questions covered, for instance, what kind of aid the organisation provided, foreseeable trends in food aid, impact of food aid programmes, causes of malnutrition, impact of the HIV/AIDS, the role of human rights in food securi",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2727",
+  "upload_date": "2012-05-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2727",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

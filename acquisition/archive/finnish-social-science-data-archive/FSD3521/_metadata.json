@@ -1,0 +1,20 @@
+{
+  "id": 26,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3521",
+  "version": null,
+  "title": "Finnish Experiences of Shame in Working Life 2020-2021",
+  "description": "The dataset consists of self-administered written texts on Finnish experiences of shame in working life. The data were collected for a Master's thesis that examined the causes of shame in working life. The writing invitation was shared on social media channels. In the writing guidelines, participants were instructed to write a story in their own words about experiences of shame they had had in their working lives. The experience of shame could be a memory from years ago or an event that had happ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3521",
+  "upload_date": "2022-07-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3521",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

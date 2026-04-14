@@ -1,0 +1,20 @@
+{
+  "id": 506,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3850",
+  "version": null,
+  "title": "Memories of Loneliness Experienced in Adolescence by over 30-Year-Olds 2023-2024",
+  "description": "The data consists of writings in which respondents talk about their experiences of adolescent loneliness. The purpose of the collection of writings was to gain insights into the meanings of loneliness in adolescence and the impact of loneliness experiences in later life. They were allowed to write about their own experiences in a completely free-form way. The writing insructions also included a few questions to help you with your writing. The background data include gender and age group. The dat",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3850",
+  "upload_date": "2024-06-12",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3850",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

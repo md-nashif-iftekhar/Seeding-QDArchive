@@ -1,0 +1,20 @@
+{
+  "id": 580,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/00a68742-8bf8-4fd1-8093-913e53c33133/8",
+  "version": "8",
+  "title": "School Election 1997, National Study",
+  "description": "School election 1997, nationwide survey\" is a national opinion poll (telephone interview) conducted in September 1997 by the Norwegian Gallup Institute AS on behalf of NSD - Norwegian Center for Research Data AS (now Sikt - Norwegian Agency for Shared Services in Education and Research). The questions included in the opinion poll are essentially the same as those asked to upper secondary school students in the 1997 school choice survey.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "1997-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD0805-1",
+  "download_version_folder": "8",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

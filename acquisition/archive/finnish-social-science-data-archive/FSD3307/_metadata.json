@@ -1,0 +1,20 @@
+{
+  "id": 275,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3307",
+  "version": null,
+  "title": "Child Barometer 2018",
+  "description": "The study charted how 6-year-old Finnish children exercised and spent their leisure time. Both the children and their parents were interviewed for the study. The study was funded by the State Youth Council. First, the parents were asked about their children's hobbies, participation in instructed activities during leisure time and the amount of exercise they got. Reasons behind the child not exercising (e.g. they did not like exercise, had no time or had a fear of not succeeding) were also charte",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3307",
+  "upload_date": "2020-07-01",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3307",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

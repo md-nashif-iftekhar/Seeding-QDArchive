@@ -1,0 +1,20 @@
+{
+  "id": 237,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3293",
+  "version": null,
+  "title": "Young People in the Limelight: Photography Workshop for Underage Asylum Seekers 2015-2016",
+  "description": "The dataset consists of three field journals by researchers and six interviews of underage asylum seekers participating in a photography workshop. The data were collected as part of a research project entitled \"Young People in the Limelight\" funded by the Kone foundation. The researchers organised a photography workshop in Southern Finland for underage asylum seekers who had come to Finland alone. The workshops included photography exercises, and the participants photographed their everyday life",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3293",
+  "upload_date": "2019-07-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3293",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

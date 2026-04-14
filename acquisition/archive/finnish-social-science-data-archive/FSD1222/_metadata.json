@@ -1,0 +1,20 @@
+{
+  "id": 380,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1222",
+  "version": null,
+  "title": "Development Cooperation Survey 2002",
+  "description": "The survey charts Finnish opinion on the country's development co-operation, its objectives, allocation and successfulness. Respondents were asked which geographical area of the world they think should be the main target of the co-operation and why. They were asked to choose the three most important fields for Finland's co-operation (e.g. education, communications, forestry, democracy) and three main goals (e.g. promote peace, reduce poverty, prevent population growth, increase equality). Views ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1222",
+  "upload_date": "2003-09-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1222",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

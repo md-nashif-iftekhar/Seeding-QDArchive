@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ddi:codebook:2_5" version="2.5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xml:lang="en">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI description: Decision on Final Disposal of Nuclear Waste 2001</titl>
+        <parTitl xml:lang="fi">DDI-kuvailu: Ydinjätepäätös 2001</parTitl>
+        <IDNo agency="FSD">1249</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="FSD">Finnish Social Science Data Archive</producer>
+        <copyright>Finnish Social Science Data Archive</copyright>
+        <prodPlac>Finnish Social Science Data Archive</prodPlac>
+      </prodStmt>
+      <verStmt>
+        <version date="2003-05-08" type="mef_eng">1.0.0</version>
+      </verStmt>
+      <biblCit>Decision on Final Disposal of Nuclear Waste 2001 [metadata]. Metadata version 1.0.0 (2003-05-08). Finnish Social Science Data Archive [producer and distributor]. DOI: https://doi.org/10.60686/t-fsd1249; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD1249</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD1249" />
+    </citation>
+    <notes xml:lang="fi">FSD:n aineistokuvailut (FSD metadata records), joiden tekijä on Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive), on lisensoitu Creative Commons 1.0 Yleismaailmallinen (CC0 1.0) -lisenssillä.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.fi" />
+    </notes>
+    <notes xml:lang="en">FSD:n aineistokuvailut (FSD metadata records) by Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive) are licensed under a Creative Commons 1.0 Universal (CC0 1.0) license.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+    </notes>
+    <notes xml:lang="sv">FSD:n aineistokuvailut (FSD metadata records) av Finlands samhällsvetenskapliga dataarkiv (Finnish Social Science Data Archive) är licensierade under en Creative Commons 1.0 Universiell (CC0 1.0) licens.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.sv" />
+    </notes>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Decision on Final Disposal of Nuclear Waste 2001</titl>
+        <altTitl>Ydinpolttoaineen loppusijoituslaitoksen rakentamisluvan päätösprosessi</altTitl>
+        <parTitl xml:lang="fi">Ydinjätepäätös 2001</parTitl>
+        <IDNo agency="FSD">1249</IDNo>
+        <IDNo agency="URN">urn:nbn:fi:fsd:T-FSD1249</IDNo>
+        <IDNo agency="DOI">10.60686/t-fsd1249</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Tampere. Department of Political Science and International Relations">Suominen, Petteri</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer>Sanoma Corporation</producer>
+        <copyright>In accordance with the agreement between FSD and the depositor.</copyright>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="FSD" URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</distrbtr>
+        <distDate date="2007-06-19" />
+      </distStmt>
+      <serStmt ID="S8" URI="https://services.fsd.tuni.fi/catalogue/series/8?lang=en">
+        <serName>Individual datasets</serName>
+        <serInfo>
+          <p>Individual datasets that do not belong to any series.</p>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2003-05-08" type="main_data">1.0</version>
+      </verStmt>
+      <biblCit>Suominen, Petteri (University of Tampere): Decision on Final Disposal of Nuclear Waste 2001 [dataset]. Data version 1.0 (2003-05-08). Finnish Social Science Data Archive [distributor]. DOI: https://doi.org/10.60686/t-fsd1249; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD1249</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD1249" />
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">decision making</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">energy policy</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">environment</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">nuclear energy</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">nuclear power stations</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">pollution</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">radioactive wastes</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">waste disposal and handling</keyword>
+        <topcClas vocab="OKM" vocabURI="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">Social sciences</topcClas>
+        <topcClas vocab="OKM" vocabURI="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">Natural sciences</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Energy and natural resources</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Political behaviour and attitudes</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">Environment and conservation</topcClas>
+      </subject>
+      <abstract>
+        <p>The data consist of documents and parliamentary discussions related to the 2001 decision on building the final disposal facility of nuclear waste, which preceded the decision to build the fifth nuclear power plant in Finland. The archived data contain various documents, records, applications, decisions, plans, reports, and parliamentary discussions related to the decision-making process.</p>
+        <p>The dataset is only available in Finnish.</p>
+      </abstract>
+      <sumDscr>
+        <timePrd event="start" date="2000" />
+        <timePrd event="end" date="2001" />
+        <collDate event="start" date="2000" />
+        <collDate event="end" date="2001" />
+        <nation abbr="FI">Finland</nation>
+        <geogCover>Finland</geogCover>
+        <anlyUnit>Event/Process/Activity
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">EventOrProcessOrActivity</concept>
+        </anlyUnit>
+        <anlyUnit>Media unit: Text
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">MediaUnit.Text</concept>
+        </anlyUnit>
+        <universe>The 2000 and 2001 documents and parliamentary discussions related to the decision on building the final disposal facility of nuclear waste in Finland.</universe>
+        <dataKind>Qualitative</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth>Cross-section
+          <concept vocab="DDI Time Method" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TimeMethod:1.2.3">CrossSection</concept>
+        </timeMeth>
+        <dataCollector affiliation="University of Tampere. Department of Political Science and International Relations">Suominen, Petteri</dataCollector>
+        <sampProc>Non-probability: Purposive
+          <concept vocab="DDI Sampling Procedure" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:SamplingProcedure:2.0.2">Nonprobability.Purposive</concept>
+        </sampProc>
+        <sampProc>
+          <p>The researcher collected an aggregate of documents based on which it was possible to make an argument analysis of the decision-making process on the final disposal of nuclear waste.</p>
+        </sampProc>
+        <collMode>Compilation/Synthesis
+          <concept vocab="DDI Mode of Collection" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:ModeOfCollection:5.0.1">CompilationSynthesis</concept>
+        </collMode>
+        <resInstru>Data collection guidelines: Secondary data collection guide
+          <concept vocab="DDI Type of Instrument" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TypeOfInstrument:1.1.2">DataCollectionGuidelines.SecondaryDataCollectionGuide</concept>
+        </resInstru>
+      </dataColl>
+      <stdyClas type="A">Detailed and specific data description in Finnish and English. The data are checked and processed in detail. If necessary, the data are anonymised.</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</accsPlac>
+        <collSize>Approximately 150 pages of text.</collSize>
+      </setAvail>
+      <useStmt>
+        <restrctn>The dataset is (A) openly available for all users without registration (CC BY 4.0).</restrctn>
+        <citReq>The data and its creators shall be cited in all publications and presentations for which the data have been used. The bibliographic citation may be in the form suggested by the archive or in the form required by the publication.</citReq>
+        <deposReq>Notify FSD of all publications where you have used the data by sending the citation information to user-services.fsd@tuni.fi.</deposReq>
+        <disclaimer>The original data creators and the archive bear no responsibility for any results or interpretations arising from the reuse of the data.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl xml:lang="fi">Raittila, Pentti &amp; Suominen, Petteri (2002): Keskustelu ydinjätteen loppusijoitusta koskevasta periaatepäätöksestä eduskunnassa ja mediassa. Teoksessa Raittila, Hokkanen, Kojo &amp; Litmanen (toim): Ydinjäteihme suomalaisittain. Tampere University Press.
+        <citation>
+          <titlStmt>
+            <titl>Keskustelu ydinjätteen loppusijoitusta koskevasta periaatepäätöksestä eduskunnassa ja mediassa</titl>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2002" />
+          </distStmt>
+        </citation>
+      </relPubl>
+      <relPubl xml:lang="fi">Suominen, Petteri (2002). Eduskunta jätteen ytimessä. Ydinjätteen loppusijoitusta koskevan eduskuntakäsittelyn argumentointianalyysia. JYT2001 tutkimuksia. Tampere: Tampereen yliopisto. Politiikan tutkimuksen laitos. Työraportti; 1/2002.
+        <citation>
+          <titlStmt>
+            <titl>Eduskunta jätteen ytimessä. Ydinjätteen loppusijoitusta koskevan eduskuntakäsittelyn argumentointianalyysia</titl>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2002" />
+          </distStmt>
+        </citation>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+</codeBook>

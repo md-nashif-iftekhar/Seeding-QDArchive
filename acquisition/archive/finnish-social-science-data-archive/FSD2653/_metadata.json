@@ -1,0 +1,20 @@
+{
+  "id": 464,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2653",
+  "version": null,
+  "title": "Finnish National Election Study 2011",
+  "description": "The survey focused on the 2011 parliamentary elections in Finland. Main themes included political participation, political attitudes, party support, candidate and party choice and voting behaviour. Data were collected after the elections through face-to-face interviews and a self-administered drop-off questionnaire. The interview data contain Finland's contribution to the international CSES study. The same CSES module was fielded in Finland in 2007 (see FSD2269). First questions covered interest",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2653",
+  "upload_date": "2012-03-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2653",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

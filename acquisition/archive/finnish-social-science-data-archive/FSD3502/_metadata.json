@@ -1,0 +1,20 @@
+{
+  "id": 162,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3502",
+  "version": null,
+  "title": "Public Art in Regional Planning and Development 2018-2019",
+  "description": "This dataset consists of transcribed expert interviews on the use of public art in regional planning and development. The interviewees included representatives of private development or consulting companies working in Finland, experts on public art, and one urban activist working in the third sector. The interviews covered themes such as the economic value of art projects commissioned as part of area development projects and the impact of public art. The interviews were conducted as semi-structu",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3502",
+  "upload_date": "2021-06-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3502",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

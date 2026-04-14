@@ -1,0 +1,20 @@
+{
+  "id": 35,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1285",
+  "version": null,
+  "title": "Sport Survey 2001-2002: Young People and Children",
+  "description": "This survey investigated the sporting activities of Finnish children and young people aged between 3 and 18: how much they exercise and in what sports they participate. Respondents' attitudes towards sports organisations in Finland were also charted. Parents answered on behalf of children under 12 years old, and young people aged 12-18 were interviewed in person. Firstly, participation in sport both within and outside of sports organisations was surveyed. One question focused on how often childr",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1285",
+  "upload_date": "2004-09-03",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1285",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

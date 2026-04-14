@@ -1,0 +1,20 @@
+{
+  "id": 538,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2784",
+  "version": null,
+  "title": "Disciplinary Differences in Publishing Practices 2007: Professor Interviews",
+  "description": "The data comprise 44 interviews of professors from different disciplines in nine universities located in Southern and Central Finland. Five of these universities were multidisciplinary, two were universities of technology and two were business schools. For the most part, two professors from each discipline in different universities were interviewed. The aim of the interviews was to chart publishing practices in different disciplines and the factors affecting these practices. The interviewees wer",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2784",
+  "upload_date": "2013-07-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2784",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

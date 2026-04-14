@@ -1,0 +1,20 @@
+{
+  "id": 304,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3903",
+  "version": null,
+  "title": "Cancer Patients' Experiences of Psychosocial Support 2024",
+  "description": "The data consists of writings in which cancer patients and cancer survivors write about their experiences of psychosocial support. The data was originally collected for a Master's thesis on the experiences and needs of cancer survivors for psychosocial support. The writing invitation aimed to collect experiences related to cancer, rehabilitation, psychosocial support received, and support needs and expectations. The writing invitation provided a number of supporting questions which the responden",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3903",
+  "upload_date": "2025-03-03",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3903",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

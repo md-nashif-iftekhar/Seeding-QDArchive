@@ -1,0 +1,20 @@
+{
+  "id": 219,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3383",
+  "version": null,
+  "title": "Attitudes towards Corporal Punishment of Children in Finland 2017",
+  "description": "The data are part of a Central Union for Child Welfare study that investigates the use of corporal punishment in upbringing and attitudes towards it in Finland. Face-to-face interviews were carried out in spring 2017 as part of an Omnibus study conducted by Taloustutkimus. The respondents were asked whether they thought corporal punishment was, at least in some cases, acceptable. The same question was asked about pulling a child's hair or flicking them. Further questions included whether using \"",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3383",
+  "upload_date": "2020-10-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3383",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

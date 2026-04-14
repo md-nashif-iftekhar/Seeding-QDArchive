@@ -1,0 +1,8 @@
+Title      : Finnish Drinking Habits Survey 2008
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD2587
+License    : In accordance with the agreement between FSD and the depositor.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2587
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

@@ -1,0 +1,20 @@
+{
+  "id": 308,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3818",
+  "version": null,
+  "title": "Improvisation Training in Teacher Education: Preliminary Assignments and Learning Diaries 2017-2018",
+  "description": "The data consists of pre-assignments, learning diaries and peer feedbacks from learning diaries written by student teachers at the University of Helsinki, in which they discuss improvisation and improvisation methods as well as interaction and performance situations. The data was collected in the context of a study conducted during the course \"Improvisation for self-confidence in teaching\" at the Faculty of Education in the University of Helsinki. In order to participate in the course, students ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3818",
+  "upload_date": "2024-08-21",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3818",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

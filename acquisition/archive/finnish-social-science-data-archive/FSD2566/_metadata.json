@@ -1,0 +1,20 @@
+{
+  "id": 351,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2566",
+  "version": null,
+  "title": "Day Nursery Children 2009: Interviews",
+  "description": "The qualitative dataset comprises the interviews of four pairs of siblings, aged 4-6 years. The interviews were conducted at day nurseries and altogether eight children were interviewed. As a stimulus, the researcher asked the children to draw a game they played at the nursery. The main themes of the interviews were playing, support, asking for help and disputes among children. The data also allow the exploration of sibling roles, the significance of sibling relationships and cooperation between",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2566",
+  "upload_date": "2011-03-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2566",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

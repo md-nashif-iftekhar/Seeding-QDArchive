@@ -1,35 +1,32 @@
 ============================================================
 QDArchive — Part 1: Data Acquisition Report
-Generated : 2026-04-01 20:03 UTC
+Generated : 2026-04-13 19:12 UTC
 ============================================================
 
 OVERVIEW
 ----------------------------------------
-  Total projects  : 82,039
-  Total files     : 6,073
-  Total keywords  : 299,710
-  Total persons   : 295,797
+  Total projects  : 587
+  Total files     : 587
+  Total keywords  : 12,184
+  Total persons   : 2,257
 
 FILE DOWNLOAD RESULTS
 ----------------------------------------
-  SUCCEEDED                             5507
-  FAILED_LOGIN_REQUIRED                  548
-  FAILED_TOO_LARGE                        10
-  FAILED_SERVER_UNRESPONSIVE               8
+  FAILED_LOGIN_REQUIRED                  587
 
 BY REPOSITORY
 ----------------------------------------
-  Repo #1 — https://zenodo.org
-    Projects : 81,484
-    Files    : 5,254
-    Succeeded: 5,236
-    Failed   : 18
-
   Repo #11 — https://www.fsd.tuni.fi/en
-    Projects : 555
-    Files    : 819
-    Succeeded: 271
-    Failed   : 548
+    Projects : 557
+    Files    : 557
+    Succeeded: 0
+    Failed   : 557
+
+  Repo #20 — https://sikt.no/en/find-data
+    Projects : 30
+    Files    : 30
+    Succeeded: 0
+    Failed   : 30
 
 REPOSITORY NOTES
 ----------------------------------------
@@ -55,26 +52,26 @@ REPOSITORY NOTES
 
 TOP 20 KEYWORDS
 ----------------------------------------
-  Biodiversity                              6675
-  Taxonomy                                  6357
-  Animalia                                  4690
-  Arthropoda                                2015
-  Insecta                                   1519
-  Sub-Saharan                               1378
-  Ethnography                               1066
-  African geography                          906
-  Chordata                                   869
-  African                                    829
-  Africa                                     828
-  Qualitative Research                       760
-  Hymenoptera                                678
-  qualitative methods                        663
-  Echinodermata                              660
-  biodiversity                               659
-  African Geography                          641
-  herbarium sheet                            563
-  Sub-Saharan Africa                         544
-  Plantae                                    539
+  nuoret                                      73
+  children                                    60
+  työelämä                                    58
+  hyvinvointi                                 55
+  working conditions                          50
+  youth                                       47
+  tulevaisuudenodotukset                      47
+  työhyvinvointi                              46
+  social services                             46
+  tasa-arvo                                   45
+  sosiaaliset suhteet                         45
+  työkyky                                     39
+  families                                    39
+  kokemukset                                  38
+  family life                                 38
+  vapaa-aika                                  37
+  parents                                     37
+  harrastukset                                37
+  employees                                   37
+  discrimination                              37
 
 EXPORTED FILES
 ----------------------------------------
@@ -86,6 +83,6 @@ EXPORTED FILES
 
 ARCHIVE FOLDER
 ----------------------------------------
-  C:\Users\Hp EliteBook 840 G6\Seeding-QDArchive\acquisition\archive
+  E:\Seeding-QDArchive\acquisition\archive
 
 ============================================================

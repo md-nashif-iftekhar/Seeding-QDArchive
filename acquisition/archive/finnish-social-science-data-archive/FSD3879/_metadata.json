@@ -1,0 +1,20 @@
+{
+  "id": 309,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3879",
+  "version": null,
+  "title": "Teacher Interviews on Cultural Heritage and Digitalisation 2016-2017",
+  "description": "The data consists of interviews with humanities teachers in secondary schools and upper secondary schools, in which they discuss cultural heritage and digitalisation in education. The interviews cover issues such as teachers' definitions, perceptions and experiences of cultural heritage and how digitalisation is reflected in their teaching. The interviews have been conducted mainly in English and one interview was conducted as a group interview with two people. Interviewees were asked, among oth",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3879",
+  "upload_date": "2024-09-27",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3879",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

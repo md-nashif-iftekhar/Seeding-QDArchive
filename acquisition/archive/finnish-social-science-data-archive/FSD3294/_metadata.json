@@ -1,0 +1,20 @@
+{
+  "id": 547,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3294",
+  "version": null,
+  "title": "Interviews of NEET Youth and Preparatory Vocational Education Project Workers 2013",
+  "description": "The study examined a preparatory vocational education project from the perspective of NEET youth (not in employment, education or training) aged 17-24 and the project staff. Interviews were used to find out the young people's experiences of the education and guidance as well as the project staff's opinions on the services provided to young people at the transition phase from basic education to upper secondary education. The data consist of 18 interviews of young people and five interviews of pro",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3294",
+  "upload_date": "2019-08-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3294",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

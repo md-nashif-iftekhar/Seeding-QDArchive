@@ -1,0 +1,20 @@
+{
+  "id": 485,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2387",
+  "version": null,
+  "title": "Gerontological Social Work 2000: Interviews",
+  "description": "In the study, Finnish social workers working with the elderly were interviewed about their work, its significance, ways of improving it and its future. The data consist of 13 transcribed interviews in Finnish. The respondents were asked about their their typical working day, job tasks and content, professional and personal equirements for the work, changes in the requirements overr the last 5-10 years, role of social workers in elderly care, development needs relating to work, and expectations f",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2387",
+  "upload_date": "2009-02-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2387",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

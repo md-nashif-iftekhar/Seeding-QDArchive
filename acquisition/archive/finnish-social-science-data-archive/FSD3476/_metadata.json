@@ -1,0 +1,20 @@
+{
+  "id": 475,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3476",
+  "version": null,
+  "title": "Media Use of Young Adults 2019",
+  "description": "This dataset consists of 16 transcribed interviews with young adults living in North Karelia. The interviews covered the young adults' media use in everyday life, personal attitudes regarding mass and social media, and views on what the youth media landscape looks like in contemporary society. Data collection was conducted as part of a research methods course at the Department of Social Sciences of the University of Eastern Finland. The interviewers were students. Themes in the interviews includ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3476",
+  "upload_date": "2021-06-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3476",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

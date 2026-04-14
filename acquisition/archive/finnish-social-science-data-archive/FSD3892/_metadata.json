@@ -1,0 +1,20 @@
+{
+  "id": 491,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3892",
+  "version": null,
+  "title": "Study on Streamlining the Use of Education and Training Data: Data Producers' Survey 2023",
+  "description": "The survey examines how Finnish education and training providers manage and share the information they possess, as well as the challenges they encounter in these processes. The survey targeted early childhood education and care institutions, primary and secondary education institutions, liberal education providers, and other training organizations. The data was collected as part of a Ministry of Education and Culture project aimed at streamlining the use of educational information. The first the",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3892",
+  "upload_date": "2024-12-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3892",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

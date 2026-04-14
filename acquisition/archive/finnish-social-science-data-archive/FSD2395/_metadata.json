@@ -1,0 +1,20 @@
+{
+  "id": 402,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2395",
+  "version": null,
+  "title": "Women without Spouse and Children 2004: Interviews for Research Purposes Only",
+  "description": "The survey studied unmarried 30-47-year-old women who did not have children. The purpose of the study was to chart the status of unmarried and childless women, and to canvass their conceptions of themselves and their situation. They were asked for instance about their daily life, conceptions of a good life, attitudes and prejudice of the people around them towards childlessness, sexuality and being unmarried. The respondents were contacted through an advert in several newspapers in which they we",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2395",
+  "upload_date": "2008-11-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2395",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

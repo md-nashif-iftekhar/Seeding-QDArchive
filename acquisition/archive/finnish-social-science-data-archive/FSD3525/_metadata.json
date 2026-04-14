@@ -1,0 +1,20 @@
+{
+  "id": 375,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3525",
+  "version": null,
+  "title": "Women's Experiences of Body Positive Selfie Production 2018",
+  "description": "The dataset consists of self-administered written texts and interviews on body positivity and the lupan\u00e4ky\u00e4 (\"permission to be visible\") campaign and hashtag on social media. The lupan\u00e4ky\u00e4 hashtag was part of the Vaakakapina (\"Rebellion against scales\") movement launched by the Finnish Broadcasting Company (YLE). The study was conducted as part of the Sexuality and Play in Media Culture research project, and it was funded by the Academy of Finland (project number 309382). The data were collected",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3525",
+  "upload_date": "2022-07-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3525",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

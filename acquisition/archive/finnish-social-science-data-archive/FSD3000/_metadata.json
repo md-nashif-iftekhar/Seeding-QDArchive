@@ -1,0 +1,20 @@
+{
+  "id": 368,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3000",
+  "version": null,
+  "title": "Police Barometer 2014",
+  "description": "The survey studied Finnish public opinion on the role and services of the police, feelings about safety and security, fear of crime, experiences of crime, and trust in the national institutions in crime prevention. First, the respondents were asked how important certain bodies (e.g. the Church, the Customs, schools, the Defence Forces) were to crime prevention and to improving the safety of their neighbourhood. Opinions on the extent to which the police force can prevent civil disorder and maint",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3000",
+  "upload_date": "2015-03-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3000",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 584,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/d03a70f3-9668-4c95-aa9a-584d4ecf3fea/7",
+  "version": "7",
+  "title": "School Election 1989, Survey among Pupils",
+  "description": "From 1989, school elections have been held at the upper secondary schools in connection with parliamentary, municipal and county council elections. The present data file is from a survey carried out at the same time as the school election in 1989. At the schools that participate in the school election survey, students first vote at the school election and then answer the survey.\n\nThe data material from each individual school was also linked together with some information about the municipality in which the school is located. In practice, this means that some additional variables were added to each individual interview that describe the \"surroundings\" of the people who have answered the questionnaire. Amongst others, we have included information on which county the school is located in, whether the school is located in an urban or rural municipality, the proportion of unemployed people in the municipality and the average income in the municipality. This has been done to provide opportunities to study the extent to which features of the surroundings or the environment help to shape attitudes and behaviour. We have also entered a variable that shows the NO percentage in the school municipality at the Referendum on EC on 25 September 1972.\n\nThe School Elections at the upper secondary schools in Norway have long traditions. The elections play a central role in the schools' election preparation work and are considered essential instruments in the attempts to get first-time voters to make use of their democratic rights. The elections are also given great importance outside the school system. The results from the school elections usually get good coverage in the media, and are seen as important indicators of how successfully the individual parties have communicated their messages to young people. Election researchers also see the school elections as gauges as to what direction an election will take.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "1989-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD0800-2",
+  "download_version_folder": "7",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

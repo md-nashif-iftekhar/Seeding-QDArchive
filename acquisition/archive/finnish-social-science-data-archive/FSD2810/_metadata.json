@@ -1,0 +1,20 @@
+{
+  "id": 412,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2810",
+  "version": null,
+  "title": "Finnish Opinions on Security Policy and National Defence 2012",
+  "description": "The annual survey charted Finnish public opinion on foreign policy, defence policy, security, military alliances, military service, military reforms and Finland's military presence in Afghanistan. Opinions were charted on the success of foreign policy during the previous few years, funds allocated to the Defence Forces and whether Finland should resort to armed defence in case of any sort of attack. Respondents were asked how the global security situation would develop in the next five years, wh",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2810",
+  "upload_date": "2013-01-21",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2810",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

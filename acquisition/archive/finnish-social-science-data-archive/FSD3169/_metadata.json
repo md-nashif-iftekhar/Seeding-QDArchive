@@ -1,0 +1,20 @@
+{
+  "id": 72,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3169",
+  "version": null,
+  "title": "Tampere Praksis: Cooperation between Social Counsellor and Social Worker in Family Services",
+  "description": "The data consist of interviews with social workers and counsellors who had worked in pairs for almost a year. The data were collected as part of a larger Tampere Praksis Project. The questions pertained to organisational changes that were caused by changes to legislation regarding social services. This study examined social workers' and counsellors' experiences of pair work, and how both the social counsellor's and the social worker's expertise could be utilised in the new model for social work.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3169",
+  "upload_date": "2018-03-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3169",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

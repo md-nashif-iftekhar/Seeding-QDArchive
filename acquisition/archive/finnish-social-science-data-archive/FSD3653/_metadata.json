@@ -1,0 +1,20 @@
+{
+  "id": 385,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3653",
+  "version": null,
+  "title": "Finnish Experiences of Nighttime Parenting in Families with Small Children 2022",
+  "description": "The data consists of writings by parents of young children about their children's night sleep. The gathering of writings sought parents with children under school age in the family who had experienced night wakings, interrupted sleep and/or constant tiredness caused by children's night sleepiness. Background information includes gender, age, family structure, labour market status and education. The data is organised into an easy to use HTML version at FSD.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3653",
+  "upload_date": "2025-03-03",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3653",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

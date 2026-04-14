@@ -1,0 +1,20 @@
+{
+  "id": 315,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3342",
+  "version": null,
+  "title": "News Articles about Finns Party Members Convicted of Hate Speech 2016-2017",
+  "description": "The data consist of Helsingin Sanomat and Yle articles focusing on the hate crime convictions of three Finns Party politicians (Teuvo Hakkarainen, Sebastian Tynkkynen and Terhi Kiemunki). In the articles, the politicians themselves, their colleagues and other parties comment on the topic from various perspectives. The articles were published on the websites of Helsingin Sanomat and Yle between March 2016 and February 2017. The articles covered, among others, the content of the texts that led to ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3342",
+  "upload_date": "2019-08-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3342",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

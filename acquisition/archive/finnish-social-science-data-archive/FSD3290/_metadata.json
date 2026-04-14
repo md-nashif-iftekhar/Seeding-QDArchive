@@ -1,0 +1,20 @@
+{
+  "id": 247,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3290",
+  "version": null,
+  "title": "Tampere Praksis: Custody Disputes in Child Protection Services at the First Stage 2017",
+  "description": "The qualitative dataset consists of interviews with social workers in Tampere, Finland who make assessments of the need for child protection services. The interviews contain three vignettes relating to child protection services that the interviewees read at the beginning of the interview. Themes of the vignettes included court proceedings in the case of a dysfunctional breakup, parental alienation and excessive use of alcohol, and uneven conditions between parents. The interviewees were asked qu",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3290",
+  "upload_date": "2019-08-01",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3290",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

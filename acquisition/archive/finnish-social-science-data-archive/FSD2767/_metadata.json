@@ -1,0 +1,20 @@
+{
+  "id": 325,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2767",
+  "version": null,
+  "title": "Attitudes towards Corporal Punishment of Children in Finland 2007: Trend",
+  "description": "The data are part of Central Union for Child Welfare study that investigates the use of corporal punishment in upbringing and attitudes towards it in Finland. Telephone interviews were carried out in October 2007 as part of a Telebus study conducted by Taloustutkimus. The data comprise one statement: \"Using corporal punishment to discipline children is acceptable, at least in exceptional circumstances\", and the respondents were asked to what extent they agreed or disagreed with it. Background va",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2767",
+  "upload_date": "2012-10-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2767",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

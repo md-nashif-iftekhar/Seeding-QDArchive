@@ -1,0 +1,20 @@
+{
+  "id": 74,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3589",
+  "version": null,
+  "title": "Music in Finnish Health Care Settings 2018-2019: Interviews",
+  "description": "The dataset consists of interviews on community musicians' work in Finnish health care settings. The interviews were conducted with community musicians, health care professionals, patients, people close to the patients, and other professionals in the cultural field. The data were collected as part of the ArtsEqual project funded by the Academy of Finland's Strategic Research Council (ID: 314223/2017). Additional funding was received from various private foundations, such as the Oskar \u00d6flund Foun",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3589",
+  "upload_date": "2023-04-26",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3589",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

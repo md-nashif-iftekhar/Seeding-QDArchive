@@ -1,0 +1,20 @@
+{
+  "id": 238,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD4026",
+  "version": null,
+  "title": "Jyv\u00e4skyl\u00e4 Longitudinal Study of Personality and Social Development (JYLS): Self-Ratings of 61-Year-Olds 2020-2021",
+  "description": "This dataset is part of the Jyv\u00e4skyl\u00e4 Longitudinal Study of Personality and Social Development (JYLS), which has followed the same individuals since 1968. This Developmental Psychological Perspectives on Transitions at Age 60: Individuals Navigating Across the Lifespan (TRAILS) research wave explores the lives of participants, now around 61 years old, across key areas such as family, work, housing, health and leisure. Data collection for this phase included a life situation questionnaire, a psyc",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd4026",
+  "upload_date": "2026-02-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD4026",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

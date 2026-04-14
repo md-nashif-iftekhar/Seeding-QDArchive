@@ -1,0 +1,20 @@
+{
+  "id": 444,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2463",
+  "version": null,
+  "title": "European Social Survey 2008: Finnish Data",
+  "description": "The survey studied several themes, including the use of media, social trust, political participation and interest, political trust, political orientation and commitment, satisfaction with own circumstances and certain public services, perceptions of own well-being, religious views, experiences of discrimination, and national and ethnic identity. These themes are recurring in different ESS rounds. Themes for the rotating modules in this collection round included welfare attitudes and ageism. The ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2463",
+  "upload_date": "2010-05-06",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2463",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

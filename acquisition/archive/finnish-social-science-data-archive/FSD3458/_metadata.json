@@ -1,0 +1,20 @@
+{
+  "id": 344,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3458",
+  "version": null,
+  "title": "Attractiveness of Teacher Education: Focus Group Interviews 2020",
+  "description": "The data contain the transcripts of five focus group interviews exploring the views of upper secondary school students on teacher education and teaching profession in Finland. The students were at the stage when they started planning their future studies in tertiary education. The data are part of a research project on the attractiveness of programmes leading to a teaching degree, conducted by the Finnish Institute for Educational Research at the University of Jyv\u00e4skyl\u00e4 and funded by the Ministr",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3458",
+  "upload_date": "2021-08-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3458",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

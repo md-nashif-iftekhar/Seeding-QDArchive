@@ -1,0 +1,113 @@
+Tämä ZIP-paketti sisältää aineiston
+
+FSD3208 Gustaf Alfred af Hällströmin kirjasto ja kirjaostot 1845-1861
+
+Aineiston kuvailu: https://urn.fi/urn:nbn:fi:fsd:T-FSD3208
+Aineiston DOI: https://doi.org/10.60686/t-fsd3208
+
+Lataamalla aineiston olet sitoutunut noudattamaan käyttöehtoja. Aineiston
+käyttöehdot ovat:
+
+Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).
+Ailan käyttöehdot: https://services.fsd.tuni.fi/docs/eula?lang=fi
+Aineistojen yleiset käyttöehdot: https://services.fsd.tuni.fi/docs/terms-of-use?lang=fi
+
+
+Aineistoon ja sen tekijöihin on viitattava asianmukaisesti kaikissa
+julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman
+malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi
+muokata julkaisun käytäntöjen mukaisesti.
+
+Malliviittaustiedot:
+
+Hakapää, Jyrki: Gustaf Alfred af Hällströmin kirjasto ja kirjaostot 1845-1861 [data]. Dataversio 1.0 (2017-11-22). Yhteiskuntatieteellinen tietoarkisto [jakaja]. DOI: https://doi.org/10.60686/t-fsd3208; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3208
+
+
+Jos sinulla on kysyttävää näistä tai muista aineistoistamme, voit ottaa yhteyttä asiakaspalveluumme:
+asiakaspalvelu.fsd@tuni.fi tai +358 29 452 0411
+
+
+Ystävällisin terveisin
+Tietoarkiston asiakaspalvelu
+
+
+--
+Käyttötarkoitus ja aineiston hävittäminen:
+Asiakas saa käyttää aineistoa ainoastaan ilmoittamaansa käyttötarkoitukseen, minkä jälkeen aineisto on hävitettävä. Jos käyttötarkoitus muuttuu, on haettava uutta käyttölupaa.
+
+--
+Vastuuvapauslauseke:
+Aineiston alkuperäiset tekijät ja tietoarkisto eivät ole vastuussa aineiston jatkokäytössä tuotetuista tuloksista ja tulkinnoista.
+
+--
+ZIP-paketin avaaminen:
+Tallenna liitetiedosto ensin oman koneesi kiintolevylle. Esimerkiksi Windowsissa resurssienhallinta (Oma tietokone) osaa näyttää ja purkaa tiedostot. Vaihtoehtoisesti purkamiseen voi käyttää erillistä ohjelmaa (esim. WinZip, 7-zip).
+
+--
+Aineisto-oppaan avaaminen:
+Aineisto-opas (dgF) on FSDNNNN-kansiossa (esim. FSD1000) ja se on luettavissa verkkoselaimella. Kansiot 'css', 'img' ja 'js' sisältävät html-hakemiston aputiedostoja eikä niitä tarvitse avata. Säilytä olemassa oleva kansiorakenne, jotta tiedostot toimivat halutulla tavalla.
+
+--
+SPSS portable -tiedoston avaaminen:
+Valitse SPSS:n pudotusvalikosta File -> Open -> Data ja kohdasta 'Files of type' tiedostomuoto SPSS portable (*.por). HUOM! Jos ääkköset eivät näy oikein (ongelma on ilmennyt erityisesti SPSS:n version 21 kanssa): Valitse ensin pudotusvalikosta Edit -> Options -> General -> Character encoding for data and syntax -> Local. Avaa tiedosto edellä mainitulla tavalla.
+
+--
+Kvalitatiivisen aineiston html-hakemisto:
+Suurin osa kvalitatiivisista aineistoista sisältää html-hakemiston, jonka avulla aineistoa ja sen taustatietoja on helppo selailla. Jotta hakemisto toimii oikein, pura aineiston zip-paketti ja säilytä olemassa oleva kansiorakenne. Aloita aineiston selaaminen tiedostosta index.html, joka sisältää linkit varsinaisiin datatiedostoihin.
+
+--
+ZIP-paketti sisältää tiedostot:
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_01.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_02.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_03.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_04.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_05.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_06.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_07.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_08.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_09.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_10.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_11.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_12.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Inventaario/daF3208_13.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_14.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_15.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_16.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_17.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_18.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_19.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_20.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_21.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_22.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_23.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_24.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_25.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_26.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_27.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_28.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_29.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_30.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_31.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_32.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_33.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_34.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_35.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_36.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_37.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_38.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_39.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_40.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_41.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_42.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_43.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/Ostosluettelo/daF3208_44.jpg
+  Data (suomenkielinen): FSD3208/Study/Data/daF3208_index_fin.ods
+  Taustatietoa (suomenkielinen): FSD3208/Study/bgF3208_fin.pdf
+  Koneluettava DDI-kuvailu (suomenkielinen): FSD3208/Study/FSD3208_fin.xml
+  Koneluettava DDI-kuvailu (englanninkielinen): FSD3208/Study/FSD3208_eng.xml
+  Saatekirje (suomenkielinen): FSD3208/LUEMINUT.txt
+  Saatekirje (englanninkielinen): FSD3208/README.txt
+
+
+--
+Lisätiedot: https://www.fsd.tuni.fi/

@@ -110,109 +110,6 @@ def stream_download(url: str, dest: Path,
         return "FAILED_SERVER_UNRESPONSIVE"
 
 
-#Zenodo
-
-def get_zenodo_files(project_url: str) -> list[dict]:
-    match = re.search(r"/records?/(\d+)", project_url)
-    if not match:
-        return []
-    record_id = match.group(1)
-    try:
-        resp = requests.get(
-            f"https://zenodo.org/api/records/{record_id}",
-            headers=HEADERS, timeout=REQUEST_TIMEOUT,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-
-        files = []
-        for f in data.get("files", []):
-            filename = f.get("key", "")
-            if not filename:
-                continue
-            download_url = (
-                f.get("links", {}).get("content")
-                or f.get("links", {}).get("self")
-                or f"https://zenodo.org/api/records/{record_id}/files/{filename}/content"
-            )
-
-            files.append({
-                "filename":     filename,
-                "download_url": download_url,
-            })
-
-        if not files:
-            bucket_url = data.get("links", {}).get("bucket")
-            if bucket_url:
-                bucket_resp = requests.get(
-                    bucket_url,
-                    headers=HEADERS,
-                    timeout=REQUEST_TIMEOUT,
-                )
-                if bucket_resp.status_code == 200:
-                    for f in bucket_resp.json().get("contents", []):
-                        filename = f.get("key", "")
-                        if filename:
-                            files.append({
-                                "filename":     filename,
-                                "download_url": f.get("links", {}).get("self", ""),
-                            })
-
-        return files
-
-    except Exception as e:
-        print(f"    [WARN] Could not get file list for {record_id}: {e}")
-        return []
-
-
-def download_zenodo(conn):
-    rows = get_projects_by_repo(conn, 1)
-    print(f"\n[Zenodo] Downloading {len(rows)} projects…")
-    print(f"  Folder: {Path(ARCHIVE_DIR).resolve() / 'zenodo'}")
-
-    for i, row in enumerate(rows, 1):
-        pid            = row["id"]
-        title          = row["title"]
-        project_folder = row["download_project_folder"] or safe_dirname(title)
-        version_folder = row["download_version_folder"]
-
-        print(f"\n  [{i}/{len(rows)}] {title[:60]}")
-        if already_downloaded(conn, pid):
-            print(f"    [SKIP] Already in database.")
-            continue
-
-        folder = make_project_folder("zenodo", project_folder, version_folder)
-        save_metadata(folder, row)
-        files = get_zenodo_files(row["project_url"])
-        if not files:
-            print(f"    [INFO] No files found.")
-            continue
-
-        print(f"    → {folder}")
-        print(f"    → {len(files)} files to download")
-
-        for finfo in files:
-            fname = finfo["filename"]
-            furl  = finfo["download_url"]
-            ext   = Path(fname).suffix.lower()
-
-            status = stream_download(furl, folder / fname)
-            insert_file(
-                conn, pid,
-                file_name=fname,
-                file_type=ext.lstrip(".") or "unknown",
-                status=status,
-            )
-            time.sleep(FILE_DELAY)
-        update_project(conn, pid, {
-            "download_date": datetime.utcnow().isoformat()
-        })
-        project_files = get_files_for_project(conn, pid)
-        succeeded = sum(1 for f in project_files if f["status"] == "SUCCEEDED")
-        print(f"    Summary: {succeeded}/{len(files)} files succeeded")
-
-    print(f"\n[Zenodo] Done.")
-
 #FSD
 
 def extract_fsd_zip(conn, pid: int, zip_path: Path, folder: Path) -> int:
@@ -445,10 +342,10 @@ def parse_args():
     parser.add_argument(
         "--only",
         nargs="+",
-        choices=["zenodo", "fsd", "sikt"],
+        choices=["fsd", "sikt"],
         metavar="REPO",
         help="Only download from specified repositories. "
-             "Choices: zenodo, fsd, sikt. "
+             "Choices: fsd, sikt. "
              "Example: --only fsd sikt"
     )
     return parser.parse_args()
@@ -458,12 +355,10 @@ def main():
     args = parse_args()
 
     if args.only:
-        run_zenodo = "zenodo" in args.only
         run_fsd    = "fsd"    in args.only
         run_sikt   = "sikt"   in args.only
     else:
         # Default — run all
-        run_zenodo = True
         run_fsd    = True
         run_sikt   = True
 
@@ -479,13 +374,9 @@ def main():
     print("download.py — Downloading files")
     print("=" * 60)
     print(f"  Repositories : "
-          f"{'Zenodo ' if run_zenodo else ''}"
           f"{'FSD ' if run_fsd else ''}"
           f"{'Sikt' if run_sikt else ''}")
     print("=" * 60)
-
-    if run_zenodo:
-        download_zenodo(conn)
 
     if run_fsd:
         download_fsd(conn)

@@ -1,0 +1,20 @@
+{
+  "id": 220,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2605",
+  "version": null,
+  "title": "Well-being of Adults with Cerebral Palsy 2008-2010",
+  "description": "The dataset contains information on Finnish adults with cerebral palsy, collected from different sources during 2008-2010, for the project \"Well-being and rehabilitation during the life-cycle of adults with CP\". The project was conducted by the Finnish Association of People with Physical Disabilities (FPD). There were four panel discussions with 10 participants. The participants were adults with CP of differing ages, gender and economic activity. Panel discussions covered the participants' life ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2605",
+  "upload_date": "2011-07-27",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2605",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

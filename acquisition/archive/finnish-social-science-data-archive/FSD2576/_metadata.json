@@ -1,0 +1,20 @@
+{
+  "id": 269,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2576",
+  "version": null,
+  "title": "Smash Asem, Legal Proceedings and the Media 2008",
+  "description": "The study investigated legal processes and the role and power of the media in connection with the Smash Asem demonstration in Helsinki, Finland in 2006. The dataset consists of interviews of individuals involved in the demonstration itself or its consequences, such as activists, police authorities, other authorities, researchers and high-ranking authorities of the judiciary. In addition to the role and significance of the media, the interviews also covered civil rights and the exercise of police",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2576",
+  "upload_date": "2012-09-17",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2576",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

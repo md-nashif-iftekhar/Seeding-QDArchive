@@ -1,0 +1,20 @@
+{
+  "id": 403,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3584",
+  "version": null,
+  "title": "Finnish Memories of Childhood Fears 2020-2021",
+  "description": "The dataset consists of self-administered written texts on childhood fears. Participants were invited to write about their childhood fears and about the places to which their childhood fears were connected. The study aimed to collect data about the places where participants remembered experiencing fear and anxiety during their childhoods. The experiences of fear and anxiety could be unwanted or purposefully sought out. The data were collected as part of two research projects. The first project, ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3584",
+  "upload_date": "2022-08-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3584",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

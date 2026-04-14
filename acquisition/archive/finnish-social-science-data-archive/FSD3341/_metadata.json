@@ -1,0 +1,20 @@
+{
+  "id": 285,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3341",
+  "version": null,
+  "title": "Interviews on Substance Abuse Prevention and Gambling Harm 2016-2017",
+  "description": "The study charted how substance abuse prevention, especially prevention of gambling problems, was provided in three regions in Finland. The aim of the study was to examine how different regions had enacted the new substance abuse prevention law, which came into effect in December 2015, ruling that drug substance abuse prevention should be provided as a part of public services. In each region, individual interviews from social welfare and health care managers as well as group interviews from subs",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3341",
+  "upload_date": "2020-06-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3341",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

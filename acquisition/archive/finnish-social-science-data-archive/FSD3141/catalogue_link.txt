@@ -1,0 +1,8 @@
+Title      : That's So '80s! Writing Competition 2015
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD3141
+License    : In accordance with the agreement between FSD and the depositor.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3141
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

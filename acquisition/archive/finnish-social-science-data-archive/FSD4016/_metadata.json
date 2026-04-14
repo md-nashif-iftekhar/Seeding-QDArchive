@@ -1,0 +1,20 @@
+{
+  "id": 398,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD4016",
+  "version": null,
+  "title": "Interviews with Professionals from Social Services that Support Integration and Employment Services on Trust and Distrust in Encounters with Authorities 2021-2022",
+  "description": "The data consists of interviews with professionals working in social services supporting integration or employment services, in which they reflect on the development of trust between young immigrants with a refugee background and the authorities. Fourteen of the interviewees were reached in Finland and nine in Sweden. First, the participants were asked how well their clients knew the service system and whether they were aware of the reasons for the client meetings. This was followed by a discuss",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd4016",
+  "upload_date": "2025-11-17",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD4016",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

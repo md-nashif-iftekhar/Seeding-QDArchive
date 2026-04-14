@@ -1,0 +1,20 @@
+{
+  "id": 513,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD4012",
+  "version": null,
+  "title": "Child Barometer 2024",
+  "description": "The dataset examined children's opinions and experiences of pre-primary education (preschool). Children's views and experiences were explored through questions concerning, for example, toys, play, learning, bullying, rest and mealtime at preschool. First, the child's parent was asked for background information on the child, family and parents, after which the child was interviewed. The first questions for the children concerned toys, play and friends at preschool. For example, the children were ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd4012",
+  "upload_date": "2026-02-09",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD4012",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

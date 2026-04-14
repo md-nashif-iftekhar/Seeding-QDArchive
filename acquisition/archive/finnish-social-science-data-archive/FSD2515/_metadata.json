@@ -1,0 +1,20 @@
+{
+  "id": 245,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2515",
+  "version": null,
+  "title": "Role and Work of Rectors 2004-2005",
+  "description": "The data were gathered by observing five rectors working in different parts of Helsinki. One of them worked in a lower secondary school, and the rest in primary schools. The Peer-assisted Leadership (PAL) programme was utilised in data collection. The researcher followed and observed the rectors for four days (three hours per day) and took notes. Besides the observation notes, the data contain transcripts from the interviews conducted with each rector. The interview topics included work orientat",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2515",
+  "upload_date": "2010-06-29",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2515",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

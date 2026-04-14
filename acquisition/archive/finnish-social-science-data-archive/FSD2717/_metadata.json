@@ -1,0 +1,20 @@
+{
+  "id": 502,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2717",
+  "version": null,
+  "title": "Community-based Mental Health Rehabilitation of Young Adults 2010-2012: Interviews of Cooperating Service Providers",
+  "description": "The data consist of 12 interview trancripts. The interviewees were cooperation partners from different agencies providing rehabilitation and housing services to young adults with serious mental disorders. The interviewees included, for instance, representatives of supported housing services, outpatient care and a psychiatric hospital, and a case manager who coordinated housing services for clients. Main topics in the interviews were managing service delivery process in rehabilitation; relationsh",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2717",
+  "upload_date": "2012-07-25",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2717",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

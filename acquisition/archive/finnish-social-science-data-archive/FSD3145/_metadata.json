@@ -1,0 +1,20 @@
+{
+  "id": 493,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3145",
+  "version": null,
+  "title": "Lifestyle Entrepreneurship 2011-2014",
+  "description": "This dataset contains six interviews with entrepreneurs providing services for dog hobbyists. Some of the businesses provided training services for e.g. agility and herding sports, others accommodation and catering services. The interviewees shared their experiences of starting a business, their work history, customer service practices, combining hobby and entrepreneurship, and work-life balance. The study was funded by the Academy of Finland. Background information included the date of the inte",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3145",
+  "upload_date": "2018-11-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3145",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

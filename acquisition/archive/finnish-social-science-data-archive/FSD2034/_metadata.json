@@ -1,0 +1,20 @@
+{
+  "id": 345,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2034",
+  "version": null,
+  "title": "Jyv\u00e4skyl\u00e4 Longitudinal Study of Personality and Social Development (JYLS): Interviews of 42-Year-Olds 2001",
+  "description": "The data are part of the Jyv\u00e4skyl\u00e4 Longitudinal Study of Personality and Social Development (JYLS), in which the same individuals have been followed over 30 years. The research stage also included a life situation questionnaire, personality tests, self-ratings based on various tests and methods, as well as a thorough medical examination. The interview focused on themes such as life structure, identity, self-image, alcohol, smoking, relationship, children, family life, work, and parents. First, t",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2034",
+  "upload_date": "2009-10-26",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2034",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

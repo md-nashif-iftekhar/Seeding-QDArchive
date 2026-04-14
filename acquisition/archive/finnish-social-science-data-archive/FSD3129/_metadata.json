@@ -1,0 +1,20 @@
+{
+  "id": 13,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3129",
+  "version": null,
+  "title": "Children and Youth Leisure Survey 2016",
+  "description": "The survey studied the leisure time activities of Finnish children and young people aged from seven to 29. Data collection is carried out every three years. In 2016 the survey was renamed as the Children and Youth Leisure Survey because the minimum age limit for participants was lowered. The parents/guardians of the respondents between 7 and 14 years of age were first asked how much time the child spent using media (including social media, computer games, books, the internet etc.) and exercising",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3129",
+  "upload_date": "2017-05-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3129",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

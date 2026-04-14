@@ -1,0 +1,20 @@
+{
+  "id": 181,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2731",
+  "version": null,
+  "title": "Coping After Inpatient Treatment of Substance Abuse 1995-1997",
+  "description": "The survey investigated how persons who had undergone substance abuse treatment coped after the treatment. The respondents had come in for treatment to an inpatient treatment facility for people with substance abuse problems in Finland between August and November 1995. The length of the treatment varied from 9 to 97 days. The respondents were interviewed five times: one week after the beginning of the treatment, 2-3 days before the end of the treatment, and three, six and twelve months after the",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2731",
+  "upload_date": "2012-07-26",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2731",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

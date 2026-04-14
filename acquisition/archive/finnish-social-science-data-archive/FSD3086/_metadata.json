@@ -1,0 +1,20 @@
+{
+  "id": 124,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3086",
+  "version": null,
+  "title": "Finnish Opinions on Security Policy and National Defence 2015",
+  "description": "The annual survey charted Finnish public opinion on foreign policy, defence policy, security, military alliances, military service, and international armed conflicts at the time of the survey. Some questions charted asylum policy and views on factors affecting safety and security. Opinions were charted on the success of foreign policy in the previous few years, funds allocated to the Defence Forces, whether Finland should resort to armed defence in case of any sort of attack, and how the global ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3086",
+  "upload_date": "2016-05-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3086",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

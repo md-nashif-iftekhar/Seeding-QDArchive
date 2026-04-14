@@ -1,0 +1,20 @@
+{
+  "id": 15,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3203",
+  "version": null,
+  "title": "Tampere Praksis: Child Foster Care and Children's Close Networks 2016",
+  "description": "This dataset contains interviews with four Finnish social workers who worked with children taken into custody. The social workers each described 2-3 cases and how they progressed. Nine cases were discussed in total. Central themes in the interviews included the children's social networks, the custody process, and the social worker's role and decisions in situations where the child's social network needed adjustment. Finally, unless it had already been discussed, the researcher enquired the types",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3203",
+  "upload_date": "2018-12-13",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3203",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

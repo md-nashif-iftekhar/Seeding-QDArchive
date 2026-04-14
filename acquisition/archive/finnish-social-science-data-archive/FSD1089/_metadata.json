@@ -1,0 +1,20 @@
+{
+  "id": 76,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1089",
+  "version": null,
+  "title": "Dynamics and Productivity of Research Activity in Universities 1990",
+  "description": "The survey contains interviews of researchers in six Finnish institutes of higher learning. The main themes pertained to the organisation of the departments' research activities, internationality, scientific communication, scientific publication, utilisation of the findings, and evaluation of university research. The aim of the study was to develop qualitative evaluation methods for scientific research, and find out the significance of resources to the functioning of the departments and the cons",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1089",
+  "upload_date": "2002-03-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1089",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

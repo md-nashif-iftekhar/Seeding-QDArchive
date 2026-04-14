@@ -1,0 +1,20 @@
+{
+  "id": 194,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2263",
+  "version": null,
+  "title": "Parliamentary Elections 2007: Small Constituencies",
+  "description": "In this election survey, residents in small Finnish constituencies (Southern Savonia, North Karelia, and Lapland) were interviewed after the 2007 parliamentary elections. The same set of questions was also used in the face-to-face interview survey archived at the FSD (FSD2269 Parliamentary Elections 2007). The respondents were first asked about whether they were interested in political matters, what their party preference was, and whether they had voted in general elections since the year 2000. ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2263",
+  "upload_date": "2009-03-24",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2263",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

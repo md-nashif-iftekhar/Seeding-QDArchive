@@ -1,0 +1,20 @@
+{
+  "id": 488,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1110",
+  "version": null,
+  "title": "Confidence in Courts of Justice: District Court Survey 1999",
+  "description": "In the survey, customers of the Turku District Court were interviewed in order to study their image of the courts of justice in Finland. The respondents were asked the reason for their visit, and whether they had visited a court before. The number of visits, and the reasons for them were recorded. The respondents then evaluated their experiences, and commented on various statements regarding judges and courts in general. Impartiality of the courts was evaluated. If a respondent considered them t",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1110",
+  "upload_date": "2002-03-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1110",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

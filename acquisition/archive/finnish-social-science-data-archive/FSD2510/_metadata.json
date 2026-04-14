@@ -1,0 +1,20 @@
+{
+  "id": 203,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2510",
+  "version": null,
+  "title": "Leadership in Multicultural School 2004: Rector Interviews",
+  "description": "The data were collected by interviewing 25 rectors of multicultural comprehensive schools in 2004. The interview topics included leadership challenges posed by multiculturalism, pupils' and their guardians' integration to Finnish school and its working culture, challenges in teaching, dilemmas in culture meetings, and the rectors' interpretations on the notion of multiculturalism. Background variables included the respondent's age, gender, time worked as rector at the current school, number of f",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2510",
+  "upload_date": "2010-05-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2510",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 69,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2549",
+  "version": null,
+  "title": "Sexual Autobiographies from St. Petersburg 1996",
+  "description": "This qualitative dataset contains love biographies written by citizens of Saint Petersburg (Russia), received through a biography writing competition conducted by the research project \"Mosaic life. Upbringing, gender and sexuality in Finland, the Baltic countries and St. Petersburg\". The St. Petersburg writing competion was titled \"Sex, love and sexuality in your life\", and was conducted by the University of Helsinki (Finland) together with the Institute of Sociology in St. Petersburg. The compe",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2549",
+  "upload_date": "2010-10-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2549",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

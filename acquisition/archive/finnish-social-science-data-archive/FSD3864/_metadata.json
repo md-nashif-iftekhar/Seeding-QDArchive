@@ -1,0 +1,20 @@
+{
+  "id": 246,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3864",
+  "version": null,
+  "title": "Teachers' Experiences of Teaching 3-5 Grades Mathematics in Innovative Learning Environments 2022",
+  "description": "The data consists of interviews where teachers describe their experiences of teaching mathematics in open educational environments with 3rd-5th graders. Some of the interviews were conducted as group interviews and some as individual interviews. First, the interviewees were asked how long they had been teaching in open educational environments and what the open educational facilities of the school are like and how they are organised. This was followed by more detailed questions about teaching ma",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3864",
+  "upload_date": "2024-08-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3864",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

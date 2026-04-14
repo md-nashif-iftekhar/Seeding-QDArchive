@@ -1,0 +1,20 @@
+{
+  "id": 558,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/1839198c-7f48-4762-acf4-a8e52c9d031b/29",
+  "version": "29",
+  "title": "School Election 2025, National Study",
+  "description": "\"School Election 2025, National Study\" is a national survey conducted by Sentio Research on behalf of Sikt - Norwegian Agency for Shared Services in Education and Research. The questions included in the survey are some of the same questions that were posed to pupils in Norwegian high schools in the School Election Study in 2025. The survey was conducted as telephone interviews in the period 29th ofAugust - 10th of September 2025.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2025-09-10",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "1882",
+  "download_version_folder": "29",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

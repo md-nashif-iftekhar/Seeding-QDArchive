@@ -1,0 +1,20 @@
+{
+  "id": 341,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3020",
+  "version": null,
+  "title": "Life for LGBTIQA Youth in the Past and Present 2014",
+  "description": "The data comprises texts written about what it is and was like to live one's youth in Finland as a person belonging to a sexual or gender minority or otherwise questioning sexual and gender norms. The responses were collected as part of Seta's and Finnish Youth Research Society's research project \"Wellbeing of LGBTIQ Youth\" (2012-2014) funded by the Ministry of Education and Culture. Form of the texts was not restricted and the participants could write, for instance, poems or narratives. The tex",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3020",
+  "upload_date": "2016-06-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3020",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

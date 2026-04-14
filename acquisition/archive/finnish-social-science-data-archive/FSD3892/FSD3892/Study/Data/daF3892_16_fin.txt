@@ -1,0 +1,239 @@
+FSD3892 Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023. Aineistoon ja sen tekijöihin tulee viitata asianmukaisesti kaikissa julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.
+
+Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).
+
+
+Vastauskieli: Suomi
+Vastaajan edustama organisaatio tai organisaation yleisnimi: Kunta
+Vastaajan edustaman organisaation alue: Pohjois-Pohjanmaa
+
+
+5. Mitä tietoja tallennatte organisaation sisäisesti kasvatuksen tai koulutuksen järjestämistä varten?
+
+Lasten ja huoltajien nimet ja hetut, osoitteet, sähköpostiosoitteet, puh.nro, perheiden tulotiedot, vasu ja LEOPS, tuen järjestelyt ja tuen päätökset
+Henkilöstö: yhteystiedot, lähiomainen, hetu, koulutustausta, pätevyys, täydennyskoulutukset, palvelussuhdehistoria jne
+
+
+6. Tallennatteko tietoja muita tarkoituksia varten? Jos tallennatte, mitä tietoja tallennatte ja mitä tarkoituksia varten?
+
+ei tallenneta
+
+7. Mihin tallennatte eri tietoja?
+
+-
+
+8. Minkälaisia ongelmia olette kohdanneet tietojen tallentamisessa?
+
+Tietojen siirtäminen järjestelmistä toisiin, järjestelmät eivät "keskustele" keskenään"
+
+9. Mikäli käytätte ostopalveluja, minkälaisia tietojen käsittelyn haasteita siihen liittyy?
+
+Nyt suurin haaste hyvinvointialueen ja peruskunnan välinen tietojen siirto
+
+10. Mihin organisaationne tiedon käsittelyn käytännöt perustuvat?
+
+Laki  varhaiskasvatuksesta ja perusopetuksesta, GDPR (tietosuoja), laki palvelusetelistä, TOS, laki varhaiskasvatuksen asiakasmaksuista, hallintolaki ja arkistolaki, jne.
+
+11. Mistä saatte apua tiedon käsittelyyn liittyvissä mahdollisissa ongelmissa?
+
+sisäiset asiantuntijat
+
+12. Hyödynnättekö tuottamianne kasvatus- ja koulutustietoja johonkin toiseen tarkoitukseen kuin mitä varten olette ne alun perin keränneet?
+
+Ei
+
+12a. Jos hyödynnätte, niin mitä kasvatus- ja koulutustietoja hyödynnätte?
+
+-
+
+12b. Jos hyödynnätte, niin mihin eri tarkoituksiin ja minkä sääntelyn perusteella?
+
+-
+
+12c. Jos hyödynnätte, niin miten ja millä tietoteknisillä välineillä?
+
+-
+
+13. Oletteko havainneet ongelmia tuottamienne kasvatus- ja koulutustietojen hyödyntämisessä?
+
+Ei
+
+13a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+13b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+-
+
+13d. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13e. Jos olette havainneet ongelmia, liittyvätkö ne tietoihin ja niiden sisältöön?
+
+-
+
+13f. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13g. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin?
+
+-
+
+13h. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+14. Luovutatteko tuottamianne kasvatus- ja koulutustietoja muille toimijoille?
+
+Kyllä
+
+14a. Jos luovutatte, niin kenelle luovutatte?
+
+Tarvittaessa palveluiden järjestämisen kannalta välttämättömät tiedot siirtyvät (Vakalaki ja PO laki)
+
+14b. Jos luovutatte, niin mitä tietoja luovutatte?
+
+Tarvittaessa palveluiden järjestämisen kannalta välttämättömät tiedot siirtyvät (Vakalaki ja PO laki)
+
+14.c Jos luovutatte, niin mihin tarkoitukseen tiedot on teiltä pyydetty?
+
+Tarvittaessa palveluiden järjestämisen kannalta välttämättömät tiedot siirtyvät (Vakalaki ja PO laki)
+
+14d. Jos luovutatte, niin minkä lain ja pykälän perusteella tiedot on teiltä pyydetty?
+
+Tarvittaessa palveluiden järjestämisen kannalta välttämättömät tiedot siirtyvät (Vakalaki ja PO laki)
+
+14e. Jos luovutatte, niin miten luovuttaminen käytännössä tapahtuu?
+
+salattuna sähköpostina tai sähköisten järjestelmien kautta
+
+14f. Jos luovutatte, luovutatteko tietoja oma-aloitteisesti?
+
+Ei
+
+14g. Kuvailkaa asiaa tarkemmin
+
+-
+
+15. Oletteko havainneet ongelmia tietojen luovuttamisessa muille toimijoille?
+
+Ei
+
+15a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+15b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+-
+
+15e. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15f. Jos olette havainneet ongelmia, liittyvätkö ne luovutettaviin tietoihin?
+
+-
+
+15g. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15h. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin, joilla tietoja käsitellään ja hyödynnetään?
+
+-
+
+15i. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15j. Oletteko kieltäytyneet tietojen luovuttamisesta?
+
+Kyllä
+
+15k. Jos olette kieltäytyneet, niin millä perusteella?
+
+aina pyytäjällä ei ole ollut lakiin perustuvaa perustetta tietojen pyytämisessä
+
+16. Hyödynnättekö muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassanne?
+
+Kyllä
+
+16a. Jos hyödynnätte, niin minkä toimijan tietoja hyödynnätte?
+
+sosiaali-ja terveydenhuollon, toisen varhaiskasvatusyksikön
+
+16b. Jos hyödynnätte, niin mitä tietoja hyödynnätte?
+
+lapsen varhaiskasvatuksen järjestämisen kannalta välttämättömiä tietoja (esim. tuen järjestämien)
+
+16c. Jos hyödynnätte, niin mihin tarkoitukseen?
+
+lapsen tuen järjestämiseen
+
+16d. Jos hyödynnätte, niin millä perusteella?
+
+vaka-laki ja PO laki
+
+16e. Jos hyödynnätte, niin miten tietojen luovutus käytännössä tapahtuu?
+
+huoltajien välityksellä, moniammatilliset palaverit, salattu sähköposti, sähköisten järjestelmien kautta, postitetut asiakirjat
+
+17. Oletteko havainneet ongelmia tietojen saamisessa muilta toimijoilta?
+
+Ei
+
+17a. Jos olette havainneet ongelmia, niin liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+17b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+
+17c. Jos olette havainneet ongelmia, niin liittyvätkö ne toimintamalleihin?
+
+-
+
+17d. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17e. Jos olette havainneet ongelmia, niin liittyvätkö ne pyydettyihin tietoihin?
+
+-
+
+17f. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17g. Jos olette havainneet ongelmia, niin liittyvätkö ne tietojärjestelmiin?
+
+-
+
+17h. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17i. Onko teille kieltäydytty luovuttamasta pyytämiänne tietoja?
+
+Ei
+
+17j. Jos kyllä, niin millä perusteella tietojen luovuttamisesta on kieltäydytty?
+
+-
+
+
+

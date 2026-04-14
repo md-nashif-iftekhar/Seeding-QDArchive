@@ -1,0 +1,20 @@
+{
+  "id": 31,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3842",
+  "version": null,
+  "title": "Experiences of Using Boundaries as a Coping Tool in Personal Relationships with People with Mental Health and Substance Abuse Problems 2023-2024",
+  "description": "The data consists of writings in which respondents describe their experiences of setting boundaries when a person close to them has a mental health or substance abuse problem. In the writing guidelines, respondents were asked to give a free-form description of using boundaries as a coping tool. In addition, participants were asked to describe how their own life has been affected by the mental health or substance abuse challenges of a loved one and what feelings they have associated with setting ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3842",
+  "upload_date": "2024-07-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3842",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

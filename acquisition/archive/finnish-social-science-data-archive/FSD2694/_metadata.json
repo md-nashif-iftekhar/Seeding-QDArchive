@@ -1,0 +1,20 @@
+{
+  "id": 88,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2694",
+  "version": null,
+  "title": "Substance Abuse Treatment: Therapists' Gender Roles 2008",
+  "description": "The data are part of Substance Abuse Treatment series, which comprises datasets that can be used in both quantitative and qualitative research. This dataset was collected as an internet survey for drug and alcohol counsellors in Finnish outpatient clinics. The survey included four sections. The first section focused on the respondents' background. Questions covered the treatment method or approach the respondents themselves mostly used and how important they thought some often used methods or ap",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2694",
+  "upload_date": "2012-07-20",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2694",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

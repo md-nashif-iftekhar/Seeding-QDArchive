@@ -1,0 +1,3301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>FSD3892</title>
+    <script src="./js/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="bg">
+
+        </div>
+        <div id="content">
+            <div id="logo">
+            </div>
+            <h1>Aineisto-opas<br>FSD3892 Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023</h1>
+
+            <!-- Tabs -->
+            <div class="tab">
+                <!-- TODO: Handle BOTH data_kind_code -->
+                <!-- Study description tab is opened by JS when the page loads -->
+                <button class="tablinks" onclick="openContent(event,'StudyDescription')"
+                    id="defaultOpen">Aineiston kuvailu</button>
+                
+                <button class="tablinks" onclick="openContent(event,'Variables')">Kysymykset</button>
+                
+            </div>
+
+            <!-- Study tab content -->
+            <div id="StudyDescription" class="tabcontent">
+
+    <h2>Aineiston kuvailu</h2>
+
+    <p class="indent long-text">Aineisto on kuvailtu mahdollisimman kattavasti suomeksi ja englanniksi. Aineisto on tarkistettu ja muokattu yksityiskohtaisesti. Tarvittaessa aineistosta on poistettu tunnisteita.</p><p class="indent long-text">Aineistoon ja sen tekijöihin tulee viitata asianmukaisesti kaikissa julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.</p><p class="indent long-text"><strong>Malliviittaus:</strong></p><p class="indent long-text">Kauko, Jaakko (Tampereen yliopisto): Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023 [sähköinen tietoaineisto]. Versio 1.0 (2024-11-25). Yhteiskuntatieteellinen tietoarkisto [jakaja]. https://urn.fi/urn:nbn:fi:fsd:T-FSD3892</p><p class="indent long-text">Viitetiedot julkaisuista, joissa aineistoa on käytetty, toimitetaan Tietoarkiston asiakaspalveluun asiakaspalvelu.fsd@tuni.fi. Aineiston alkuperäiset tekijät ja Tietoarkisto eivät ole vastuussa aineiston jatkokäytössä tuotetuista tuloksista ja tulkinnoista.</p>
+    <br>
+    <p>Klikkaa otsikkoa nähdäksesi lisää tietoja.</p>
+
+    <button onclick="item_toggle()" id="item_toggle" name="Piilota kaikki tiedot" class="toggle_button show">Näytä kaikki tiedot</button>
+
+    <!-- Title and version description -->
+    <div class="item">Aineiston otsikot ja datan versio</div><div class="itemContent"><h3>Aineiston nimi</h3><p class="indent">Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023</p><h3>Aineiston nimi englanniksi</h3><p class="indent">Study on Streamlining the Use of Education and Training Data: Data Producers' Survey 2023</p><h3>Aineiston versio</h3><p class="indent">1.0 (25.11.2024)</p></div>
+
+    <!-- Content description -->
+    <div class="item">Aineiston sisällön kuvaus</div><div class="itemContent"><h3>Tekijät</h3><p class="indent"><a href="https://orcid.org/0000-0003-0538-6806">Kauko, Jaakko</a> (Tampereen yliopisto)</p><h3>Aineiston tekijänoikeudet</h3><p class="indent">Tietoarkiston ja aineiston luovuttajan tekemän sopimuksen mukaisesti.</p><h3>Asiasanat</h3><p class="indent"><a href="http://www.yso.fi/onto/yso/">YSO</a>: kasvatus; koulutus; henkilötiedot; opetus; tiedonhallinta; tiedonhankinta; kunnat; oppilaitokset; varhaiskasvatus; keskusjärjestöt; sivistystoimi; tietojenluovutus; tietosuoja; puutteet; hyödyntäminen</p><h3>Tieteenala/aihealue</h3><p class="indent"><a href="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">OKM</a>: Yhteiskuntatieteet; Muut</p><p class="indent"><a href="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2">CESSDA Topic Classification</a>: Tietoyhteiskunta; Koulutus</p><h3>Sisällön kuvaus</h3><p class="indent long-text">Aineistossa selvitetään kasvatuksen ja koulutuksen järjestäjien näkemyksiä heidän hallussaan olevan tiedon käsittelystä ja luovuttamisesta sekä näihin liittyvistä haasteista. Kysely kohdistettiin varhaiskasvatuksen yksiköille, ensimmäisen ja toisen asteen oppilaitoksille, vapaan sivistystyön oppilaitoksille sekä muille kasvatuksen ja koulutuksen järjestäjille. Lisäksi mukana oli valtakunnallisia ja alueellisia järjestöjä, jotka edustavat näitä toimijoita. Aineisto kerättiin osana opetus- ja kulttuuriministeriön selvityshanketta, jonka tarkoituksena oli tarkastella kasvatus- ja koulutustiedon hyödyntämisen sujuvoittamista.</p><p class="indent long-text">Ensimmäisenä teemana kyselyssä käsiteltiin kasvatuksen ja koulutuksen järjestämisessä syntyvän ja siinä käsiteltävän tiedon tallentamista. Vastaajalta kysyttiin, mitä tietoja hänen edustamassaan organisaatiossa tallennetaan sisäisesti kasvatuksen tai koulutuksen järjestämistä varten. Lisäksi tiedusteltiin tietojen tallentamisesta muihin tarkoituksiin. Tämän jälkeen kysyttiin tarkemmin, mihin tietoja tallennetaan organisaatiossa ja minkälaisia ongelmia tietojen tallentamisessa on kohdattu. Vastaajalta tiedusteltiin myös, mihin organisaation tiedonkäsittelykäytännöt perustuvat, ja mistä he saavat apua mahdollisissa tiedonkäsittelyyn liittyvissä ongelmissa.</p><p class="indent long-text">Seuraavassa osiossa käsiteltiin kasvatus- ja koulutustietojen hyödyntämistä. Vastaajalta kysyttiin, hyödyntävätkö he organisaatiossaan tuottamiaan tietoja muuhun kuin alkuperäiseen käyttötarkoitukseen. Vastaajan tuli myös kertoa, mitä kasvatus- ja koulutustietoja he hyödyntävät, mihin eri tarkoituksiin ja minkä sääntelyn perusteella. Lisäksi kysyttiin mahdollisista ongelmista, joita organisaatiossa on havaittu näiden tietojen hyödyntämisessä. Vastaajan tuli myös täsmentää, mihin ongelmat liittyvät. Edelleen tiedusteltiin, luovuttaako vastaajan edustama organisaatio tuottamiaan tietoja muille toimijoille. Vastaajan tuli kertoa esimerkiksi, kenelle tietoja luovutetaan, mihin tarkoitukseen ja miten luovutus käytännössä tapahtuu. Lisäksi kysyttiin, ovatko he havainneet ongelmia tietojen luovuttamisessa. Lopuksi tiedusteltiin, hyödyntääkö organisaatio muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassaan. Vastaajan tuli kuvata tätä tarkemmin ja kertoa mahdollisista havaituista ongelmista tietojen saamiseen liittyen.</p><p class="indent long-text">Taustatietoina aineistossa ovat vastauskieli, vastaajan edustama organisaatio tai organisaation yleisnimi ja organisaation alue. Aineistosta on tehty html-versio, jonka hakemiston avulla kirjoituksia on helppo selata.</p><h3>Rahoittajat</h3><p class="indent">Opetus- ja kulttuuriministeriö (OKM016:00/2023)</p><h3>Jakelija</h3><p class="indent"><a href="https://www.fsd.tuni.fi/">Yhteiskuntatieteellinen tietoarkisto</a></p></div>
+
+    <!-- Structure and data collection -->
+    <div class="item">Aineiston rakenne ja keruu</div><div class="itemContent"><h3>Maa</h3><p class="indent">Suomi</p><h3>Kohdealue</h3><p class="indent">Suomi</p><h3>Havaintoyksikkötyyppi</h3><p class="indent long-text">Organisaatio</p><p class="indent long-text">Tapahtuma/prosessi/toiminta</p><h3>Perusjoukko/otos</h3><p class="indent">Kasvatuksen ja koulutuksen järjestäjät, oppilaitokset ja näitä edustavat valtakunnalliset järjestöt ensimmäisellä ja toisella asteella sekä vapaassa sivistystyössä (poislukien Ahvenanmaa)</p><h3>Aineiston laatu</h3><p class="indent">Kvalitatiivinen</p><h3>Aineistonkeruun ajankohta</h3><p class="indent">29.05.2023 - 03.11.2023</p><h3>Kerääjät</h3><p class="indent">Kauko, Jaakko (Tampereen yliopisto)</p><h3>Aineiston tuottajat</h3><p class="indent">Opetus- ja kulttuuriministeriö</p><h3>Keruumenetelmä</h3><p class="indent">Itsetäytettävä lomake: verkkolomake</p><h3>Keruuväline- tai ohje</h3><p class="indent">Strukturoimaton lomake</p><h3>Aineiston ajallinen kattavuus</h3><p class="indent">2023</p><h3>Tutkimuksen aikaulottuvuus</h3><p class="indent">Poikkileikkausaineisto</p><h3>Aineiston määrä</h3><p class="indent">21 vastaajan vastaukset erillisissä txt-tiedostoissa. Aineistosta on tuotettu lisäksi selailtava html-versio sekä taulukkomuotoinen csv-versio</p><h3>Otantamenetelmä</h3><p class="indent long-text">Ei-todennäköisyysotanta: harkinnanvarainen poiminta</p><p class="indent long-text">Otoksen muodostamisperusteena oli pyrkimys monipuolisuuteen. Valtakunnallisten organisaatioiden ja keskusjärjestöjen osalta otettiin mukaan suurimmat alan toimijat, joista vastauksen jättivät kahdeksan. Lisäksi vastaajissa oli yksityiseen varhaiskasvatukseen liittyvä alueellinen tai valtakunnallinen toimija. Keskeisiä kasvatuksen ja koulutuksen järjestäjiä ovat kunnat, joita valittiin kyselyn otokseen monipuolisesti. Mukaan on otettu yhdeksän asukasluvultaan suurinta kuntaa. Jäljelle jääneistä 300 kunnasta otettiin mukaan kymmenen: yksi kunta kustakin väkiluvun mukaisesta desiilistä. Otosta varten kuntia tasapainotettiin tilastollisen kuntaryhmityksen, maakunnan ja kielellisen monipuolisuuden mukaisesti. Oppilaitosten ja päiväkotien valinnassa tehtiin toinen poiminta painottaen samoja monipuolisuustekijöitä kuin kuntien valinnassa. Ensimmäisen asteen, toisen asteen ja vapaan sivistystyön oppilaitoksista sekä varhaiskasvatuksen yksiköistä haettiin monipuolisuutta ottamalla mukaan erikoisoppilaitokset ja erityisoppilaitokset. Kuntien lisäksi koulutuksen järjestäjänä voi olla yksityinen toimija, valtio tai koulutuskuntayhtymä.</p><p class="indent long-text">Kyselylinkki Webropol-alustalle lähetettiin opetus- ja kulttuuriministeriöstä saatekirjeineen otokseen kuuluville 49 toimijalle 29.5.2023. Vastausaikaa jatkettiin alkuperäisestä, koska vastauksia ei saatu määräajassa tarpeeksi. Muistutuksia lähetettiin Webropol-alustan kautta. Lisäksi osaan vastaajista otettiin yhteyttä yksilöllisesti sähköpostitse tai puhelimitse, jotta voitiin kannustaa vastaamiseen ja avustaa mahdollisissa kysymyksissä. Kysely suljettiin lopulta 3.11.2023. Vastauksia saatiin yhteensä 32, ja vastausprosentti oli 64%. Valtakunnallisten toimijoiden ja kuntien osoitteet löytyivät opetus- ja kulttuuriministeriön tietokannoista ja muiden toimijoiden osoitteet hankittiin julkisista lähteistä. Kuntiin kysely lähti kirjaamoiden kautta, mikä aiheutti vaihtelua siinä, kuka lopulta sai kyselyn sähköpostiinsa. Usein kirjaamo oli lähettänyt viestin usealle henkilölle sivistystoimessa. Otos kasvoi yhdellä, koska yhdessä tapauksessa vastauslinkki oli kulkenut oppilaitokseen asti, vaikka vastaajaksi tavoiteltiin kuntaa.</p></div>
+
+    <!-- Data usage-->
+    <div class="item">Aineiston käyttö</div><div class="itemContent"><h3>Aineiston käytössä huomioitavaa</h3><p class="indent long-text">Merkittävin puute kattavuuden kannalta on se, että vain yksi päiväkoti vastasi kyselyyn. Kuntien maantieteellisen kattavuuden osalta edustamatta jäi kolme maakuntaa.</p><p class="indent long-text">Tunnisteellisuussyistä tutkijat ovat poistaneet aineistosta kaikki suorat tunnistetiedot, kaupunkien ja kuntien nimiä sekä organisaatioita yksilöiviä tietoja. Aineistosta on poistettu myös kaikki osiot, jotka oli luvattu vain selvitysryhmän käyttöön. Avovastauksiin tehdyt poistot on merkitty [hakasulkein]. Vastaajien järjestys on lisäksi satunnaistettu anonymisoinnin jälkeen.</p><p class="indent long-text">Alkuperäinen aineisto sisälsi 32 vastausta, joista 21 arkistoitiin Tietoarkistoon. Arkistoitavasta kokonaisuudesta puuttuu 11 vastaajan vastaukset, koska niiden arkistointiin ei saatu lupaa. Mikäli vastaaja ei ollut vastannut lainkaan johonkin kysymykseen, kyseiseen kohtaan on merkitty viiva (-).</p><h3>Viittausvaatimus</h3><p class="indent long-text">Aineistoon ja sen tekijöihin tulee viitata asianmukaisesti kaikissa julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.</p><h3>Malliviittaus</h3><p class="indent long-text">Kauko, Jaakko (Tampereen yliopisto): Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023 [sähköinen tietoaineisto]. Versio 1.0 (2024-11-25). Yhteiskuntatieteellinen tietoarkisto [jakaja]. https://urn.fi/urn:nbn:fi:fsd:T-FSD3892</p><p class="indent long-text">Viitetiedot julkaisuista, joissa aineistoa on käytetty, toimitetaan Tietoarkiston asiakaspalveluun asiakaspalvelu.fsd@tuni.fi. Aineiston alkuperäiset tekijät ja Tietoarkisto eivät ole vastuussa aineiston jatkokäytössä tuotetuista tuloksista ja tulkinnoista.</p><h3>Julkaisut</h3><p class="indent long-text"><a href="http://urn.fi/URN:ISBN:978-952-263-926-4">Kauko, Jaakko; Penttinen, Jaakko; Rötsä, Maarit; Voutilainen, Tomi (2024). Sujuva kasvatus- ja koulutustietojen hyödyntäminen : Selvitysryhmän loppuraportti. Opetus- ja kulttuuriministeriön julkaisuja 2024:17 Opetus- ja kulttuuriministeriö. http://urn.fi/URN:ISBN:978-952-263-926-4</a></p><h3>Käytön ja kuvailun oheismateriaalit</h3><p class="indent"><a href="http://urn.fi/URN:ISBN:978-952-263-926-4">Kauko, Jaakko; Penttinen, Jaakko; Rötsä, Maarit; Voutilainen, Tomi (2024). Sujuva kasvatus- ja koulutustietojen hyödyntäminen : Selvitysryhmän loppuraportti. Opetus- ja kulttuuriministeriön julkaisuja 2024:17 Opetus- ja kulttuuriministeriö.</a></p><h3>Aineiston sijainti</h3><p class="indent"><a href="https://www.fsd.tuni.fi/">Yhteiskuntatieteellinen tietoarkisto</a></p><h3>Pysyvät tunnisteet</h3><p class="indent"><a href="https://urn.fi/urn:nbn:fi:fsd:T-FSD3892">https://urn.fi/urn:nbn:fi:fsd:T-FSD3892</a></p><p class="indent"><a href="https://doi.org/10.60686/t-fsd3892">https://doi.org/10.60686/t-fsd3892</a></p><h3>Käyttöoikeudet</h3><p class="indent">Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).</p></div>
+</div>
+
+            
+            <!-- Variable / Question tab content -->
+            <div id="Variables" class="tabcontent">
+    <h2>
+        Muuttujat
+    </h2>
+
+    
+
+    
+
+    <br />
+    <button onclick="var_toggle()" id="var_toggle" name="Piilota kaikki tiedot"
+        class="toggle_button show">Näytä kaikki tiedot</button>
+
+    <div id="var_search_container">
+        Suodata:
+        <input type="text" id="var_search" onkeyup="var_search(event)">
+
+        <div id="cb">
+            <input type="radio" id="var_name" name="var_filter" value="var_name" checked="true">
+            <label for="var_name">
+                Kysymyksen nimi
+            </label>
+            <input type="radio" id="var_label" name="var_filter" value="var_label">
+            <label for="var_label">
+                Kysymyksen selite
+            </label>
+            <input type="radio" id="var_question" name="var_filter" value="var_question">
+            <label for="var_question">Kysymysteksti</label>
+        </div>
+    </div>
+
+    <!-- Variable table -->
+    <table id="var_table">
+    <tr>
+        <th onclick="sortTable('0')" class="incr_order">Esj.</th>
+        <th onclick="sortTable('1')">
+            Kysymyksen nimi
+        </th>
+        <th onclick="sortTable('2')">
+            Kysymyksen selite
+        </th>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">1</td>
+        <td class="var_name">Q1</td>
+        <td class="var_label">Mitä tietoja tallennatte organisaation sisäisesti kasvatuksen tai koulutuksen järjestämistä varten?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q1_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Mitä tietoja tallennatte organisaation sisäisesti kasvatuksen tai koulutuksen järjestämistä varten?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q1_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q1_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">2</td>
+        <td class="var_name">Q2</td>
+        <td class="var_label">Tallennatteko tietoja muita tarkoituksia varten? Jos tallennatte, mitä tietoja tallennatte ja mitä tarkoituksia varten?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q2_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Tallennatteko tietoja muita tarkoituksia varten? Jos tallennatte, mitä tietoja tallennatte ja mitä tarkoituksia varten?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q2_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q2_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">3</td>
+        <td class="var_name">Q3</td>
+        <td class="var_label">Mihin tallennatte eri tietoja?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q3_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Mihin tallennatte eri tietoja?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q3_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q3_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">4</td>
+        <td class="var_name">Q4</td>
+        <td class="var_label">Minkälaisia ongelmia olette kohdanneet tietojen tallentamisessa?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q4_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Minkälaisia ongelmia olette kohdanneet tietojen tallentamisessa?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q4_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q4_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">5</td>
+        <td class="var_name">Q5</td>
+        <td class="var_label">Mikäli käytätte ostopalveluja, minkälaisia tietojen käsittelyn haasteita siihen liittyy?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q5_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Mikäli käytätte ostopalveluja, minkälaisia tietojen käsittelyn haasteita siihen liittyy?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q5_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q5_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">6</td>
+        <td class="var_name">Q6</td>
+        <td class="var_label">Mihin organisaationne tiedon käsittelyn käytännöt perustuvat?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q6_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Mihin organisaationne tiedon käsittelyn käytännöt perustuvat?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q6_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q6_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">7</td>
+        <td class="var_name">Q7</td>
+        <td class="var_label">Mistä saatte apua tiedon käsittelyyn liittyvissä mahdollisissa ongelmissa?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q7_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Mistä saatte apua tiedon käsittelyyn liittyvissä mahdollisissa ongelmissa?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q7_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q7_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">8</td>
+        <td class="var_name">Q8</td>
+        <td class="var_label">Hyödynnättekö tuottamianne kasvatus- ja koulutustietoja johonkin toiseen tarkoitukseen kuin mitä varten olette ne alun perin keränneet? Jos hyödynnätte, niin mitä kasvatus- ja koulutustietoja hyödynnätte? Jos hyödynnätte, niin mihin eri tarkoituksiin ja minkä sääntelyn perusteella? Jos hyödynnätte, niin miten ja millä tietoteknisillä välineillä?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q8_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Hyödynnättekö tuottamianne kasvatus- ja koulutustietoja johonkin toiseen tarkoitukseen kuin mitä varten olette ne alun perin keränneet? Jos hyödynnätte, niin mitä kasvatus- ja koulutustietoja hyödynnätte? Jos hyödynnätte, niin mihin eri tarkoituksiin ja minkä sääntelyn perusteella? Jos hyödynnätte, niin miten ja millä tietoteknisillä välineillä?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q8_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q8_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">9</td>
+        <td class="var_name">Q9</td>
+        <td class="var_label">Oletteko havainneet ongelmia tuottamienne kasvatus- ja koulutustietojen hyödyntämisessä? Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q9_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Oletteko havainneet ongelmia tuottamienne kasvatus- ja koulutustietojen hyödyntämisessä? Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan / toimintamalleihin / tietoihin ja niiden sisältöön / tietojärjestelmiin? Kuvailkaa ongelmaa tarkemmin.</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q9_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q9_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">10</td>
+        <td class="var_name">Q10</td>
+        <td class="var_label">Luovutatteko tuottamianne kasvatus- ja koulutustietoja muille toimijoille? Jos luovutatte, niin kenelle luovutatte, mitä tietoja luovutatte, mihin tarkoitukseen tiedot on teiltä pyydetty, minkä lain ja pykälän perusteella tiedot on teiltä pyydetty, miten luovuttaminen käytännössä tapahtuu, luovutatteko tietoja oma-aloitteisesti? Kuvailkaa asiaa tarkemmin.</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q10_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Luovutatteko tuottamianne kasvatus- ja koulutustietoja muille toimijoille? Jos luovutatte, niin kenelle luovutatte, mitä tietoja luovutatte, mihin tarkoitukseen tiedot on teiltä pyydetty, minkä lain ja pykälän perusteella tiedot on teiltä pyydetty, miten luovuttaminen käytännössä tapahtuu, luovutatteko tietoja oma-aloitteisesti? Kuvailkaa asiaa tarkemmin.</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q10_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q10_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">11</td>
+        <td class="var_name">Q11</td>
+        <td class="var_label">Oletteko havainneet ongelmia tietojen luovuttamisessa muille toimijoille? Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan / toimintamalleihin / luovutettaviin tietoihin / tietojärjestelmiin, joilla tietoja käsitellään ja hyödynnetään. Kuvailkaa ongelmaa tarkemmin.</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q11_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Oletteko havainneet ongelmia tietojen luovuttamisessa muille toimijoille? Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan / toimintamalleihin / luovutettaviin tietoihin / tietojärjestelmiin, joilla tietoja käsitellään ja hyödynnetään. Kuvailkaa ongelmaa tarkemmin.</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q11_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q11_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">12</td>
+        <td class="var_name">Q12</td>
+        <td class="var_label">Oletteko kieltäytyneet tietojen luovuttamisesta? Jos olette kieltäytyneet, niin millä perusteella?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q12_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Oletteko kieltäytyneet tietojen luovuttamisesta? Jos olette kieltäytyneet, niin millä perusteella?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q12_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q12_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">13</td>
+        <td class="var_name">Q13</td>
+        <td class="var_label">Hyödynnättekö muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassanne? Jos hyödynnätte, niin minkä toimijan tietoja hyödynnätte, mitä tietoja hyödynnätte, mihin tarkoitukseen, millä perusteella, miten tietojen luovutus käytännössä tapahtuu?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q13_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Hyödynnättekö muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassanne? Jos hyödynnätte, niin minkä toimijan tietoja hyödynnätte, mitä tietoja hyödynnätte, mihin tarkoitukseen, millä perusteella, miten tietojen luovutus käytännössä tapahtuu?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q13_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q13_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">14</td>
+        <td class="var_name">Q14</td>
+        <td class="var_label">Oletteko havainneet ongelmia tietojen saamisessa muilta toimijoilta? Jos olette havainneet ongelmia, niin liittyvätkö ne lainsäädäntöön tai sen tulkintaan / toimintamalleihin / pyydettyihin tietoihin / tietojärjestelmiin? Kuvailkaa ongelmaa tarkemmin.</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q14_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Oletteko havainneet ongelmia tietojen saamisessa muilta toimijoilta? Jos olette havainneet ongelmia, niin liittyvätkö ne lainsäädäntöön tai sen tulkintaan / toimintamalleihin / pyydettyihin tietoihin / tietojärjestelmiin? Kuvailkaa ongelmaa tarkemmin.</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q14_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q14_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+    <tr class="expandable">
+        <td class="var_order">15</td>
+        <td class="var_name">Q15</td>
+        <td class="var_label">Onko teille kieltäydytty luovuttamasta pyytämiänne tietoja? Jos kyllä, niin millä perusteella tietojen luovuttamisesta on kieltäydytty?</td>
+    </tr>
+    <tr class="expansion">
+        <td colspan="3" id=FSD3892_Q15_var-cont>
+            <div class="question_text">
+                
+
+                
+                
+                <h3>Kysymysteksti</h3><p class="indent">Onko teille kieltäydytty luovuttamasta pyytämiänne tietoja? Jos kyllä, niin millä perusteella tietojen luovuttamisesta on kieltäydytty?</p>
+                
+                
+                
+
+            </div>
+            <!-- Variable data visualizations -->
+            <div class="freq-container" id=FSD3892_Q15_var-flex>
+    <script>
+        // Javascript script for creating frequency table
+        // and visualization using D3.js
+
+        var categories = [];
+        var container = d3.select("#FSD3892_Q15_var-flex")
+        // Create frequency table if more than 0 categories.
+        if (categories.length > 0) {
+
+            var freqTable = container.append("div")
+                .attr("class", "flex-item")
+
+            freqTable.append("h3")
+                .text("Frekvenssit")
+
+            var selection = freqTable.append("table")
+                .attr("class", "frequency")
+            // first row
+            var headTr = selection.append("tr")
+                .attr("class", "header")
+            headTr.append("th")
+                .attr("class", "label")
+                .text("Selite")
+            headTr.append("th")
+                .text("Arvo")
+            headTr.append("th")
+                .text("n")
+            headTr.append("th")
+                .text("%")
+            headTr.append("th")
+                .text("v.%");
+            // rows [2..n-1]
+            categories.forEach(function (category) {
+                var newTr = selection.append("tr");
+
+                if (category.missing) {
+                    newTr.append("td").text("Tieto puuttuu (SYSMISS)");
+                    newTr.append("td").text("-");
+                } else {
+                    newTr.append("td").text(category.label);
+                    newTr.append("td").text(category.value);
+                }
+                newTr.append("td")
+                    .text(category.statistic);
+                newTr.append("td")
+                    .text(category.all_percent);
+
+                newTr.append("td").text(category.valid_percent);
+                return newTr;
+            });
+            // last row
+            var finalTr = selection.append("tr").attr("class", "final");
+            finalTr.append("td").text("Yhteensä");
+            finalTr.append("td").text("");
+            finalTr.append("td").text(0);
+        finalTr.append("td").text("100.0");
+        finalTr.append("td").text("100.0");
+        }
+        // Draw bar graph
+        // Delete invalid values (SYSMIS) from data
+        var validCategories = categories.filter(function (x) { return !x.missing })
+        if ("False" === "True" && validCategories.length < 20) {
+
+            var margin = { top: 20, right: 10, bottom: 30, left: 30 },
+                height = 330 - margin.top - margin.bottom,
+                width = 400 - margin.left - margin.right;
+
+            function make_y_gridlines() {
+                return d3.axisLeft(y)
+            }
+            // calculate scales for x and y axes
+            x = d3.scaleBand()
+                .domain(d3.range(validCategories.length))
+                .range([margin.left, width - margin.right])
+                .padding(0.1)
+            y = d3.scaleLinear()
+                .domain([0, d3.max(validCategories, function (d) { return d.statistic })]).nice()
+                .range([height - margin.bottom, margin.top])
+
+            // draw x and y axes.
+            xAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + 0 + "," + (height - margin.bottom) + ")")
+                    .call(d3.axisBottom(x).tickFormat(function (i) { return validCategories[i].value }).tickSizeOuter(0))
+            }
+            yAxis = function (g) {
+                return g
+                    .attr("transform", "translate(" + (margin.left) + ",0)")
+                    .call(d3.axisLeft(y))
+                    .call(function (g) { return g.select(".domain").remove() })
+                    .call(function (g) {
+                        return g.append("text")
+                            .attr("x", -margin.left)
+                            .attr("y", 10)
+                            .attr("fill", "currentColor")
+                            .attr("text-anchor", "start")
+                            .text(validCategories.y)
+                    })
+            }
+            if (categories.length < 20 && categories.length > 1) {
+                // container for header and graph
+                var graph = container.append("div")
+                    .attr("class", "flex-item");
+
+                // header for graph
+                graph.append("h3")
+                    .text("Kuvaaja")
+
+                // container for graph
+                var div = graph.append("div")
+                    .attr("class", "flex-container graph");
+
+                // draws graph with certain width and height
+                var svg = div.append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + margin.left + "," + margin.top + ")");
+
+                // add horizontal gridlines
+                svg.append("g")
+                    .attr("class", "grid")
+                    .attr("transform", "translate(" + margin.left + ",0)")
+                    .attr("width", width - margin.left - margin.right)
+                    .call(make_y_gridlines()
+                        .tickSize(-width + margin.left + margin.right)
+                        .tickFormat("")
+                    )
+
+                // add x-axis to graph
+                svg.append("g")
+                    .call(xAxis);
+
+                // text label for the x axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + (width / 2) + " ," +
+                        (height + margin.bottom / 2) + ")")
+                    .style("text-anchor", "middle")
+                    .text("Arvo");
+
+                // add y-axis to graph
+                svg.append("g")
+                    .call(yAxis);
+
+                // text label for y axis
+                svg.append("text")
+                    .attr("transform",
+                        "translate(" + -margin.left * (3 / 4) + " ," +
+                        (height / 2) + ")")
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text("n");
+
+                // add bars to graph
+                svg.append("g")
+                    .attr("fill", "steelblue")
+                    .selectAll("rect")
+                    .data(validCategories)
+                    .join("rect")
+                    .attr("x", function (d, i) { return x(i) })
+                    .attr("y", function (d) { return y(d.statistic) })
+                    .attr("height", function (d) { return y(0) - y(d.statistic) })
+                    .attr("width", x.bandwidth());
+
+                // add category explanations to right of graph in a list form.
+                ul = div.append("ul")
+                    .attr("style", "list-style-type:none;font-size:0.8em;padding:0px;");
+                var explanations = [];
+                validCategories.forEach(function (cat) {
+                    explanations.push(cat.value + ". " + cat.label);
+                });
+                ul.selectAll('li')
+                    .data(explanations)
+                    .enter()
+                    .append('li')
+                    .html(String)
+                    .attr("class", "expl");
+            };
+        }
+    </script>
+</div>
+<hr>
+<div class="desc">
+    
+</div>
+
+            </div>
+        </td>
+    </tr>
+    
+</table>
+
+    
+</div>
+            
+
+            <button onclick="takeUp()" id="arrow_up"></button>
+
+        </div>
+        <script src="./js/script.js"></script>
+    </div>
+</body>
+<!-- Page footer -->
+<div id="footer">
+    <div id="footerContent">
+
+    </div>
+</div>
+
+</html>

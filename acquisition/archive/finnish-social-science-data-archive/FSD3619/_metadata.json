@@ -1,0 +1,20 @@
+{
+  "id": 555,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3619",
+  "version": null,
+  "title": "Experiences of Life with Adult Incontinence Pads 2020-2021",
+  "description": "The data consists of writings in which respondents describe their experiences of using incontinence guards, or adult incontinence pads. Respondents' experiences of using incontinence guards relate either to their own use or to helping others. In the writing call respondents were asked to write an autobiographical story or stories about their experiences of using adult incontinenc pads. The respondents were asked to write a story about their life with adult pads from the perspective they wanted. ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3619",
+  "upload_date": "2025-01-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3619",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

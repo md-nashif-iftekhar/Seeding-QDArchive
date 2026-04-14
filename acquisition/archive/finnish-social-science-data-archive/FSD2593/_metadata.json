@@ -1,0 +1,20 @@
+{
+  "id": 98,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2593",
+  "version": null,
+  "title": "Finnish Opinions on Security Policy and National Defence 2010",
+  "description": "This annual survey charted Finnish public opinion on foreign policy, defence policy, security, military alliances, military service, Finland's military presence in Afghanistan, and the EU's new diplomatic service. The respondents were asked how well Finland had managed its foreign policy and defence policy, should Finland join NATO or not, why should the country join or not join, and should Finland take up arms to defend itself if it were attacked. One theme pertained to military service and the",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2593",
+  "upload_date": "2011-03-09",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2593",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 434,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2964",
+  "version": null,
+  "title": "Linux User Perspectives on Operating Systems 2008-2009",
+  "description": "The study investigated the views of Finnish Linux users on three operating systems: Windows, Mac OS X and Linux. The respondents' images of operating systems were charted by asking them to rate each OS on a semantic differential scale (seven-point scale between opposite adjectives, e.g. \"easy to use - difficult to use\", \"just - unjust\"). Further questions charted participation in the Linux community, and the respondents were asked whether Linux was their primary operating system, which Linux dis",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2964",
+  "upload_date": "2015-07-06",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2964",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

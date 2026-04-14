@@ -1,0 +1,20 @@
+{
+  "id": 472,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3519",
+  "version": null,
+  "title": "Future of Youth Work 2030: Survey 2020",
+  "description": "The study surveyed youth work professionals on their views on the future of youth work and the needs of the field in Finland in 2030. The survey is part of the research project Tulevaisuuden nuorisoty\u00f6n tekij\u00e4t, paikat ja ymp\u00e4rist\u00f6t (\"Workers, Places and Environments in the Future of Youth Work\"). The data were produced by a network of partners: Tampere University, the University of Eastern Finland, the University of Applied Sciences, Centria University of Applied Sciences, Diakonia University o",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3519",
+  "upload_date": "2023-03-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3519",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 456,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3214",
+  "version": null,
+  "title": "Student and Staff Interviews on Curriculum Development in Higher Education 2009 and 2012",
+  "description": "This dataset contains interviews in Finnish with students and staff at the University of Tampere and Tampere University of Applied Sciences who had participated in curriculum development work. The interviewees were asked to describe progress made in curriculum development and discussions concerning the curriculum. They were asked what types of obstacles, challenges and, on the other hand, successes the curriculum and curriculum development had faced. Other interview themes included evaluation of",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3214",
+  "upload_date": "2018-12-14",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3214",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

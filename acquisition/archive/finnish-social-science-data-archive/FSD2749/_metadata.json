@@ -1,0 +1,20 @@
+{
+  "id": 523,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2749",
+  "version": null,
+  "title": "Finnish Working Life Barometer: Local Government Employees 2004",
+  "description": "The annual survey studied employee opinion on the quality of working life in Finnish municipalities. Main themes were psychosocial working environment, job characteristics, pay systems, job satisfaction, employment security, training and development, capacity to work, and bullying and discrimination at work. The year 2004 survey contained more questions than previously on workplace characteristics, pay systems, bullying and violence, and willingness to give up work. First, the respondents were a",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2749",
+  "upload_date": "2013-06-13",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2749",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

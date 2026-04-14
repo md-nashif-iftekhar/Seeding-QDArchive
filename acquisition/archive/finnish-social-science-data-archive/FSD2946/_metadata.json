@@ -1,0 +1,20 @@
+{
+  "id": 439,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2946",
+  "version": null,
+  "title": "Finnish Working Life Barometer 2013",
+  "description": "The annual survey studied employee opinion on the quality of working life in Finland. Main themes were changes at work, psychosocial working environment, job characteristics, pay systems, satisfaction with the job, workload and work pace, employment security, training and development, capacity to work, and bullying and discrimination at work. The year 2013 survey contained some new questions, some previously asked questions were rephrased, and the total number of questions was reduced to shorten",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2946",
+  "upload_date": "2014-11-27",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2946",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

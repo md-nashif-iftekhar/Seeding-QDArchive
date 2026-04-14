@@ -1,0 +1,20 @@
+{
+  "id": 576,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/49e6cb57-401a-4996-9b32-16f26ed02d65/5",
+  "version": "5",
+  "title": "School Election 2007, National Study",
+  "description": "\"School Election 2007, nationwide survey\" is a national survey (telephone interview) carried out by TNS Gallup A/S on behalf of Sikt - Norwegian Agency for Shared Services in Education and Research (Norwegian Social Science Data Services\"(NSD)). The questions in the survey are mostly same questions that are asked pupils in Norwegian high schools in the School Election 2007.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2007-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD1255-1",
+  "download_version_folder": "5",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": 171,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3861",
+  "version": null,
+  "title": "Impostor Syndrome Experiences from University Students and Recent Graduates 2024",
+  "description": "The data consists of writings by university students and recent graduates about their experiences of imposter syndrome. The purpose of the collection of writings was to gain insight into how early career graduates perceive the imposter syndrome to have affected them. Writings were expected from graduates who were in the final stages of their studies and had already been employed in their field, as well as from graduates who were in employment and had graduated up to three years earlier. They wer",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3861",
+  "upload_date": "2024-12-02",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3861",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

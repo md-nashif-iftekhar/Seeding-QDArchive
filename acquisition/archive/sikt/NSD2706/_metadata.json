@@ -1,0 +1,20 @@
+{
+  "id": 570,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/aefbafcf-8218-4efe-82bc-8c375f128d6f/8",
+  "version": "8",
+  "title": "The Leopard that Learnt from the Cat and Other Narratives of Carnivore-Human Coexistence in Northern India, 2017",
+  "description": "This study explored the diversity of factors that influence human-leopard relationships in Himachal Pradesh, India. Looking beyond the socio-economic and ecological dimensions of human-leopard conflict, it documented the multifaceted nature of human-wildlife relationships. A qualitative analysis of human-leopard interactions was carried out based on 23 interviews conducted during an ethnographic study of various stakeholders in the vicinity of a village in Hamirpur district, Himachal Pradesh, an area with a long history of co-habitation between leopards and rural inhabitants in 2016 and 2017.\n\nData are freely available for downloading.",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2017-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD2706",
+  "download_version_folder": "8",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

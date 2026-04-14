@@ -1,0 +1,20 @@
+{
+  "id": 455,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3974",
+  "version": null,
+  "title": "Experiences of Generational Differences 2022-2023",
+  "description": "The data consists of writings that explore intergenerational attitudes and thoughts related to different generations. In the writing instructions, respondents were asked to share their observations and experiences regarding how people of different ages relate to one another and how these attitudes have changed over time. The supporting questions addressed, for example, whether the differences between generations have increased or decreased, and what might explain potential tensions between gener",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3974",
+  "upload_date": "2025-10-10",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3974",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

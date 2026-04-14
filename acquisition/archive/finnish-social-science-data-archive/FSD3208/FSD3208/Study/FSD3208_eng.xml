@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<codeBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="ddi:codebook:2_5" version="2.5" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd" xml:lang="en">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>DDI description: Gustaf Alfred af Hällström: library and purchases of printed works 1845-1861</titl>
+        <parTitl xml:lang="fi">DDI-kuvailu: Gustaf Alfred af Hällströmin kirjasto ja kirjaostot 1845-1861</parTitl>
+        <IDNo agency="FSD">3208</IDNo>
+      </titlStmt>
+      <prodStmt>
+        <producer abbr="FSD">Finnish Social Science Data Archive</producer>
+        <copyright>Finnish Social Science Data Archive</copyright>
+        <prodPlac>Finnish Social Science Data Archive</prodPlac>
+      </prodStmt>
+      <verStmt>
+        <version date="2017-11-22" type="mef_eng">1.0.0</version>
+      </verStmt>
+      <biblCit>Gustaf Alfred af Hällström: library and purchases of printed works 1845-1861 [metadata]. Metadata version 1.0.0 (2017-11-22). Finnish Social Science Data Archive [producer and distributor]. DOI: https://doi.org/10.60686/t-fsd3208; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3208</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3208" />
+    </citation>
+    <notes xml:lang="fi">FSD:n aineistokuvailut (FSD metadata records), joiden tekijä on Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive), on lisensoitu Creative Commons 1.0 Yleismaailmallinen (CC0 1.0) -lisenssillä.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.fi" />
+    </notes>
+    <notes xml:lang="en">FSD:n aineistokuvailut (FSD metadata records) by Suomen yhteiskuntatieteellinen tietoarkisto (Finnish Social Science Data Archive) are licensed under a Creative Commons 1.0 Universal (CC0 1.0) license.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.en" />
+    </notes>
+    <notes xml:lang="sv">FSD:n aineistokuvailut (FSD metadata records) av Finlands samhällsvetenskapliga dataarkiv (Finnish Social Science Data Archive) är licensierade under en Creative Commons 1.0 Universiell (CC0 1.0) licens.
+      <ExtLink URI="https://creativecommons.org/publicdomain/zero/1.0/deed.sv" />
+    </notes>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>Gustaf Alfred af Hällström: library and purchases of printed works 1845-1861</titl>
+        <parTitl xml:lang="fi">Gustaf Alfred af Hällströmin kirjasto ja kirjaostot 1845-1861</parTitl>
+        <IDNo agency="FSD">3208</IDNo>
+        <IDNo agency="URN">urn:nbn:fi:fsd:T-FSD3208</IDNo>
+        <IDNo agency="DOI">10.60686/t-fsd3208</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty>Hakapää, Jyrki</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <copyright>In accordance with the agreement between FSD and the depositor.</copyright>
+      </prodStmt>
+      <distStmt>
+        <distrbtr abbr="FSD" URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</distrbtr>
+        <distDate date="2018-09-05" />
+      </distStmt>
+      <serStmt ID="S8" URI="https://services.fsd.tuni.fi/catalogue/series/8?lang=en">
+        <serName>Individual datasets</serName>
+        <serInfo>
+          <p>Individual datasets that do not belong to any series.</p>
+        </serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2017-11-22" type="main_data">1.0</version>
+      </verStmt>
+      <biblCit>Hakapää, Jyrki: Gustaf Alfred af Hällström: library and purchases of printed works 1845-1861 [dataset]. Data version 1.0 (2017-11-22). Finnish Social Science Data Archive [distributor]. DOI: https://doi.org/10.60686/t-fsd3208; URN: https://urn.fi/urn:nbn:fi:fsd:T-FSD3208</biblCit>
+      <holdings location="Finnish Social Science Data Archive FSD" URI="https://urn.fi/urn:nbn:fi:fsd:T-FSD3208" />
+    </citation>
+    <stdyInfo>
+      <subject>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">book readership</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">book use</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">class differentiation</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">cultural heritage</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">cultural history</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">historiography</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">history</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">libraries</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">literature</keyword>
+        <keyword vocab="ELSST" vocabURI="https://elsst.cessda.eu/id">purchasing</keyword>
+        <topcClas vocab="OKM" vocabURI="http://www.yso.fi/onto/okm-tieteenala/conceptscheme">Social sciences</topcClas>
+        <topcClas vocab="CESSDA Topic Classification" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.cessda.cv:TopicClassification:4.2.3">History</topcClas>
+      </subject>
+      <abstract>
+        <p>This dataset comprises a list of printed works owned and purchased between 1845-1861 by Gustaf Alfred af Hällström (1827-1899), a landowner from Vihti and a member of the Diet of Finland. The data also include 44 photographs of the hand-written manuscripts which are archived in the National Library of Finland's archive for the noble families Gadolin and af Hällström.</p>
+        <p>The data specify each purchased and owned work along with information on the time of purchase, bibliographic information, price and quantity of volumes purchased, if the work had been purchased from an auction in Helsinki as well as if the work had disappeared from af Hällström's collection or if it had been donated to someone else.</p>
+        <p>The dataset is only available in Finnish.</p>
+      </abstract>
+      <sumDscr>
+        <timePrd event="start" date="1845" />
+        <timePrd event="end" date="1861" />
+        <collDate event="start" date="2016-08" />
+        <collDate event="end" date="2017-05" />
+        <nation abbr="FI">Finland</nation>
+        <geogCover>Finland</geogCover>
+        <anlyUnit>Media unit: Text
+          <concept vocab="DDI Analysis Unit" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:AnalysisUnit:2.1.3">MediaUnit.Text</concept>
+        </anlyUnit>
+        <universe clusion="I">Gustaf Alfred af Hällström's list of book purchases from 1845-1861</universe>
+        <dataKind>Qualitative</dataKind>
+      </sumDscr>
+    </stdyInfo>
+    <method>
+      <dataColl>
+        <timeMeth>Cross-section
+          <concept vocab="DDI Time Method" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TimeMethod:1.2.3">CrossSection</concept>
+        </timeMeth>
+        <dataCollector>Hakapää, Jyrki</dataCollector>
+        <sampProc>Non-probability: Purposive
+          <concept vocab="DDI Sampling Procedure" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:SamplingProcedure:2.0.2">Nonprobability.Purposive</concept>
+        </sampProc>
+        <sampProc>
+          <p>The data are based on the only known Finnish list of book purchases from the 19th century.</p>
+        </sampProc>
+        <collMode>Compilation/Synthesis
+          <concept vocab="DDI Mode of Collection" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:ModeOfCollection:5.0.1">CompilationSynthesis</concept>
+        </collMode>
+        <resInstru>Data collection guidelines: Secondary data collection guide
+          <concept vocab="DDI Type of Instrument" vocabURI="https://vocabularies.cessda.eu/urn/urn:ddi:int.ddi.cv:TypeOfInstrument:1.1.2">DataCollectionGuidelines.SecondaryDataCollectionGuide</concept>
+        </resInstru>
+        <sources>
+          <dataSrc>Gadolin-Hällström family archive. Coll. 57.78. The Manuscript Collection, the National Library of Finland.</dataSrc>
+        </sources>
+      </dataColl>
+      <stdyClas type="A">Detailed and specific data description in Finnish and English. The data are checked and processed in detail. If necessary, the data are anonymised.</stdyClas>
+    </method>
+    <dataAccs>
+      <setAvail>
+        <accsPlac URI="https://www.fsd.tuni.fi/">Finnish Social Science Data Archive</accsPlac>
+        <origArch>National Library of Finland</origArch>
+        <collSize>44 photographs in jpg format and 1 Excel table in ods format.</collSize>
+      </setAvail>
+      <useStmt>
+        <restrctn>The dataset is (A) openly available for all users without registration (CC BY 4.0).</restrctn>
+        <citReq>The data and its creators shall be cited in all publications and presentations for which the data have been used. The bibliographic citation may be in the form suggested by the archive or in the form required by the publication.</citReq>
+        <deposReq>Notify FSD of all publications where you have used the data by sending the citation information to user-services.fsd@tuni.fi.</deposReq>
+        <disclaimer>The original data creators and the archive bear no responsibility for any results or interpretations arising from the reuse of the data.</disclaimer>
+      </useStmt>
+      <notes>Some clarifications were made in the Excel table at FSD.</notes>
+    </dataAccs>
+    <othrStdyMat>
+      <relPubl xml:lang="fi">Hakapää, Jyrki (2017). Tiedon ja kulttuurin tarpeet. Gustaf Alfred af Hällströmin kirjahankinnat 1845-1861. Teoksessa: Leivoksia, kaupunkilaisia ja sivistysaatteita. Kävelyretkiä Euroopan historiaan (toim. Aalto, Sari &amp; Nyström, Samu &amp; Peake, Rose-Marie), 34-48. Helsinki: Kirjapaja.
+        <citation>
+          <titlStmt>
+            <titl>Tiedon ja kulttuurin tarpeet. Gustaf Alfred af Hällströmin kirjahankinnat 1845-1861</titl>
+          </titlStmt>
+          <distStmt>
+            <distDate date="2017" />
+          </distStmt>
+        </citation>
+      </relPubl>
+    </othrStdyMat>
+  </stdyDscr>
+</codeBook>

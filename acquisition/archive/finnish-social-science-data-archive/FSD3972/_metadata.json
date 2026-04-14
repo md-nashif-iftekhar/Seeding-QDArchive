@@ -1,0 +1,20 @@
+{
+  "id": 481,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3972",
+  "version": null,
+  "title": "Memories of Package Holidays 2024",
+  "description": "The data consists of the responses to the Eviva Espanja! memory collection. In the writings, Finns share their memories of package holidays. In the writing invitation, respondents were asked to share their experiences and memories of package holidays, both from decades ago and from recent years. They could focus on a single trip or tell about their own package travel in general. A number of different questions were provided to help with the writing process. Background information includes, if pr",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3972",
+  "upload_date": "2025-06-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3972",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

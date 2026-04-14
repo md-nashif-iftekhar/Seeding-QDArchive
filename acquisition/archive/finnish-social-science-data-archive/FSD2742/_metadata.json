@@ -1,0 +1,20 @@
+{
+  "id": 437,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2742",
+  "version": null,
+  "title": "Finnish Working Life Barometer: Local Government Employees 1996",
+  "description": "The annual survey studied employee opinion on the quality of working life in Finnish municipalities. Main themes were job characteristics, work environment, conflicts at the workplace, influence over decisions, working hours, pay systems and job security. The year 1996 survey contained new questions on job skills requirements and the recently established 'job alternative' leave system. First, the respondents were asked about the number of years they had worked for the employer they were working ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2742",
+  "upload_date": "2012-11-28",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2742",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

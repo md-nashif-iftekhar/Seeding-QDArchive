@@ -1,0 +1,20 @@
+{
+  "id": 569,
+  "query_string": "",
+  "repository_id": 20,
+  "repository_url": "https://sikt.no/en/find-data",
+  "project_url": "https://surveybanken.sikt.no/en/study/d78856d8-add5-46ec-92ca-1e0e6e8c3bb9/5",
+  "version": "5",
+  "title": "School Election 2017, National Study",
+  "description": "School Election 2017, National Study\" is a national opinion poll (telephone interview) conducted by Opinion on behalf of Sikt - Norwegian Agency for Shared Services in Education and Research. The 20 questions included in the opinion poll are some of the same ones that were asked of upper secondary school students in the school choice survey 2017. In addition, the opinion poll contains standard background variables. The survey was carried out in the period 28 August - 8 September 2017. Information about School Election can be found at the internet address: https://sikt.no/skolevalg",
+  "language": "no/en",
+  "doi": "",
+  "upload_date": "2017-01-01",
+  "download_date": null,
+  "download_repository_folder": "sikt",
+  "download_project_folder": "NSD3104",
+  "download_version_folder": "5",
+  "download_method": "SCRAPING",
+  "license": "CC BY 4.0",
+  "license_url": ""
+}

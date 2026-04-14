@@ -1,0 +1,20 @@
+{
+  "id": 27,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3862",
+  "version": null,
+  "title": "Interviews with Gerontological Social Work and Diaconal Work Clients and Those Working with Older Adults 2021",
+  "description": "The data includes 30 group interviews and 19 individual interviews conducted in the Gerontological social work responding to complex needs of older adults (GERIT) research project. Due to the timing of the interviews, several of the interviews discuss the impact of COVID-19 restrictions on the lives of older people and the services provided to them. Group interviews with client and service advisors cover the reasons for becoming a client, the typical service process, and counselling and guidance",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3862",
+  "upload_date": "2025-01-23",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3862",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

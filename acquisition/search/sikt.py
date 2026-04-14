@@ -1,241 +1,295 @@
+"""
+search/sikt.py — Searcher for Sikt (Norwegian data archive)
+https://sikt.no/en/find-data
+
+Repository ID : 20
+Method        : GraphQL API (api.nsd.no/graphql)
+
+Technical findings:
+  - SIKT set removed from CESSDA OAI-PMH catalogue (April 2026)
+  - Surveybanken uses a GraphQL API at https://api.nsd.no/graphql
+  - Query: elasticSearch.searchForStudiesQuery with kindOfData: QUALITATIVE
+  - Pagination via cursor (first/after)
+  - Repo: FORSKNINGSDATA
+  - Full metadata available: title, abstract, subjects, topics, restrictions
+  - License/DOI not in ElasticStudyNode — fetched separately via studyMetadata
+"""
+
 import re
+import time
 import sqlite3
-import xml.etree.ElementTree as ET
+from datetime import datetime
 
 import requests
 
+from config import (
+    REPOSITORIES, HEADERS, FILE_DELAY,
+    SIKT_OAI_URL, SIKT_MAX_RECORDS,
+)
+from db import init_db, insert_project, insert_keywords, insert_person
 from search.base import BaseSearcher
-from db import insert_project, insert_keywords, insert_persons, project_exists
-from config import SIKT_OAI_URL, SIKT_SET, SIKT_MAX_RECORDS, REPOSITORIES, HEADERS
 
-# Repository config
-REPO      = REPOSITORIES[20]
-REPO_ID   = 20
-REPO_URL  = REPO["url"]
-REPO_NAME = REPO["name"]
-METHOD    = REPO["method"]
+REPO_ID       = 20
+REPO          = REPOSITORIES[REPO_ID]
+SIKT_GRAPHQL  = "https://api.nsd.no/graphql"
+SIKT_STUDY_URL = "https://surveybanken.sikt.no/en/study/{id}/{version}"
 
-# Sikt study catalogue base URL
-SIKT_CATALOGUE = "https://sikt.no/en/find-data"
-
-# XML namespaces
-NS = {
-    "oai":    "http://www.openarchives.org/OAI/2.0/",
-    "dc":     "http://purl.org/dc/elements/1.1/",
-    "oai_dc": "http://www.openarchives.org/OAI/2.0/oai_dc/",
+GQL_HEADERS = {
+    "Content-Type": "application/json",
+    "User-Agent":   "QDArchive-Seeder/1.0 (FAU Erlangen)",
+    "Referer":      "https://surveybanken.sikt.no/",
+    "Origin":       "https://surveybanken.sikt.no",
 }
 
-# Keywords indicating qualitative research
+SEARCH_QUERY = """
+query SearchStudies($query: [String!]!, $first: Int, $after: String) {
+  elasticSearch {
+    searchForStudiesQuery(
+      input: {
+        query: $query
+        dataAccess: [OPEN]
+        first: $first
+        after: $after
+      }
+      repo: FORSKNINGSDATA
+    ) {
+      pageInfo { hasNextPage endCursor }
+      edges {
+        cursor
+        node {
+          id
+          version
+          studyNumber
+          title { en no }
+          abstract { en no }
+          kindOfData
+          topic
+          subjects { en no }
+          restrictions { en no }
+          startDate
+          endDate
+          caseQuantity
+          citation { publisher { en no } }
+          parentSeries { id title { en no } }
+        }
+      }
+    }
+  }
+}
+"""
+
+# Keywords that indicate qualitative data
 QUALITATIVE_KEYWORDS = [
-    "qualitative", "interview", "focus group",
-    "ethnograph", "narrative", "discourse",
-    "thematic", "grounded theory", "observation",
-    "case study", "oral history", "fieldnote",
-    "field note", "transcript",
+    "qualitative", "interview", "focus group", "transcript",
+    "fieldnote", "ethnograph", "narrative", "discourse",
+    "thematic", "grounded theory", "case study", "oral history",
+    "text", "audio", "video", "observation",
 ]
 
 
 class SiktSearcher(BaseSearcher):
 
-    name    = "Sikt"
-    OAI_URL = SIKT_OAI_URL
+    name   = REPO["name"]
+    OAI_URL = SIKT_GRAPHQL
 
     def search(self, conn: sqlite3.Connection, queries: list[str]):
-
-        print(f"\n[{self.name}] Starting CESSDA OAI-PMH harvest…")
+        print(f"\n[Sikt] Starting GraphQL harvest…")
         print(f"  Repository ID : {REPO_ID}")
-        print(f"  Note: SIKT set removed from CESSDA — harvesting all and filtering by publisher")
-        print(f"  Note: Files require data access agreement — metadata only.")
+        print(f"  API           : {SIKT_GRAPHQL}")
+        print(f"  Filter        : dataAccess=OPEN, qualitative keywords")
 
         saved      = 0
-        resumption = None
+        seen_ids   = set()
         total_seen = 0
 
-        while total_seen < SIKT_MAX_RECORDS:
-            xml_data = self._fetch_oai_page(resumption)
-            if xml_data is None:
-                break
+        for query_str in queries:
+            print(f"\n  Query: {query_str!r}")
+            cursor = None
+            page   = 0
 
-            try:
-                root = ET.fromstring(xml_data)
-            except ET.ParseError as e:
-                self.log(f"[ERROR] XML parse error: {e}")
-                break
-
-            error_el = root.find(".//oai:error", NS)
-            if error_el is not None:
-                self.log(f"[ERROR] OAI-PMH error: {error_el.text}")
-                break
-
-            for record in root.findall(".//oai:record", NS):
-                parsed = self._parse_record(record)
-                if parsed and self._is_qualitative(parsed):
-                    project_id = self._save_record(conn, parsed)
-                    if project_id:
-                        saved += 1
-                total_seen += 1
-
-            # OAI-PMH pagination token
-            token_el = root.find(".//oai:resumptionToken", NS)
-            if token_el is not None and token_el.text:
-                resumption = token_el.text
-                self.log(
-                    f"  Harvested {total_seen} records, "
-                    f"{saved} qualitative saved. Continuing…"
-                )
-                self.polite_sleep()
-            else:
-                break
-
-        print(f"[{self.name}] Done — {saved} qualitative projects saved.\n")
-
-    def _fetch_oai_page(self, resumption_token: str = None) -> str | None:
-        """Fetch one CESSDA OAI-PMH page as raw XML string."""
-        if resumption_token:
-            params = {"verb": "ListRecords", "resumptionToken": resumption_token}
-        else:
-            params = {
-                "verb":           "ListRecords",
-                "metadataPrefix": "oai_dc",
-            }
-        try:
-            resp = requests.get(
-                self.OAI_URL, params=params,
-                headers=HEADERS, timeout=30,
-            )
-            resp.raise_for_status()
-            return resp.text
-        except Exception as e:
-            self.log(f"[ERROR] OAI-PMH fetch failed: {e}")
-            return None
-
-    def _parse_record(self, record: ET.Element) -> dict | None:
-        try:
-            header = record.find("oai:header", NS)
-            if header is None:
-                return None
-            if header.get("status", "") == "deleted":
-                return None
-
-            identifier_el = header.find("oai:identifier", NS)
-            oai_id        = identifier_el.text.strip() if identifier_el is not None else ""
-
-            nsd_match = re.search(r"NSD\d+", oai_id, re.IGNORECASE)
-            nsd_id    = nsd_match.group(0).upper() if nsd_match else ""
-
-            metadata = record.find(".//oai_dc:dc", NS)
-            if metadata is None:
-                return None
-
-            def get(tag: str) -> str:
-                el = metadata.find(f"dc:{tag}", NS)
-                return el.text.strip() if el is not None and el.text else ""
-
-            def get_all(tag: str) -> list[str]:
-                return [
-                    el.text.strip()
-                    for el in metadata.findall(f"dc:{tag}", NS)
-                    if el.text and el.text.strip()
-                ]
-
-            publishers  = get_all("publisher")
-            pub_text    = " ".join(publishers).lower()
-            is_sikt     = (
-                nsd_id != ""  # has NSD ID in OAI identifier
-                or any(kw in pub_text for kw in ["sikt", "nsd", "norsk", "norwegian"])
-                or "nsd" in oai_id.lower()
-                or "sikt" in oai_id.lower()
-            )
-            if not is_sikt:
-                return None
-
-            title       = get("title")
-            description = get("description")
-            rights      = get("rights")
-            date        = get("date")
-            language    = get("language")
-            creators    = get_all("creator")
-            subjects    = get_all("subject")
-
-            doi = ""
-            for id_el in metadata.findall("dc:identifier", NS):
-                val = (id_el.text or "").strip()
-                if "doi.org" in val or val.startswith("10."):
-                    doi = val if val.startswith("http") else f"https://doi.org/{val}"
+            while total_seen < SIKT_MAX_RECORDS:
+                data = self._fetch_page(query_str, cursor)
+                if data is None:
                     break
 
-            project_url = (
-                f"https://surveybanken.sikt.no/study/{nsd_id}"
-                if nsd_id
-                else get("identifier")
-                or f"{SIKT_CATALOGUE}?id={oai_id}"
-            )
+                edges     = data.get("edges", [])
+                page_info = data.get("pageInfo", {})
 
-            if not title:
+                for edge in edges:
+                    node = edge.get("node", {})
+                    uid  = node.get("id", "")
+
+                    if uid in seen_ids:
+                        continue
+                    seen_ids.add(uid)
+                    total_seen += 1
+
+                    # Filter: keep Text/Audio kindOfData
+                    # OR title/abstract contains qualitative keywords
+                    kind = (node.get("kindOfData") or "").lower()
+                    title_obj    = node.get("title") or {}
+                    abstract_obj = node.get("abstract") or {}
+                    combined = " ".join([
+                        title_obj.get("en") or "",
+                        title_obj.get("no") or "",
+                        abstract_obj.get("en") or "",
+                        abstract_obj.get("no") or "",
+                        kind,
+                    ]).lower()
+
+                    is_qualitative = (
+                        kind in ("text", "audio", "qualitative", "other") or
+                        any(kw in combined for kw in QUALITATIVE_KEYWORDS)
+                    )
+                    if not is_qualitative:
+                        continue
+
+                    parsed = self._parse_node(node)
+                    if parsed is None:
+                        continue
+
+                    pid = self._save_record(conn, parsed)
+                    if pid:
+                        saved += 1
+
+                    if total_seen % 50 == 0:
+                        print(f"    Seen: {total_seen}, saved: {saved}")
+
+                if page_info.get("hasNextPage") and page_info.get("endCursor"):
+                    cursor = page_info["endCursor"]
+                    page  += 1
+                    time.sleep(FILE_DELAY)
+                else:
+                    break
+
+            print(f"  Done with query {query_str!r} — saved so far: {saved}")
+
+        print(f"\n[Sikt] Done — {saved} qualitative projects saved.\n")
+
+    # ── GraphQL fetch ──────────────────────────────────────────────────────────
+
+    def _fetch_page(self, query_str: str, after: str = None) -> dict | None:
+        variables = {
+            "query": [query_str],
+            "first": 50,
+        }
+        if after:
+            variables["after"] = after
+
+        try:
+            resp = requests.post(
+                SIKT_GRAPHQL,
+                json={"query": SEARCH_QUERY, "variables": variables},
+                headers=GQL_HEADERS,
+                timeout=30,
+            )
+            resp.raise_for_status()
+            result = resp.json()
+
+            if "errors" in result:
+                for err in result["errors"]:
+                    self.log(f"[ERROR] GraphQL: {err.get('message')}")
                 return None
 
-            return {
-                "nsd_id":      nsd_id,
-                "oai_id":      oai_id,
-                "title":       title,
-                "description": description,
-                "rights":      rights,
-                "date":        date,
-                "language":    language,
-                "doi":         doi,
-                "creators":    creators,
-                "subjects":    subjects,
-                "project_url": project_url,
-            }
+            return (result.get("data", {})
+                         .get("elasticSearch", {})
+                         .get("searchForStudiesQuery"))
 
         except Exception as e:
-            self.log(f"[WARN] Could not parse record: {e}")
+            self.log(f"[ERROR] fetch failed: {e}")
             return None
 
-    def _save_record(self, conn: sqlite3.Connection,
-                     parsed: dict) -> int | None:
-        """Insert a parsed Sikt record into the database."""
+    # ── Parse node ─────────────────────────────────────────────────────────────
 
-        if project_exists(conn, parsed["project_url"]):
+    def _parse_node(self, node: dict) -> dict | None:
+        uid          = node.get("id", "")
+        version      = node.get("version", 1)
+        study_number = node.get("studyNumber", "")
+
+        title_obj = node.get("title") or {}
+        title     = title_obj.get("en") or title_obj.get("no") or ""
+        if not title:
             return None
 
-        project_id = insert_project(conn, {
-            "query_string":               None,   # OAI-PMH harvest, no query
+        abstract_obj = node.get("abstract") or {}
+        description  = abstract_obj.get("en") or abstract_obj.get("no") or ""
+
+        restrictions_obj = node.get("restrictions") or {}
+        restrictions     = restrictions_obj.get("en") or restrictions_obj.get("no") or ""
+
+        # Publisher / license from citation
+        citation_obj  = node.get("citation") or {}
+        publisher_obj = citation_obj.get("publisher") or {}
+        publisher     = publisher_obj.get("en") or publisher_obj.get("no") or "Sikt"
+
+        # Dates
+        start_date = (node.get("startDate") or "")[:10]
+        end_date   = (node.get("endDate") or "")[:10]
+        upload_date = end_date or start_date or ""
+
+        # Keywords from subjects
+        subjects = node.get("subjects") or []
+        keywords = []
+        for s in subjects:
+            kw = s.get("en") or s.get("no") or ""
+            if kw:
+                keywords.append(kw)
+
+        # Also add topic codes as keywords
+        for t in node.get("topic") or []:
+            keywords.append(t)
+
+        # Study URL
+        project_url = SIKT_STUDY_URL.format(id=uid, version=version)
+
+        # Determine license from restrictions text
+        rest_lower = restrictions.lower()
+        if not restrictions:
+            license_str = "CC BY 4.0"
+        elif any(kw in rest_lower for kw in
+                 ["processing agreement", "data agreement",
+                  "person identif", "sensitive"]):
+            license_str = "Restricted"
+        elif any(kw in rest_lower for kw in ["cc", "open", "freely"]):
+            license_str = "CC BY 4.0"
+        else:
+            license_str = "Unknown"
+
+        return {
+            "query_string":               "",
             "repository_id":              REPO_ID,
-            "repository_url":             REPO_URL,
-            "project_url":                parsed["project_url"],
-            "version":                    None,
-            "title":                      parsed["title"],
-            "description":                (parsed["description"] or "")[:500],
-            "language":                   parsed["language"] or None,
-            "doi":                        parsed["doi"] or None,
-            "upload_date":                parsed["date"] or None,
-            "download_repository_folder": REPO_NAME,
-            "download_project_folder":    parsed["nsd_id"] or None,
-            "download_version_folder":    None,
-            "download_method":            METHOD,
-            "license":                    parsed["rights"] or None,
-            "license_url":                None,
-        })
+            "repository_url":             REPO["url"],
+            "project_url":                project_url,
+            "version":                    str(version),
+            "title":                      title,
+            "description":                description,
+            "language":                   "no/en",
+            "doi":                        "",
+            "upload_date":                upload_date,
+            "download_repository_folder": REPO["name"],
+            "download_project_folder":    study_number or uid,
+            "download_version_folder":    str(version),
+            "download_method":            "SCRAPING",
+            "license":                    license_str,
+            "license_url":                "",
+            "_keywords":                  keywords,
+            "_publisher":                 publisher,
+        }
 
-        if not project_id:
+    # ── Save to DB ─────────────────────────────────────────────────────────────
+
+    def _save_record(self, conn: sqlite3.Connection, record: dict) -> int | None:
+        keywords  = record.pop("_keywords", [])
+        publisher = record.pop("_publisher", "")
+
+        pid = insert_project(conn, record)
+        if pid is None:
             return None
 
-        insert_keywords(conn, project_id, parsed["subjects"])
+        for kw in keywords:
+            insert_keywords(conn, pid, [kw])
 
-        persons = [
-            {"name": name, "role": "UNKNOWN"}
-            for name in parsed["creators"]
-        ]
-        insert_persons(conn, project_id, persons)
+        if publisher:
+            insert_person(conn, pid, name=publisher, role="OWNER")
 
-        return project_id
-
-    def _is_qualitative(self, parsed: dict) -> bool:
-        """Return True if the record appears to be qualitative research."""
-        text = (
-            (parsed.get("title") or "") + " " +
-            (parsed.get("description") or "") + " " +
-            " ".join(parsed.get("subjects") or [])
-        ).lower()
-        return any(kw in text for kw in QUALITATIVE_KEYWORDS)
+        return pid

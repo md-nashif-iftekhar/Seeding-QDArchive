@@ -1,0 +1,20 @@
+{
+  "id": 169,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3100",
+  "version": null,
+  "title": "Citizen Deliberation on the Swedish Language and Swedish-speaking Minority in Finland: Recruitment Survey 2014",
+  "description": "The study, which included three separate surveys as well as group deliberation sessions, charted Finnish opinions on the role of the Swedish language in Finland. In this stage of the study, a survey was used to examine which of the participants were suitable to participate in the deliberation sessions. First, the respondents were presented a number of statements about Swedish and Swedish-speaking people living in Finland. The statements charted views on, among others, the role and significance o",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3100",
+  "upload_date": "2018-09-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3100",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

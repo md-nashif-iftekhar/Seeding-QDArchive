@@ -1,0 +1,20 @@
+{
+  "id": 478,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3545",
+  "version": null,
+  "title": "Playing Video Games during the COVID-19 Pandemic: Interviews 2020",
+  "description": "The dataset consists of 10 transcribed interviews that investigated the impact of the COVID-19 pandemic on everyday life and collected information about the interviewees' gaming experiences and time use. Data collection was conducted as part of a research project funded by the University of Jyv\u00e4skyl\u00e4 and the Academy of Finland (project number 312397). Interviewees were invited to participate in online gaming events and the interviews were conducted virtually on the Zoom platform. The interviews ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3545",
+  "upload_date": "2022-07-08",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3545",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

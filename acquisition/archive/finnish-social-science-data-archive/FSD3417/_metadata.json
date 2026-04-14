@@ -1,0 +1,20 @@
+{
+  "id": 196,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3417",
+  "version": null,
+  "title": "Experiences on Partner's Mental Health Problems in Families with Children 2020",
+  "description": "The dataset consists of texts on experiences of coping with a partner's mental health problems in everyday life for families with children. In the invitation to write, the participants were asked to discuss the challenges posed by their partner's mental health related symptoms for everyday life and communication. They were also asked to describe the family's resources for dealing with mental health issues and to envision their life if all was well in the family. Additionally, the participants we",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3417",
+  "upload_date": "2021-11-11",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3417",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

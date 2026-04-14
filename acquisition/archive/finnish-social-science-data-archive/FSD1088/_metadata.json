@@ -1,0 +1,20 @@
+{
+  "id": 250,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD1088",
+  "version": null,
+  "title": "Finnish National Election Study 1991",
+  "description": "In this survey focusing on the Finnish parliamentary elections of 1991, voters were interviewed both before and after the elections. In the interviews before the elections, the respondents were asked if they were members of trade unions, political parties and other organisations, and how actively they were involved in the activities. They were also asked if they read newspapers and followed current affairs programmes on TV and on the radio, and if so, how often and which papers/programmes. Gener",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd1088",
+  "upload_date": "2012-05-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD1088",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

@@ -1,0 +1,20 @@
+{
+  "id": 49,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3572",
+  "version": null,
+  "title": "Helsingin Sanomat Waste Survey 2018",
+  "description": "This survey, conducted by the newspaper Helsingin Sanomat in 2018, charted Finnish views on waste. The survey was conducted as part of the 'Waste Society: Living with Material Overflows' project funded by the Academy of Finland. Topics in the survey included, for instance, living with waste, attitudes towards waste, and a future of 'zero waste'. Additionally, the data include an open-ended question q28 \"Is there something else you want to say regarding waste, waste disposal and the future of was",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3572",
+  "upload_date": "2022-03-29",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3572",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

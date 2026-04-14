@@ -1,0 +1,20 @@
+{
+  "id": 366,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3140",
+  "version": null,
+  "title": "Body Image and Childhood Memories 2015",
+  "description": "The Body Image and Childhood Memories 2015 data consist of 71 texts about appearance and one's own body image in relation to youth and childhood experiences. The texts deal with a variety of topics ranging from obesity and fashion to beauty standards and changes in own appearance through different ages. Most of the respondents were women. The respondents' age varied between 18 and 78 years. The background variables were the respondent's occupation, year of birth, region of residence, and gender.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3140",
+  "upload_date": "2017-05-15",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3140",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

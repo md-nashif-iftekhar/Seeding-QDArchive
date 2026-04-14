@@ -1,0 +1,20 @@
+{
+  "id": 305,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3738",
+  "version": null,
+  "title": "Finnish Experiences of Running Away from Substitute Care 2022-2023",
+  "description": "The dataset consists of self-administered written texts on the experiences of people who have run away from substitute care. The data were originally collected for a Master's thesis. The data were collected with a writing invitation which was targeted at individuals with experiences of running away from substitute care. Participants were directed to write a free-form account of their experiences. For example, participants could write a broader text describing their life and their experience with",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3738",
+  "upload_date": "2024-04-05",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3738",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

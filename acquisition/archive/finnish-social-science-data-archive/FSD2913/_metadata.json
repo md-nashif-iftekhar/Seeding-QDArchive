@@ -1,0 +1,20 @@
+{
+  "id": 501,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2913",
+  "version": null,
+  "title": "Finnish Opinions on Security Policy and National Defence 2013",
+  "description": "The annual survey charted Finnish public opinion on foreign policy, defence policy, security, military alliances and military service. Opinions were charted on the success of foreign policy in the previous few years, funds allocated to the Defence Forces and whether Finland should resort to armed defence in case of any sort of attack. The respondents were asked how the global security situation would develop in the next five years, whether Finland should form military alliances and whether Finla",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2913",
+  "upload_date": "2014-02-04",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2913",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

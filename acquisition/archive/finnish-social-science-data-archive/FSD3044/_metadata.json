@@ -1,0 +1,20 @@
+{
+  "id": 42,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3044",
+  "version": null,
+  "title": "Food Diaries of Finns 2013",
+  "description": "The data consist of food diaries of Finnish people which they wrote about a single day; 12 April 2013. The food diaries included information on, for instance, what was eaten and where, at what time and with whom did eating take place, what kind of ingredients were used, and what kind of food was favoured and avoided. Some participants included pictures of their food in the diaries. The dataset is only available in Finnish.",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3044",
+  "upload_date": "2016-06-13",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3044",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

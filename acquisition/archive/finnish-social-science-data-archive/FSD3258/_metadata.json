@@ -1,0 +1,20 @@
+{
+  "id": 56,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3258",
+  "version": null,
+  "title": "Swedish East India Company in Newspapers 1731-1807",
+  "description": "The data consist of four datasets compiled using content coding. The datasets focus on the Swedish East India Company (Svenska Ostindiska Companiet, SOIC) operating from 1731 to 1813. The first dataset comprises newspaper content that mentions the Swedish East India Company (marked with letter A in the data file) and the second contains traffic information on ships in the port of Gothenburg (marked with letter B in the data file). The third dataset has more detailed information on the church not",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3258",
+  "upload_date": "2019-09-17",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3258",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

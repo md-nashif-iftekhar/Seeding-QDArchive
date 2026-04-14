@@ -1,0 +1,20 @@
+{
+  "id": 99,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2757",
+  "version": null,
+  "title": "Interviews of the Academy of Finland Research Professors 1994-1996",
+  "description": "The data consist of 58 transcribed interviews of Academy of Finland Research Professors (nowadays Academy Professors) who held the post between 1975 and 1995. A permeating theme in the interviews was the internationalization of Finnish scientific research. Discussions covered the impact of the focus areas chosen in Finnish research policy, i.e. internationalization and advancing high-level research, on the interviewees' fields of study. Other topics included the interviewees' research careers, c",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2757",
+  "upload_date": "2013-06-18",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2757",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

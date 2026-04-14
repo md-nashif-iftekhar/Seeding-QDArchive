@@ -1,0 +1,20 @@
+{
+  "id": 6,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3604",
+  "version": null,
+  "title": "Coaching Encounters in Rehabilitative Work Activities 2019-2020",
+  "description": "The dataset consists of transcripts of individual coaching encounters, which focus on the promotion of employment and the day-to-day activities of vocational rehabilitation workshops. The coaching encounters are from different stages of the coaching process and the same person has typically participated in more than one recorded coaching encounter. The data collection was carried out as part of the day-to-day activities of the workshops, independent of the research project. The dataset is part o",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3604",
+  "upload_date": "2024-03-07",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3604",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

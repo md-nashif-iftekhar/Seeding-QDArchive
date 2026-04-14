@@ -1,0 +1,20 @@
+{
+  "id": 264,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD2104",
+  "version": null,
+  "title": "Tales and Stories Told by Children 1995-2005",
+  "description": "The archived data consist of 3,500 tales or stories told by Finnish children aged under 16 and recorded in electronic, written format. The participatory and narrative Storycrafting method was used to collect them. Data collection took place between 1995 and 2005, mainly by the nationwide Satukeikka project coordinated by the National Research and Development Centre for Welfare and Health (STAKES), and some by the Children are Telling network. Hundreds of employees in family day care services, da",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd2104",
+  "upload_date": "2007-06-25",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD2104",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

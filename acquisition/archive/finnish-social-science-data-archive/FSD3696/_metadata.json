@@ -1,0 +1,20 @@
+{
+  "id": 480,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3696",
+  "version": null,
+  "title": "Mobile Youth Work: Interviews with Youth Workers and Youth 2021-2022",
+  "description": "The data consists of interview transcripts with youth workers and volunteers and young people using mobile youth work. The data consists also photos. The interviews were conducted to find out about the activities of the Walkers cars (Wautos), coordinated by Aseman Lapset ry, in different localities. The data includes individual and group interviews and interview notes. There were four different types of interviews: youth workers, youth service supervisors, youths and volunteers. Background infor",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3696",
+  "upload_date": "2024-05-16",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3696",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}

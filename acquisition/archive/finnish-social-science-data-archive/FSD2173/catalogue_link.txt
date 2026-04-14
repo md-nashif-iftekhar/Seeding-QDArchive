@@ -1,0 +1,8 @@
+Title      : Finnish Local Government 2004: Social Services for Elderly and Disabled 2000: Local Government Officers
+Project URL: https://services.fsd.tuni.fi/catalogue/FSD2173
+License    : In accordance with the agreement between FSD and the depositor.
+
+Manual download instructions:
+1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2173
+2. Login at: https://services.fsd.tuni.fi
+3. Click Download

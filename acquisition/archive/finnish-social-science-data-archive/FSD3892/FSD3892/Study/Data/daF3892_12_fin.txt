@@ -1,0 +1,264 @@
+FSD3892 Kasvatus- ja koulutustietojen hyödyntämisen sujuvoittamisselvitys: tiedontuottajien kysely 2023. Aineistoon ja sen tekijöihin tulee viitata asianmukaisesti kaikissa julkaisuissa ja esityksissä, joissa aineistoa käytetään. Tietoarkiston antaman malliviittaustiedon voi merkitä lähdeluetteloon sellaisenaan tai sitä voi muokata julkaisun käytäntöjen mukaisesti.
+
+Aineisto on (A) vapaasti käytettävissä ilman rekisteröitymistä (CC BY 4.0).
+
+
+Vastauskieli: Suomi
+Vastaajan edustama organisaatio tai organisaation yleisnimi: Kunta (toisen asteen koulutus)
+Vastaajan edustaman organisaation alue: Uusimaa
+
+
+5. Mitä tietoja tallennatte organisaation sisäisesti kasvatuksen tai koulutuksen järjestämistä varten?
+
+Primuksen ja Studentan perustiedot: Nimi, henkilötunnus, yhteystiedot, huoltajan tiedot, poissaolotiedot, arviointitiedot sekä opiskelijaa koskevat asiakirjat, kuten päätökset ja kurinpitotoimet. Ylioppilastutkinnon suorittamiseen liittyvät tiedot. Opintosuoritukset. Opiskelusuunnitelmat (HOPS ja HOKS). Opiskeluhuoltokertomus. Toimen kiusaamiseen, häirintään ja väkivaltaan puuttumiseksi.
+Henkilöstön tiedot, kuten henkilö- ja pankkitilitiedot, tiedot aikaisemmista palvelussuhteista, koulutukseen osallistumistiedot, työnteon tai viranhoidon keskeytykset ja työtapaturmat, palkat.
+
+6. Tallennatteko tietoja muita tarkoituksia varten? Jos tallennatte, mitä tietoja tallennatte ja mitä tarkoituksia varten?
+
+-
+
+7. Mihin tallennatte eri tietoja?
+
+Pääasiassa Primus, Studenta ja Sarastia (henkilöstö). Opiskeluhuoltokertomukset sekä kiusaamisen, häirinnän ja väkivallan puuttumisen toimet laaditaan paperilla ja niitä säilytetään lukitussa tilassa.
+Asuinkuntaopinto-ohjaajan tiedot ovat excelissä.
+
+8. Minkälaisia ongelmia olette kohdanneet tietojen tallentamisessa?
+
+Opiskeluhuoltokertomusten sekä kiusaamisen, häirinnän ja väkivallan puuttumisen toimien nykyinen kirjaamisen ja säilyttämisen tapa ei ole käyttäjän kannalta sujuva eikä täysin tietoturvallinen, sillä tiedon käyttäjiä ei ole mahdollista seurata vrt. sähköisen järjestelmän lokitiedot. 
+Nykyisiin opiskelijatietojärjestelmiin ei saada kaikista opiskelijoista kaikkia tietoja samalla tavalla, sillä 30 % opiskelijoista tulee oman kunnan ulkopuolelta. Primus ja Studenta ovat keskenään erilaiset järjestelmät, jolloin tietojen siirtyminen toisen asteen sisällä on haastavaa esimerkiksi kaksoistutkinto- ja tuva-opiskelijoiden osalta.
+
+9. Mikäli käytätte ostopalveluja, minkälaisia tietojen käsittelyn haasteita siihen liittyy?
+
+Primus ja Studenta ovat keskenään erilaiset järjestelmät, jolloin tietojen siirtyminen toisen asteen sisällä on haastavaa esimerkiksi kaksoistutkinto- ja tuva-opiskelijoiden osalta. 
+Järjestelmäntoimittajat reagoivat hitaasti tai huonosti uusiin kehittämistarpeisiin.
+
+10. Mihin organisaationne tiedon käsittelyn käytännöt perustuvat?
+
+EU:n yleisen tietosuoja-asetuksen (2016/679) 6 artiklan 1 kohdan c alakohta
+Tietosuojalaki (1020/2018) 6 §
+Lukiolaki (10.8.2018/714)
+Valtioneuvoston asetus lukiokoulutuksesta (810/2018)
+Opetusministeriön asetus opiskelijaksi ottamisen perusteista lukiokoulutuksessa (856/2006) 
+Laki ylioppilastutkinnosta (502/2019) 
+Valtioneuvoston asetus ylioppilastutkinnosta 
+Laki ammatillisesta koulutuksesta (11.8.2017/531)
+Valtioneuvoston asetus ammatillisesta koulutuksesta (673/2017) 
+Laki valtakunnallisista opinto- ja tutkintorekistereistä (884/2017) 
+Valtioneuvoston asetus ammatillisen koulutuksen, lukiokoulutuksen ja perusopetuksen jälkeisen valmistavan koulutuksen hakumenettelystä (294/2014) 
+Opetus- ja kulttuuriministeriön asetus ammatillisen koulutuksen tutkintorakenteesta (680/2017) 
+Opetus- ja kulttuuriministeriön asetus opiskelijaksi ottamisen perusteista ammatillisessa perustutkintokoulutuksessa (699/2017) 
+Opetusministeriön asetus eräiden oppilailta ja opiskelijoilta perittävien maksujen perusteista (1323/2001)
+
+11. Mistä saatte apua tiedon käsittelyyn liittyvissä mahdollisissa ongelmissa?
+
+Kaupungin tietosuojavastaava, toimialan juristit, esihenkilöt, kaupungin tietoturvakoulutukset (pakollinen kaikille henkilötietoja käsitteleville)
+
+12. Hyödynnättekö tuottamianne kasvatus- ja koulutustietoja johonkin toiseen tarkoitukseen kuin mitä varten olette ne alun perin keränneet?
+
+Kyllä
+
+12a. Jos hyödynnätte, niin mitä kasvatus- ja koulutustietoja hyödynnätte?
+
+Äidinkieli, sukupuoli, asuinpaikka, arviointitiedot, poissaolotiedot, opintojen eteneminen, opintojen keskeyttäminen, jatko-opintoihin ja työelämään sijoittuminen, oppimisen tuki, opintovalinnat
+Tietoja tarkastellaan anonymisoidusti yleisellä tasolla, ei henkilötasolla.
+
+12b. Jos hyödynnätte, niin mihin eri tarkoituksiin ja minkä sääntelyn perusteella?
+
+Tiedolla johtaminen.
+
+12c. Jos hyödynnätte, niin miten ja millä tietoteknisillä välineillä?
+
+Excel, powerBi
+
+13. Oletteko havainneet ongelmia tuottamienne kasvatus- ja koulutustietojen hyödyntämisessä?
+
+Kyllä
+
+13a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+Kyllä
+
+13b. Kuvailkaa ongelmaa tarkemmin
+
+Tarvittavien tietojen luovuttaminen ja käyttöoikeuksien myöntäminen hyvinvointialueen työntekijöille opiskeluhuollon toteuttamiseksi.
+Opiskeluhuoltokertomuksille ja muille hyvinvoinnin edistämiseen liittyville tiedoille ei ole toimivaa ja tietoturvallista sähköistä järjestelmää.
+Opetuksen järjestämisen kannalta välttämättömien tietojen siirtyminen perusopetuksesta toiselle asteelle ei onnistu sähköisesti, vaan edellyttää opiskelijan vastuulla olevaa manuaalista tietojen siirtoa.
+
+13c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+Ei
+
+13d. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+13e. Jos olette havainneet ongelmia, liittyvätkö ne tietoihin ja niiden sisältöön?
+
+Kyllä
+
+13f. Kuvailkaa ongelmaa tarkemmin
+
+Kunta saa valtionavustusta alle 6 vuotta Suomessa asuneista, mutta toisen asteen koulutus ei saa tietoa suoraan mistään. Perusopetuksessa vastaava tieto saadaan suoraan DVV:ltä.
+
+13g. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin?
+
+Kyllä
+
+13h. Kuvailkaa ongelmaa tarkemmin
+
+Tietoja ei saa ulos järjestelmästä: mm. alle 6 vuotta Suomessa asuneet.
+Hyvinvointialueen henkilöstön käyttöoikeudet estävät tiedon hyödyntämisen.
+Opiskeluhuoltokertomusten ja muiden opetuksen järjestäjän kannalta tarpeellisten hyvinvointitietojen keräämiseen ja säilyttämiseen ei ole tietoturvallista järjestelmää.
+
+14. Luovutatteko tuottamianne kasvatus- ja koulutustietoja muille toimijoille?
+
+Kyllä
+
+14a. Jos luovutatte, niin kenelle luovutatte?
+
+Hyvinvointialueen opiskeluhuollon työntekijät. Tarvittaessa muut viranomaiset, kuten poliisi tai lastensuojelu.
+Tutkimustarkoitukseen ainoastaan yleisellä tasolla ja yksittäistä henkilöä identifioimatta.
+
+14b. Jos luovutatte, niin mitä tietoja luovutatte?
+
+Opiskeluhuolto: opiskeluryhmät
+Poliisi ja lastensuojelu: tilannekohtaisesti
+Tutkimus: esimerkiksi arvosana- ja opintosuoritustietoja
+
+14.c Jos luovutatte, niin mihin tarkoitukseen tiedot on teiltä pyydetty?
+
+-
+
+14d. Jos luovutatte, niin minkä lain ja pykälän perusteella tiedot on teiltä pyydetty?
+
+Tiedon luovutuksessa arvioidaan aina lakien perusteella mikä on tiedonsaajan oikeus tietoihin.
+Tutkimustarkoitukseen ei luovutetan arkaluontoisia tietoja tai yksilöitävissä olevia tietoja.
+
+14e. Jos luovutatte, niin miten luovuttaminen käytännössä tapahtuu?
+
+Lähtökohtaisesti sähköisesti tietoturvallisia tapoja, kuten salattua sähköpostia, hyödyntäen.
+
+14f. Jos luovutatte, luovutatteko tietoja oma-aloitteisesti?
+
+Ei
+
+14g. Kuvailkaa asiaa tarkemmin
+
+Tietoja luovutetaan vain tietopyyntöjen perusteella.
+
+15. Oletteko havainneet ongelmia tietojen luovuttamisessa muille toimijoille?
+
+Ei
+
+15a. Jos olette havainneet ongelmia, liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+-
+
+15b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15c. Jos olette havainneet ongelmia, liittyvätkö ne toimintamalleihin?
+
+-
+
+15e. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15f. Jos olette havainneet ongelmia, liittyvätkö ne luovutettaviin tietoihin?
+
+-
+
+15g. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15h. Jos olette havainneet ongelmia, liittyvätkö ne tietojärjestelmiin, joilla tietoja käsitellään ja hyödynnetään?
+
+-
+
+15i. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+15j. Oletteko kieltäytyneet tietojen luovuttamisesta?
+
+Ei
+
+15k. Jos olette kieltäytyneet, niin millä perusteella?
+
+-
+
+16. Hyödynnättekö muiden toimijoiden kirjaamia ja tuottamia tietoja omassa toiminnassanne?
+
+Kyllä
+
+16a. Jos hyödynnätte, niin minkä toimijan tietoja hyödynnätte?
+
+Tilastokeskus, Opintopolku, Väestörekisteri, [kaupungin nimi] perusopetuksesta siirtyvät tiedot, Opetushallitus
+
+16b. Jos hyödynnätte, niin mitä tietoja hyödynnätte?
+
+Henkilötiedot, yhteishaun tiedot (mm. hakutoiveet ja arvosanatiedot)
+
+16c. Jos hyödynnätte, niin mihin tarkoitukseen?
+
+Opintojen sujuva aloittaminen, tiedolla johtaminen
+
+16d. Jos hyödynnätte, niin millä perusteella?
+
+-
+
+16e. Jos hyödynnätte, niin miten tietojen luovutus käytännössä tapahtuu?
+
+Järjestelmäintegraatiot (mm. henkilötiedot)
+Paperinen tiedonsiirtolomake (perusopetuksesta toiselle asteelle)
+
+17. Oletteko havainneet ongelmia tietojen saamisessa muilta toimijoilta?
+
+Kyllä
+
+17a. Jos olette havainneet ongelmia, niin liittyvätkö ne lainsäädäntöön tai sen tulkintaan?
+
+Ei
+
+17b. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+
+17c. Jos olette havainneet ongelmia, niin liittyvätkö ne toimintamalleihin?
+
+Kyllä
+
+17d. Kuvailkaa ongelmaa tarkemmin
+
+Tiedonsiirto perusopetuksesta toiselle asteelle perustuu opiskelijan omaan aktiivisuuteen asian suhteen. Tietojen toimittaminen unohtuu usein ja tiedot jäävät helposti puutteellisiksi.
+
+17e. Jos olette havainneet ongelmia, niin liittyvätkö ne pyydettyihin tietoihin?
+
+Ei
+
+17f. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17g. Jos olette havainneet ongelmia, niin liittyvätkö ne tietojärjestelmiin?
+
+Ei
+
+17h. Kuvailkaa ongelmaa tarkemmin
+
+-
+
+17i. Onko teille kieltäydytty luovuttamasta pyytämiänne tietoja?
+
+Ei
+
+17j. Jos kyllä, niin millä perusteella tietojen luovuttamisesta on kieltäydytty?
+
+-
+
+
+

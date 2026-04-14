@@ -1,0 +1,20 @@
+{
+  "id": 516,
+  "query_string": null,
+  "repository_id": 11,
+  "repository_url": "https://www.fsd.tuni.fi/en",
+  "project_url": "https://services.fsd.tuni.fi/catalogue/FSD3367",
+  "version": null,
+  "title": "Substance Abuse Treatment in Outpatient Clinics: Pre- and Post-treatment Surveys 2007-2010",
+  "description": "This study charted Finnish substance users' situation in life and alcohol and drug use. Main themes included the problems that arose from the respondents' substance use, their motivation to stop using substances, and their use of social services. Additionally, the data include evaluations of client meeting discussions between social counsellors and clients at A-clinics, which offer substance abuse and mental health services. The data were collected as part of a research project on the adherence ",
+  "language": "fi, en",
+  "doi": "https://doi.org/10.60686/t-fsd3367",
+  "upload_date": "2021-02-22",
+  "download_date": null,
+  "download_repository_folder": "finnish-social-science-data-archive",
+  "download_project_folder": "FSD3367",
+  "download_version_folder": null,
+  "download_method": "API-CALL",
+  "license": "In accordance with the agreement between FSD and the depositor.",
+  "license_url": null
+}
