@@ -4,8 +4,7 @@
 **University:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)  
 **Supervisor:** Prof. Dr. Dirk Riehle  
 **Student:** Md Nashif Iftekhar  
-**Repositories assigned:** #11 Finnish Social Science Data Archive (FSD), #20 Sikt  
-**Zenodo (#1) implemented as supplement**
+**Repositories assigned:** #11 FSD (Finnish Social Science Data Archive), #20 Sikt (Norwegian data archive)
 
 ---
 
@@ -13,15 +12,6 @@
 
 This pipeline automatically searches qualitative research data repositories, downloads available files, and stores metadata in a structured SQLite database. It targets repositories that archive qualitative research data such as interview transcripts, fieldnotes, and QDA project files.
 
----
-
-## Repositories
-
-| # | Name | URL | Method | Status |
-|---|------|-----|--------|--------|
-| 1 | Zenodo | https://zenodo.org | REST API | ✅ Full automated download |
-| 11 | FSD (Finnish Social Science Data Archive) | https://www.fsd.tuni.fi/en | OAI-PMH + Playwright | ✅ Condition A downloaded |
-| 20 | Sikt (Norwegian data archive) | https://sikt.no/en/find-data | CESSDA OAI-PMH | ⚠️ See technical note below |
 
 ---
 
@@ -37,11 +27,9 @@ acquisition/
 ├── db.py                   
 ├── requirements.txt        
 ├── search/
-│   ├── zenodo.py           
-│   ├── fsd.py              
-│   └── sikt.py             
+│   ├── fsd.py              # FSD OAI-PMH + catalogue scraper
+│   └── sikt.py             # Sikt CESSDA OAI-PMH searcher
 └── archive/                # Downloaded files (not in git)
-    ├── zenodo/
     ├── finnish-social-science-data-archive/
     └── sikt/
 ```
@@ -53,7 +41,7 @@ acquisition/
 ### Requirements
 
 - Python 3.10+
-- Google Chrome (for FSD Playwright downloader)
+- Google Chrome (for Playwright)
 
 ### Installation
 
@@ -70,6 +58,8 @@ Create a `.env` file inside the `acquisition/` folder:
 ```
 FSD_USERNAME=your_fsd_username
 FSD_PASSWORD=your_fsd_password
+SIKT_USERNAME=your_sikt_email
+SIKT_PASSWORD=your_sikt_password
 ```
 
 ---
@@ -80,19 +70,19 @@ FSD_PASSWORD=your_fsd_password
 
 ```bash
 # Delete old database if re-running from scratch
-del qdarchive.db        # Windows
-rm qdarchive.db         # Linux/Mac
+del ..\23240175-seeding.db   # Windows
+rm ../23240175-seeding.db    # Linux/Mac
 
-# Step 1: Search all repositories
+# Step 1: Search all repositories (metadata)
 python search.py
 
-# Step 2: Download Zenodo files
-python download.py --only zenodo
-
-# Step 3: Download FSD Condition A files (requires Chrome)
+# Step 2: Download FSD Condition A files (requires Chrome)
 python fsd_playwright.py --only-a
 
-# Step 4: Record metadata for FSD Condition B/C/D and Sikt
+# Step 3: Download open Sikt datasets (opens Chrome)
+python sikt_playwright.py
+
+# Step 4: Record, saved metadata for restricted datasets
 python download.py --only fsd
 python download.py --only sikt
 
@@ -103,7 +93,6 @@ python export.py
 ### Search individual repositories
 
 ```bash
-python search.py --only zenodo
 python search.py --only fsd
 python search.py --only sikt
 ```
@@ -111,7 +100,6 @@ python search.py --only sikt
 ### Download individual repositories
 
 ```bash
-python download.py --only zenodo
 python download.py --only fsd
 python download.py --only sikt
 ```
@@ -120,12 +108,13 @@ python download.py --only sikt
 
 ## Database Schema
 
-The pipeline stores all metadata in `qdarchive.db` (SQLite) with 4 tables:
+The pipeline stores all metadata in `qdarchive.db` (SQLite) with 5 tables:
 
 **`projects`** — one row per research project  
 **`files`** — one row per file (download result)  
 **`keywords`** — one row per keyword tag  
 **`person_role`** — one row per author/uploader
+**`licenses`** — License per project
 
 ### File download statuses
 
@@ -142,10 +131,6 @@ The pipeline stores all metadata in `qdarchive.db` (SQLite) with 4 tables:
 
 ```
 archive/
-├── zenodo/
-│   └── {record_id}/
-│       ├── _metadata.json
-│       └── {files...}
 ├── finnish-social-science-data-archive/
 │   └── {FSD_ID}/
 │       ├── _metadata.json
@@ -160,70 +145,22 @@ archive/
 
 ---
 
-## FSD Download Details
-
-FSD uses Shibboleth SSO for authentication. The download approach depends on the access condition:
-
-| Condition | Description | Download method |
-|-----------|-------------|-----------------|
-| A | CC BY 4.0, freely available | ✅ Automated via Playwright |
-| B | Research, teaching and study | ⚠️ Playwright with purpose form |
-| C | Research only | ⚠️ Manual |
-| D | Depositor permission required | ❌ Manual only |
-
-**Condition A datasets (7 confirmed):**
-FSD3892, FSD3847, FSD3524, FSD3208, FSD3166, FSD2981, FSD1249
-
-The pipeline dynamically scrapes the FSD catalogue to detect Condition A datasets:
-
-```
-https://services.fsd.tuni.fi/catalogue/index
-    ?dissemination_policy_string_facet=A
-    &data_kind_string_facet=Qualitative
-```
-
----
-
 ## Technical Challenges
 
 ### FSD — Shibboleth SSO
-The `/v0/download/` URL redirects to the FSD homepage without a valid browser session — even for Condition A (CC BY 4.0) datasets. FSD requires a browser-based SAML login flow that cannot be completed with plain HTTP requests. Solution: Playwright browser automation handles the full SSO chain including the "Information Release" consent page.
+Direct download URLs redirect to homepage without a browser session. The `/v0/download/` URL redirects to the FSD homepage without a valid browser session — even for Condition A (CC BY 4.0) datasets. The FSD requires a browser-based SAML login flow that cannot be completed with plain HTTP requests.
+Solution: Solved with Playwright handling the full SAML chain including the "Information Release" consent page.
 
 ### FSD — Condition detection from OAI-PMH
 The OAI-PMH `dc:type` field is always empty and `dc:rights` always contains the same generic text regardless of condition. Condition A/B/C/D is only visible in the HTML catalogue page, not in the OAI-PMH metadata.
+Solution: Solved by scraping the HTML catalogue with `dissemination_policy_string_facet=A`.
 
 ### Sikt — API unavailable (April 2026)
 The SIKT set was removed from the CESSDA OAI-PMH catalogue. After investigation:
-- CESSDA OAI-PMH: SIKT set no longer exists (45,418 records from other providers, 0 from Sikt)
-- Surveybanken (surveybanken.sikt.no): JavaScript-rendered application, no public JSON API
-- Legacy NSD OAI-PMH endpoint (nsd.no): returns HTML, not OAI-PMH XML
+- CESSDA OAI-PMH: SIKT set no longer exists.
+- Discovered a GraphQL API at api.nsd.no/graphql as replacement.
+- Surveybanken (surveybanken.sikt.no): JavaScript-rendered, no public JSON API
+- Legacy NSD OAI-PMH: returns HTML, not OAI-PMH XML
 
-This is documented as a technical challenge. Sikt metadata is only accessible via browser at https://surveybanken.sikt.no.
-
-### Zenodo — InvenioRDM API migration
-Zenodo migrated to InvenioRDM which changed the API parameters. `sort=bestmatch` and `size=100` cause `400 BAD REQUEST`. Fixed by removing the `sort` parameter and setting `size=25`.
-
----
-
-## Exported Files
-
-After running `export.py`:
-
-| File | Contents |
-|------|---------|
-| `qdarchive_projects.csv` | All projects with metadata |
-| `qdarchive_files.csv` | All files with download status |
-| `qdarchive_keywords.csv` | All keywords |
-| `qdarchive_persons.csv` | All persons with roles |
-| `report.txt` | Human-readable summary |
-
----
-
-## Results Summary
-
-| Repository | Projects | Files downloaded |
-|-----------|----------|-----------------|
-| Zenodo | ~82,250 | ~4,747 |
-| FSD Condition A | 7 | ~200 (extracted from ZIPs) |
-| FSD Condition B/C/D | ~575 | 0 (catalogue links saved) |
-| Sikt | 0 | 0 (API unavailable) |
+### Sikt — Download form:
+Automated the download form (Purpose, Institution, Data Citation checkbox) using Playwright with JavaScript clicks to bypass overlay issues.
