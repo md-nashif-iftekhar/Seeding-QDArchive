@@ -1,8 +1,0 @@
-Title      : Children and Youth Leisure Survey: 7-9-Year-Olds 2018
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3534
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3534
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

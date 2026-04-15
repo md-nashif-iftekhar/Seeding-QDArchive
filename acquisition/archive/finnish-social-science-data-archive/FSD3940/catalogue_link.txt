@@ -1,8 +1,0 @@
-Title      : Practices with Children Aged 0-2 in Foster Care: Foster Care Survey 2023
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3940
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3940
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

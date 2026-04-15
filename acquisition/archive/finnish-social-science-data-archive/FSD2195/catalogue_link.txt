@@ -1,8 +1,0 @@
-Title      : Young Boys' Mobile Phone Use 2000-2002
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2195
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2195
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

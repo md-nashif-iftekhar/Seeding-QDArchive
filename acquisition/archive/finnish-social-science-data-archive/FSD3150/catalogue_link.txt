@@ -1,8 +1,0 @@
-Title      : Attitudes towards Corporal Punishment of Children in Finland 2014
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3150
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3150
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

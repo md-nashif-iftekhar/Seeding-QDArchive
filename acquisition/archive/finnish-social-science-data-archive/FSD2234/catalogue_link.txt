@@ -1,8 +1,0 @@
-Title      : Sport Survey 2005-2006: Young People and Children
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2234
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2234
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

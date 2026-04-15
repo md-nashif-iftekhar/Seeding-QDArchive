@@ -1,8 +1,0 @@
-Title      : Substance Abuse Treatment: Therapists of Inpatient Treatment Institutions 2008
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2690
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2690
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

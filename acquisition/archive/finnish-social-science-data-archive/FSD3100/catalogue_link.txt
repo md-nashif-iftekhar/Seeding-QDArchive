@@ -1,8 +1,0 @@
-Title      : Citizen Deliberation on the Swedish Language and Swedish-speaking Minority in Finland: Recruitment Survey 2014
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3100
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3100
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

@@ -1,8 +1,0 @@
-Title      : Recruiters' Views on the Impact of Unemployment Periods in Recruitment
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3585
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3585
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

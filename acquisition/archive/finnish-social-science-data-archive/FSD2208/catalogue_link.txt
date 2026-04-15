@@ -1,8 +1,0 @@
-Title      : Quality of Life of the Mentally Disabled 1991: Severely Disabled
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2208
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2208
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

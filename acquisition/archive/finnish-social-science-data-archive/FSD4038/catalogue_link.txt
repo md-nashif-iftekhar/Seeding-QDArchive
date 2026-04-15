@@ -1,8 +1,0 @@
-Title      : QueerDefense Survey 2025
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD4038
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD4038
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

@@ -1,8 +1,0 @@
-Title      : Linux User Perspectives on Operating Systems 2008-2009
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2964
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2964
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

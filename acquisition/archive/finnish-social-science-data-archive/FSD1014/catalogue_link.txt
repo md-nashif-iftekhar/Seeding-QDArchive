@@ -1,8 +1,0 @@
-Title      : Finnish Voter Barometer 1987
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD1014
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD1014
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

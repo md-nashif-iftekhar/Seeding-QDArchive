@@ -1,8 +1,0 @@
-Title      : Youth Gambling Survey 2006: Age Limit Enforcement
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2253
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2253
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

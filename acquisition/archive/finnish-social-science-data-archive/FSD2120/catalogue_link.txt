@@ -1,8 +1,0 @@
-Title      : Jyväskylä Longitudinal Study of Personality and Social Development (JYLS): Personality Tests of 36-Year-Olds 1995
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD2120
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD2120
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

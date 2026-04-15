@@ -1,8 +1,0 @@
-Title      : Eight-Graders' Experiences of Participation in the Art Testers Campaign 2018-2019
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3414
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3414
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

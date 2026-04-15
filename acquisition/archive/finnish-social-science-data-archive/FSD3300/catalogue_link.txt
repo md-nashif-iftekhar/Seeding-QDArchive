@@ -1,8 +1,0 @@
-Title      : EduMAP: Interviews with Adult Education Policy-Makers and Personnel on the Social Exclusion of Young Adults 2017-2018: Latvia
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3300
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3300
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

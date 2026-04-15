@@ -1,8 +1,0 @@
-Title      : Life of Disabled Persons in Finland 2013-2014
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3040
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3040
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download

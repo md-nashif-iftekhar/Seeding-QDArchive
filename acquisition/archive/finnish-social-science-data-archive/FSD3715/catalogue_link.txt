@@ -1,8 +1,0 @@
-Title      : Social Networks in Intergovernmental Panel on Climate Change and Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services 2016-2021
-Project URL: https://services.fsd.tuni.fi/catalogue/FSD3715
-License    : In accordance with the agreement between FSD and the depositor.
-
-Manual download instructions:
-1. Go to: https://services.fsd.tuni.fi/catalogue/FSD3715
-2. Login at: https://services.fsd.tuni.fi
-3. Click Download
