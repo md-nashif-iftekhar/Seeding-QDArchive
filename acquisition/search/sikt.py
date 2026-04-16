@@ -1,20 +1,3 @@
-"""
-search/sikt.py — Searcher for Sikt (Norwegian data archive)
-https://sikt.no/en/find-data
-
-Repository ID : 20
-Method        : GraphQL API (api.nsd.no/graphql)
-
-Technical findings:
-  - SIKT set removed from CESSDA OAI-PMH catalogue (April 2026)
-  - Surveybanken uses a GraphQL API at https://api.nsd.no/graphql
-  - Query: elasticSearch.searchForStudiesQuery with kindOfData: QUALITATIVE
-  - Pagination via cursor (first/after)
-  - Repo: FORSKNINGSDATA
-  - Full metadata available: title, abstract, subjects, topics, restrictions
-  - License/DOI not in ElasticStudyNode — fetched separately via studyMetadata
-"""
-
 import re
 import time
 import sqlite3
@@ -47,7 +30,6 @@ query SearchStudies($query: [String!]!, $first: Int, $after: String) {
     searchForStudiesQuery(
       input: {
         query: $query
-        dataAccess: [OPEN]
         first: $first
         after: $after
       }
@@ -78,7 +60,6 @@ query SearchStudies($query: [String!]!, $first: Int, $after: String) {
 }
 """
 
-# Keywords that indicate qualitative data
 QUALITATIVE_KEYWORDS = [
     "qualitative", "interview", "focus group", "transcript",
     "fieldnote", "ethnograph", "narrative", "discourse",
@@ -96,7 +77,7 @@ class SiktSearcher(BaseSearcher):
         print(f"\n[Sikt] Starting GraphQL harvest…")
         print(f"  Repository ID : {REPO_ID}")
         print(f"  API           : {SIKT_GRAPHQL}")
-        print(f"  Filter        : dataAccess=OPEN, qualitative keywords")
+        print(f"  Filter        : all datasets, qualitative keywords")
 
         saved      = 0
         seen_ids   = set()
@@ -124,8 +105,6 @@ class SiktSearcher(BaseSearcher):
                     seen_ids.add(uid)
                     total_seen += 1
 
-                    # Filter: keep Text/Audio kindOfData
-                    # OR title/abstract contains qualitative keywords
                     kind = (node.get("kindOfData") or "").lower()
                     title_obj    = node.get("title") or {}
                     abstract_obj = node.get("abstract") or {}
@@ -166,8 +145,6 @@ class SiktSearcher(BaseSearcher):
 
         print(f"\n[Sikt] Done — {saved} qualitative projects saved.\n")
 
-    # ── GraphQL fetch ──────────────────────────────────────────────────────────
-
     def _fetch_page(self, query_str: str, after: str = None) -> dict | None:
         variables = {
             "query": [query_str],
@@ -199,8 +176,6 @@ class SiktSearcher(BaseSearcher):
             self.log(f"[ERROR] fetch failed: {e}")
             return None
 
-    # ── Parse node ─────────────────────────────────────────────────────────────
-
     def _parse_node(self, node: dict) -> dict | None:
         uid          = node.get("id", "")
         version      = node.get("version", 1)
@@ -217,17 +192,14 @@ class SiktSearcher(BaseSearcher):
         restrictions_obj = node.get("restrictions") or {}
         restrictions     = restrictions_obj.get("en") or restrictions_obj.get("no") or ""
 
-        # Publisher / license from citation
         citation_obj  = node.get("citation") or {}
         publisher_obj = citation_obj.get("publisher") or {}
         publisher     = publisher_obj.get("en") or publisher_obj.get("no") or "Sikt"
 
-        # Dates
         start_date = (node.get("startDate") or "")[:10]
         end_date   = (node.get("endDate") or "")[:10]
         upload_date = end_date or start_date or ""
 
-        # Keywords from subjects
         subjects = node.get("subjects") or []
         keywords = []
         for s in subjects:
@@ -235,14 +207,11 @@ class SiktSearcher(BaseSearcher):
             if kw:
                 keywords.append(kw)
 
-        # Also add topic codes as keywords
         for t in node.get("topic") or []:
             keywords.append(t)
 
-        # Study URL
         project_url = SIKT_STUDY_URL.format(id=uid, version=version)
 
-        # Determine license from restrictions text
         rest_lower = restrictions.lower()
         if not restrictions:
             license_str = "CC BY 4.0"
@@ -276,7 +245,6 @@ class SiktSearcher(BaseSearcher):
             "_publisher":                 publisher,
         }
 
-    # ── Save to DB ─────────────────────────────────────────────────────────────
 
     def _save_record(self, conn: sqlite3.Connection, record: dict) -> int | None:
         keywords  = record.pop("_keywords", [])
