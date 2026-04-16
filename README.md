@@ -1,61 +1,92 @@
-# Part 1: Data Acquisition — Seeding QDArchive
-
-**Course:** Applied Software Engineering Seminar/Project  
-**University:** Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)  
-**Supervisor:** Prof. Dr. Dirk Riehle  
-**Student:** Md Nashif Iftekhar  
+# Part 1: Data Acquisition — Seeding QDArchive 
 **Repositories assigned:** #11 FSD (Finnish Social Science Data Archive), #20 Sikt (Norwegian data archive)
 
 ---
 
 ## Overview
 
-This pipeline automatically searches qualitative research data repositories, downloads available files, and stores metadata in a structured SQLite database. It targets repositories that archive qualitative research data such as interview transcripts, fieldnotes, and QDA project files.
+This automated pipeline discovers, downloads, and catalogs qualitative research data from repositories. It focuses on repositories hosting qualitative datasets such as interview transcripts, field notes, focus group recordings, and QDA files.
 
+### Key Features
+- **Qualitative Filtering**: Automatically identifies and prioritizes qualitative datasets
+- **Metadata Extraction**: Captures rich metadata including titles, descriptions, DOIs, and licensing
+- **Automated Downloads**: Handles authentication, file retrieval, and integrity checks
+- **Structured Storage**: Stores metadata in SQLite database with CSV exports
 
----
+### Architecture Overview
+
+The pipeline consists of three main phases:
+
+1. **Search Phase**: Query repository APIs and catalogs for qualitative datasets
+2. **Download Phase**: Authenticate and download identified datasets
+3. **Export Phase**: Generate CSV reports and validate data integrity
 
 ## Project Structure
 
 ```
-acquisition/
-├── search.py               
-├── download.py             
-├── export.py               
-├── fsd_playwright.py       
-├── config.py               
-├── db.py                   
-├── requirements.txt        
-├── search/
-│   ├── fsd.py              # FSD OAI-PMH + catalogue scraper
-│   └── sikt.py             # Sikt CESSDA OAI-PMH searcher
-└── archive/                # Downloaded files (not in git)
-    ├── finnish-social-science-data-archive/
-    └── sikt/
+Seeding-QDArchive/
+├── README.md
+├── .gitignore
+├── acquisition/                       # Main pipeline code
+│   ├── config.py
+│   ├── db.py
+│   ├── search.py
+│   ├── download.py
+│   ├── export.py
+│   ├── fsd_playwright.py
+│   ├── sikt_playwright.py
+│   ├── requirements.txt
+│   ├── qdarchive_*.csv                # Exported data (generated)
+│   ├── report.txt                     # Processing report (generated)
+│   ├── search/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── fsd.py                     # FSD API integration
+│   │   └── sikt.py                    # Sikt API integration
+│   └── archive/                       # Downloaded data
+│       ├── finnish-social-science-data-archive/
+│       └── sikt/
+└── venv/                              # Virtual environment (optional)
 ```
 
 ---
 
 ## Setup
 
-### Requirements
-
-- Python 3.10+
-- Google Chrome (for Playwright)
+### Prerequisites
+- **Python**: 3.10 or higher
+- **Browser**: Google Chrome (for Playwright automation)
+- **System**: Windows/Linux/macOS with internet access
 
 ### Installation
 
+1. **Clone and navigate**:
+```bash
+git clone <repository-url>
+cd Seeding-QDArchive
+```
+
+2. **Create virtual environment** (recommended):
+```bash
+python -m venv venv
+```
+# Windows
+venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
+
+3. **Install dependencies**:
 ```bash
 cd acquisition
 pip install -r requirements.txt
-playwright install chromium
 ```
+---
 
 ### Credentials
 
 Create a `.env` file inside the `acquisition/` folder:
 
-```
+```bash
 FSD_USERNAME=your_fsd_username
 FSD_PASSWORD=your_fsd_password
 SIKT_USERNAME=your_sikt_email
@@ -68,25 +99,31 @@ SIKT_PASSWORD=your_sikt_password
 
 ### Full pipeline (fresh start)
 
-```bash
 # Delete old database if re-running from scratch
+```bash
 del ..\23240175-seeding.db   # Windows
 rm ../23240175-seeding.db    # Linux/Mac
-
+```
 # Step 1: Search all repositories (metadata)
+```bash
 python search.py
-
+```
 # Step 2: Download FSD Condition A files (requires Chrome)
+```bash
 python fsd_playwright.py --only-a
-
+```
 # Step 3: Download open Sikt datasets (opens Chrome)
+```bash
 python sikt_playwright.py
-
+```
 # Step 4: Record, saved metadata for restricted datasets
+```bash
 python download.py --only fsd
 python download.py --only sikt
+```
 
 # Step 5: Export results
+```bash
 python export.py
 ```
 
@@ -97,18 +134,11 @@ python search.py --only fsd
 python search.py --only sikt
 ```
 
-### Download individual repositories
-
-```bash
-python download.py --only fsd
-python download.py --only sikt
-```
-
 ---
 
 ## Database Schema
 
-The pipeline stores all metadata in `qdarchive.db` (SQLite) with 5 tables:
+The pipeline stores all metadata in `23240175-seeding.db` (SQLite) with 5 tables:
 
 **`projects`** — one row per research project  
 **`files`** — one row per file (download result)  
@@ -146,6 +176,9 @@ archive/
 ---
 
 ## Technical Challenges
+- FSD requires manual authentication for some datasets
+- Large datasets may require multiple download attempts
+- Browser automation is sensitive to page layout changes
 
 ### FSD — Shibboleth SSO
 Direct download URLs redirect to homepage without a browser session. The `/v0/download/` URL redirects to the FSD homepage without a valid browser session — even for Condition A (CC BY 4.0) datasets. The FSD requires a browser-based SAML login flow that cannot be completed with plain HTTP requests.
