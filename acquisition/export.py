@@ -11,6 +11,7 @@ EXPORT_PROJECTS  = "qdarchive_projects.csv"
 EXPORT_FILES     = "qdarchive_files.csv"
 EXPORT_KEYWORDS  = "qdarchive_keywords.csv"
 EXPORT_PERSONS   = "qdarchive_persons.csv"
+EXPORT_LICENSES  = "qdarchive_licenses.csv"
 
 def export_projects(conn: sqlite3.Connection) -> int:
     """Export PROJECTS table to CSV. Returns row count."""
@@ -134,12 +135,31 @@ def export_persons(conn: sqlite3.Connection) -> int:
 
     print(f"  → {EXPORT_PERSONS}  ({len(rows)} rows)")
     return len(rows)
+def export_licenses(conn: sqlite3.Connection) -> int:
+    """Export LICENSES table to CSV. Returns row count."""
+    rows = conn.execute("""
+        SELECT
+            l.id,
+            l.project_id,
+            l.license
+        FROM licenses l
+        ORDER BY l.project_id, l.id
+    """).fetchall()
+ 
+    with open(EXPORT_LICENSES, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["id", "project_id", "license"])
+        writer.writerows(rows)
+ 
+    print(f"  → {EXPORT_LICENSES}  ({len(rows)} rows)")
+    return len(rows)
 
 def write_report(conn: sqlite3.Connection,
                  n_projects: int,
                  n_files: int,
                  n_keywords: int,
-                 n_persons: int):
+                 n_persons: int,
+                 n_licenses: int) -> None:
     """Write human-readable report.txt."""
     stats = summary(conn)
     now   = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -190,6 +210,7 @@ def write_report(conn: sqlite3.Connection,
         f"  Total files     : {n_files:,}",
         f"  Total keywords  : {n_keywords:,}",
         f"  Total persons   : {n_persons:,}",
+        f"  Total licenses  : {n_licenses:,}",
         "",
         "FILE DOWNLOAD RESULTS",
         "-" * 40,
@@ -250,6 +271,7 @@ def write_report(conn: sqlite3.Connection,
         f"  {EXPORT_FILES}",
         f"  {EXPORT_KEYWORDS}",
         f"  {EXPORT_PERSONS}",
+        f"  {EXPORT_LICENSES}",
         f"  {REPORT_PATH}",
         "",
         "ARCHIVE FOLDER",
@@ -281,9 +303,10 @@ def main():
     n_files    = export_files(conn)
     n_keywords = export_keywords(conn)
     n_persons  = export_persons(conn)
+    n_licenses = export_licenses(conn)
 
     print(f"\nWriting report…")
-    write_report(conn, n_projects, n_files, n_keywords, n_persons)
+    write_report(conn, n_projects, n_files, n_keywords, n_persons, n_licenses)
 
     conn.close()
 
@@ -294,6 +317,8 @@ def main():
     print(f"  Files     : {n_files:,}")
     print(f"  Keywords  : {n_keywords:,}")
     print(f"  Persons   : {n_persons:,}")
+    print(f"  Licenses   : {n_licenses:,}")
+
     print(f"{'='*60}")
 
 

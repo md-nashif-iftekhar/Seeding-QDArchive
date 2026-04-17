@@ -1,32 +1,34 @@
 ============================================================
 QDArchive — Part 1: Data Acquisition Report
-Generated : 2026-04-13 19:12 UTC
+Generated : 2026-04-17 20:19 UTC
 ============================================================
 
 OVERVIEW
 ----------------------------------------
-  Total projects  : 587
-  Total files     : 587
-  Total keywords  : 12,184
-  Total persons   : 2,257
+  Total projects  : 1,517
+  Total files     : 2,711
+  Total keywords  : 15,469
+  Total persons   : 3,187
+  Total licenses  : 1,517
 
 FILE DOWNLOAD RESULTS
 ----------------------------------------
-  FAILED_LOGIN_REQUIRED                  587
+  FAILED_LOGIN_REQUIRED                 2410
+  SUCCEEDED                              301
 
 BY REPOSITORY
 ----------------------------------------
   Repo #11 — https://www.fsd.tuni.fi/en
     Projects : 557
-    Files    : 557
-    Succeeded: 0
-    Failed   : 557
+    Files    : 821
+    Succeeded: 271
+    Failed   : 550
 
   Repo #20 — https://sikt.no/en/find-data
-    Projects : 30
-    Files    : 30
-    Succeeded: 0
-    Failed   : 30
+    Projects : 960
+    Files    : 1,890
+    Succeeded: 30
+    Failed   : 1,860
 
 REPOSITORY NOTES
 ----------------------------------------
@@ -52,26 +54,26 @@ REPOSITORY NOTES
 
 TOP 20 KEYWORDS
 ----------------------------------------
+  LabourAndEmployment                        227
+  LABOUR AND EMPLOYMENT                      227
+  LabourAndEmployment.Employment             220
+  Employment                                 220
   nuoret                                      73
+  Arbeid og sysselsetting                     68
   children                                    60
   työelämä                                    58
   hyvinvointi                                 55
+  Health                                      52
+  HEALTH                                      52
+  Politics.Elections                          51
+  Media                                       51
+  Elections                                   51
   working conditions                          50
+  Economics                                   50
+  ECONOMICS                                   50
+  MediaCommunicationAndLanguage.Media         48
   youth                                       47
   tulevaisuudenodotukset                      47
-  työhyvinvointi                              46
-  social services                             46
-  tasa-arvo                                   45
-  sosiaaliset suhteet                         45
-  työkyky                                     39
-  families                                    39
-  kokemukset                                  38
-  family life                                 38
-  vapaa-aika                                  37
-  parents                                     37
-  harrastukset                                37
-  employees                                   37
-  discrimination                              37
 
 EXPORTED FILES
 ----------------------------------------
@@ -79,6 +81,7 @@ EXPORTED FILES
   qdarchive_files.csv
   qdarchive_keywords.csv
   qdarchive_persons.csv
+  qdarchive_licenses.csv
   report.txt
 
 ARCHIVE FOLDER
