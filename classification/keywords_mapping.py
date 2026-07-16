@@ -90,7 +90,7 @@ divisions = [
     ("V", "99", "Activities of extraterritorial organizations and bodies "),
 ]
 
-extra_hints = {
+EXTRA_HINTS = {
     "A-01": ["farming", "agriculture", "crop", "livestock", "farmer", "rural", "agricultural"],
     "A-02": ["forestry", "logging", "forest", "timber"],
     "A-03": ["fishing", "fishery", "aquaculture", "fisher"],
@@ -138,6 +138,31 @@ extra_hints = {
     "V-99": ["united nations", "international organization", "diplomacy"],
 }
 
+# Finnish and Norwegian words
+MULTI_HINTS = {
+    "A-01": ["maatalous","maanviljely","landbruk","jordbruk","gård"],
+    "A-03": ["kalastus","fiske","fiskeri"],
+    "D-35": ["energia","sähkö","energi","strøm","fornybar"],
+    "E-36": ["vesi","vann","drikkevann"],
+    "E-38": ["jäte","kierrätys","avfall","gjenvinning","ydinjäte","kjernefysisk avfall"],
+    "H-49": ["liikenne","transportti","transport","samferdsel","trafikk"],
+    "J-59": ["elokuva","media","film","video","musikk","musiikki"],
+    "J-60": ["radio","televisio","kringkasting","uutiset","nyheter"],
+    "K-63": ["internet","sosiaalinen media","sosiale medier","nettbrett","digitaalinen"],
+    "L-64": ["pankki","rahoitus","bank","finans","økonomi","talous"],
+    "N-69": ["laki","oikeus","lov","juridisk","domstol","tuomioistuin"],
+    "N-72": ["tutkimus","tiede","forskning","vitenskap","tieteellinen"],
+    "O-78": ["työ","työllisyys","ammatti","arbeid","sysselsetting","yrke","arbeidsliv","työelämä"],
+    "P-84": ["politiikka","hallinto","vaalit","demokratia","valtio","politikk","forvaltning","valg","demokrati","stat","kunta","kommune","julkishallinto","offentlig"],
+    "Q-85": ["koulutus","koulu","opetus","oppilas","opiskelija","yliopisto","opettaja","kasvatus","utdanning","skole","undervisning","elev","student","universitet","lærer","opplæring"],
+    "R-86": ["terveys","sairaala","potilas","lääkäri","sairaus","hoito","mielenterveys","hyvinvointi","helse","sykehus","pasient","lege","sykdom","behandling","psykisk helse","velvære"],
+    "R-88": ["sosiaalityö","hyvinvointi","köyhyys","vammaisuus","sukupuoli","tasa-arvo","perhe","nuoret","maahanmuuttaja","sosialt arbeid","velferd","fattigdom","funksjonshemming","kjønn","likestilling","familie","ungdom","innvandrer"],
+    "S-90": ["taide","musiikki","teatteri","kulttuuri","taiteilija","kirjallisuus","kunst","musikk","teater","kultur","kunstner","litteratur"],
+    "S-91": ["kirjasto","museo","arkisto","perintö","kulttuuriperintö","bibliotek","museum","arkiv","kulturarv"],
+    "S-93": ["urheilu","liikunta","sport","idrett","trening"],
+    "T-94": ["uskonto","kirkko","yhdistys","järjestö","religion","kirke","forening","organisasjon"],
+}
+
 junk_words = {"and", "other", "activities", "manufacture", "related", "except",
               "service", "services", "products", "production", "n.e.c", "the",
               "of", "for", "with", "without", "auxiliary", "compulsory"}
@@ -147,12 +172,15 @@ for section, div_num, title in divisions:
     code = f"{section}-{div_num}"
     words = [w.lower().strip(",;") for w in title.split()
              if len(w) > 4 and w.lower() not in junk_words]
-    hints = extra_hints.get(code, [])
+    extra_en = EXTRA_HINTS.get(code, [])
+    extra_ml = MULTI_HINTS.get(code, [])
+    all_keywords = set(words + extra_en + extra_ml)
+
     final_map[code] = {
         "section": section,
         "div": div_num,
         "title": title,
-        "keywords": sorted(list(set(words + hints)))
+        "keywords": sorted(all_keywords)
     }
 
 with open("isic_keywords_map.json", "w", encoding="utf-8") as f:
