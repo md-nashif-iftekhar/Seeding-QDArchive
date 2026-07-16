@@ -10,8 +10,13 @@
       "crop",
       "farmer",
       "farming",
+      "gård",
       "hunting",
+      "jordbruk",
+      "landbruk",
       "livestock",
+      "maanviljely",
+      "maatalous",
       "production",
       "rural"
     ]
@@ -35,7 +40,10 @@
       "aquaculture",
       "fisher",
       "fishery",
-      "fishing"
+      "fishing",
+      "fiske",
+      "fiskeri",
+      "kalastus"
     ]
   },
   "B-05": {
@@ -323,12 +331,17 @@
     "keywords": [
       "conditioning",
       "electricity",
+      "energi",
+      "energia",
       "energy transition",
+      "fornybar",
       "power supply",
       "renewable energy",
       "solar",
       "steam",
+      "strøm",
       "supply",
+      "sähkö",
       "wind power"
     ]
   },
@@ -338,9 +351,12 @@
     "title": "Water collection, treatment and supply",
     "keywords": [
       "collection",
+      "drikkevann",
       "drinking water",
       "supply",
       "treatment",
+      "vann",
+      "vesi",
       "water",
       "water supply"
     ]
@@ -358,13 +374,19 @@
     "div": "38",
     "title": "Waste collection, treatment and disposal, and recovery activities",
     "keywords": [
+      "avfall",
       "collection",
       "disposal",
+      "gjenvinning",
+      "jäte",
+      "kierrätys",
+      "kjernefysisk avfall",
       "recovery",
       "recycling",
       "treatment",
       "waste",
-      "waste management"
+      "waste management",
+      "ydinjäte"
     ]
   },
   "E-39": {
@@ -435,11 +457,15 @@
     "title": "Land transport and transport via pipelines",
     "keywords": [
       "commuting",
+      "liikenne",
       "mobility",
       "pipelines",
       "railway",
+      "samferdsel",
       "traffic",
-      "transport"
+      "trafikk",
+      "transport",
+      "transportti"
     ]
   },
   "H-50": {
@@ -519,9 +545,13 @@
     "keywords": [
       "cinema",
       "documentary",
+      "elokuva",
       "film",
+      "media",
       "motion",
       "music",
+      "musiikki",
+      "musikk",
       "picture",
       "production",
       "programme",
@@ -542,10 +572,14 @@
       "content",
       "distribution",
       "journalism",
+      "kringkasting",
       "news",
+      "nyheter",
       "programming",
       "radio",
-      "television"
+      "televisio",
+      "television",
+      "uutiset"
     ]
   },
   "K-61": {
@@ -580,13 +614,17 @@
       "artificial intelligence",
       "computing",
       "data processing",
+      "digitaalinen",
       "hosting",
       "information",
       "infrastructure",
       "internet",
+      "nettbrett",
       "online platform",
       "processing",
       "social media",
+      "sosiaalinen media",
+      "sosiale medier",
       "web hosting"
     ]
   },
@@ -596,15 +634,21 @@
     "title": "Financial service activities, except insurance and pension funding",
     "keywords": [
       "activities",
+      "bank",
       "banking",
       "credit",
       "finance",
       "financial",
+      "finans",
       "funding",
       "insurance",
       "investment",
       "loan",
-      "pension"
+      "pankki",
+      "pension",
+      "rahoitus",
+      "talous",
+      "økonomi"
     ]
   },
   "L-65": {
@@ -648,11 +692,17 @@
     "keywords": [
       "accounting",
       "court",
+      "domstol",
+      "juridisk",
       "justice",
+      "laki",
       "law",
       "lawyer",
       "legal",
-      "litigation"
+      "litigation",
+      "lov",
+      "oikeus",
+      "tuomioistuin"
     ]
   },
   "N-70": {
@@ -688,12 +738,17 @@
     "keywords": [
       "development",
       "experiment",
+      "forskning",
       "innovation",
       "laboratory",
       "methodology",
       "research",
       "science",
-      "scientific"
+      "scientific",
+      "tiede",
+      "tieteellinen",
+      "tutkimus",
+      "vitenskap"
     ]
   },
   "N-73": {
@@ -744,6 +799,9 @@
     "div": "78",
     "title": "Employment activities",
     "keywords": [
+      "ammatti",
+      "arbeid",
+      "arbeidsliv",
       "career",
       "employment",
       "job",
@@ -751,8 +809,13 @@
       "labour market",
       "occupation",
       "recruitment",
+      "sysselsetting",
+      "työ",
+      "työelämä",
+      "työllisyys",
       "work",
-      "workplace"
+      "workplace",
+      "yrke"
     ]
   },
   "O-79": {
@@ -806,23 +869,37 @@
       "conflict",
       "defence",
       "democracy",
+      "demokrati",
+      "demokratia",
       "election",
+      "forvaltning",
       "governance",
       "government",
+      "hallinto",
       "human rights",
+      "julkishallinto",
+      "kommune",
+      "kunta",
       "migration",
       "military",
       "nationalism",
+      "offentlig",
       "peace",
       "policy",
       "politics",
+      "politiikka",
+      "politikk",
       "public",
       "public administration",
       "public sector",
       "refugee",
       "security",
       "social",
+      "stat",
       "state",
+      "vaalit",
+      "valg",
+      "valtio",
       "war"
     ]
   },
@@ -837,14 +914,29 @@
       "classroom",
       "curriculum",
       "education",
+      "elev",
+      "kasvatus",
+      "koulu",
+      "koulutus",
       "learning",
       "literacy",
+      "lærer",
+      "opettaja",
+      "opetus",
+      "opiskelija",
+      "oppilas",
+      "opplæring",
       "pedagogy",
       "school",
+      "skole",
       "student",
       "teacher",
       "teaching",
-      "university"
+      "undervisning",
+      "universitet",
+      "university",
+      "utdanning",
+      "yliopisto"
     ]
   },
   "R-86": {
@@ -852,24 +944,40 @@
     "div": "86",
     "title": "Human health activities",
     "keywords": [
+      "behandling",
       "clinical",
       "covid",
       "disease",
       "doctor",
       "health",
       "healthcare",
+      "helse",
+      "hoito",
       "hospital",
       "human",
+      "hyvinvointi",
       "illness",
+      "lege",
+      "lääkäri",
       "medical",
       "medicine",
       "mental health",
+      "mielenterveys",
       "nursing",
       "pandemic",
+      "pasient",
       "patient",
+      "potilas",
       "pregnancy",
       "psychological",
+      "psykisk helse",
+      "sairaala",
+      "sairaus",
+      "sykdom",
+      "sykehus",
+      "terveys",
       "therapy",
+      "velvære",
       "wellbeing"
     ]
   },
@@ -896,16 +1004,34 @@
       "disability",
       "discrimination",
       "ethnic",
+      "familie",
       "family",
+      "fattigdom",
       "feminism",
+      "funksjonshemming",
       "gender",
       "homeless",
+      "hyvinvointi",
       "inequality",
+      "innvandrer",
+      "kjønn",
+      "köyhyys",
+      "likestilling",
+      "maahanmuuttaja",
       "minority",
+      "nuoret",
+      "perhe",
       "poverty",
       "social",
       "social service",
       "social work",
+      "sosiaalityö",
+      "sosialt arbeid",
+      "sukupuoli",
+      "tasa-arvo",
+      "ungdom",
+      "vammaisuus",
+      "velferd",
       "violence",
       "vulnerable",
       "welfare",
@@ -923,10 +1049,22 @@
       "creative",
       "cultural",
       "culture",
+      "kirjallisuus",
+      "kulttuuri",
+      "kultur",
+      "kunst",
+      "kunstner",
       "literature",
+      "litteratur",
       "music",
+      "musiikki",
+      "musikk",
       "performance",
       "performing",
+      "taide",
+      "taiteilija",
+      "teater",
+      "teatteri",
       "theatre"
     ]
   },
@@ -937,10 +1075,18 @@
     "keywords": [
       "archive",
       "archives",
+      "arkisto",
+      "arkiv",
+      "bibliotek",
       "cultural",
       "heritage",
+      "kirjasto",
+      "kulttuuriperintö",
+      "kulturarv",
       "library",
-      "museum"
+      "museo",
+      "museum",
+      "perintö"
     ]
   },
   "S-92": {
@@ -961,10 +1107,14 @@
       "athletics",
       "exercise",
       "fitness",
+      "idrett",
       "leisure",
+      "liikunta",
       "recreation",
       "sport",
-      "sports"
+      "sports",
+      "trening",
+      "urheilu"
     ]
   },
   "T-94": {
@@ -976,14 +1126,21 @@
       "association",
       "church",
       "community organization",
+      "forening",
+      "järjestö",
+      "kirke",
+      "kirkko",
       "membership",
       "ngo",
+      "organisasjon",
       "organizations",
       "political party",
       "religion",
       "religious",
       "social movement",
-      "union"
+      "union",
+      "uskonto",
+      "yhdistys"
     ]
   },
   "T-95": {
