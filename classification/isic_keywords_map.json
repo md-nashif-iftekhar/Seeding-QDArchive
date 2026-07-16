@@ -1,0 +1,1053 @@
+{
+  "A-01": {
+    "section": "A",
+    "div": "01",
+    "title": "Crop and animal production, hunting and related service activities",
+    "keywords": [
+      "agricultural",
+      "agriculture",
+      "animal",
+      "crop",
+      "farmer",
+      "farming",
+      "hunting",
+      "livestock",
+      "production",
+      "rural"
+    ]
+  },
+  "A-02": {
+    "section": "A",
+    "div": "02",
+    "title": "Forestry and logging",
+    "keywords": [
+      "forest",
+      "forestry",
+      "logging",
+      "timber"
+    ]
+  },
+  "A-03": {
+    "section": "A",
+    "div": "03",
+    "title": "Fishing and aquaculture",
+    "keywords": [
+      "aquaculture",
+      "fisher",
+      "fishery",
+      "fishing"
+    ]
+  },
+  "B-05": {
+    "section": "B",
+    "div": "05",
+    "title": "Mining of coal and lignite",
+    "keywords": [
+      "lignite",
+      "mining"
+    ]
+  },
+  "B-06": {
+    "section": "B",
+    "div": "06",
+    "title": "Extraction of crude petroleum and natural gas",
+    "keywords": [
+      "crude",
+      "extraction",
+      "natural",
+      "petroleum"
+    ]
+  },
+  "B-07": {
+    "section": "B",
+    "div": "07",
+    "title": "Mining of metal ores",
+    "keywords": [
+      "metal",
+      "mining"
+    ]
+  },
+  "B-08": {
+    "section": "B",
+    "div": "08",
+    "title": "Other mining and quarrying",
+    "keywords": [
+      "mineral",
+      "mining",
+      "quarry",
+      "quarrying"
+    ]
+  },
+  "B-09": {
+    "section": "B",
+    "div": "09",
+    "title": "Mining support service activities",
+    "keywords": [
+      "mining",
+      "support"
+    ]
+  },
+  "C-10": {
+    "section": "C",
+    "div": "10",
+    "title": "Manufacture of food products",
+    "keywords": [
+      "food manufacturing",
+      "food production"
+    ]
+  },
+  "C-11": {
+    "section": "C",
+    "div": "11",
+    "title": "Manufacture of beverages",
+    "keywords": [
+      "beverages"
+    ]
+  },
+  "C-12": {
+    "section": "C",
+    "div": "12",
+    "title": "Manufacture of tobacco products",
+    "keywords": [
+      "tobacco"
+    ]
+  },
+  "C-13": {
+    "section": "C",
+    "div": "13",
+    "title": "Manufacture of textiles",
+    "keywords": [
+      "textiles"
+    ]
+  },
+  "C-14": {
+    "section": "C",
+    "div": "14",
+    "title": "Manufacture of wearing apparel",
+    "keywords": [
+      "apparel",
+      "wearing"
+    ]
+  },
+  "C-15": {
+    "section": "C",
+    "div": "15",
+    "title": "Manufacture of leather and related products",
+    "keywords": [
+      "leather"
+    ]
+  },
+  "C-16": {
+    "section": "C",
+    "div": "16",
+    "title": "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+    "keywords": [
+      "articles",
+      "cork",
+      "furniture",
+      "materials",
+      "plaiting",
+      "straw"
+    ]
+  },
+  "C-17": {
+    "section": "C",
+    "div": "17",
+    "title": "Manufacture of paper and paper products",
+    "keywords": [
+      "paper"
+    ]
+  },
+  "C-18": {
+    "section": "C",
+    "div": "18",
+    "title": "Printing and reproduction of recorded media",
+    "keywords": [
+      "media",
+      "printing",
+      "recorded",
+      "reproduction"
+    ]
+  },
+  "C-19": {
+    "section": "C",
+    "div": "19",
+    "title": "Manufacture of coke and refined petroleum products",
+    "keywords": [
+      "petroleum",
+      "refined"
+    ]
+  },
+  "C-20": {
+    "section": "C",
+    "div": "20",
+    "title": "Manufacture of chemicals and chemical products",
+    "keywords": [
+      "chemical",
+      "chemicals"
+    ]
+  },
+  "C-21": {
+    "section": "C",
+    "div": "21",
+    "title": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+    "keywords": [
+      "basic",
+      "medicine production",
+      "pharmaceutical",
+      "preparations"
+    ]
+  },
+  "C-22": {
+    "section": "C",
+    "div": "22",
+    "title": "Manufacture of rubber and plastic products",
+    "keywords": [
+      "plastic",
+      "rubber"
+    ]
+  },
+  "C-23": {
+    "section": "C",
+    "div": "23",
+    "title": "Manufacture of other non-metallic mineral products",
+    "keywords": [
+      "mineral",
+      "non-metallic"
+    ]
+  },
+  "C-24": {
+    "section": "C",
+    "div": "24",
+    "title": "Manufacture of basic metals",
+    "keywords": [
+      "basic",
+      "metals"
+    ]
+  },
+  "C-25": {
+    "section": "C",
+    "div": "25",
+    "title": "Manufacture of fabricated metal products, except machinery and equipment",
+    "keywords": [
+      "equipment",
+      "fabricated",
+      "machinery",
+      "metal",
+      "products"
+    ]
+  },
+  "C-26": {
+    "section": "C",
+    "div": "26",
+    "title": "Manufacture of computer, electronic and optical products",
+    "keywords": [
+      "computer",
+      "electronic",
+      "electronics",
+      "optical",
+      "semiconductor"
+    ]
+  },
+  "C-27": {
+    "section": "C",
+    "div": "27",
+    "title": "Manufacture of electrical equipment",
+    "keywords": [
+      "electrical",
+      "equipment"
+    ]
+  },
+  "C-28": {
+    "section": "C",
+    "div": "28",
+    "title": "Manufacture of machinery and equipment n.e.c.",
+    "keywords": [
+      "equipment",
+      "machinery",
+      "n.e.c."
+    ]
+  },
+  "C-29": {
+    "section": "C",
+    "div": "29",
+    "title": "Manufacture of motor vehicles, trailers and semi-trailers",
+    "keywords": [
+      "motor",
+      "semi-trailers",
+      "trailers",
+      "vehicles"
+    ]
+  },
+  "C-30": {
+    "section": "C",
+    "div": "30",
+    "title": "Manufacture of other transport equipment",
+    "keywords": [
+      "equipment",
+      "transport"
+    ]
+  },
+  "C-31": {
+    "section": "C",
+    "div": "31",
+    "title": "Manufacture of furniture",
+    "keywords": [
+      "furniture"
+    ]
+  },
+  "C-32": {
+    "section": "C",
+    "div": "32",
+    "title": "Other manufacturing",
+    "keywords": [
+      "manufacturing"
+    ]
+  },
+  "C-33": {
+    "section": "C",
+    "div": "33",
+    "title": "Repair, maintenance and installation of machinery and equipment",
+    "keywords": [
+      "equipment",
+      "installation",
+      "machinery",
+      "maintenance",
+      "repair"
+    ]
+  },
+  "D-35": {
+    "section": "D",
+    "div": "35",
+    "title": "Electricity, gas, steam and air conditioning supply",
+    "keywords": [
+      "conditioning",
+      "electricity",
+      "energy transition",
+      "power supply",
+      "renewable energy",
+      "solar",
+      "steam",
+      "supply",
+      "wind power"
+    ]
+  },
+  "E-36": {
+    "section": "E",
+    "div": "36",
+    "title": "Water collection, treatment and supply",
+    "keywords": [
+      "collection",
+      "drinking water",
+      "supply",
+      "treatment",
+      "water",
+      "water supply"
+    ]
+  },
+  "E-37": {
+    "section": "E",
+    "div": "37",
+    "title": "Sewerage",
+    "keywords": [
+      "sewerage"
+    ]
+  },
+  "E-38": {
+    "section": "E",
+    "div": "38",
+    "title": "Waste collection, treatment and disposal, and recovery activities",
+    "keywords": [
+      "collection",
+      "disposal",
+      "recovery",
+      "recycling",
+      "treatment",
+      "waste",
+      "waste management"
+    ]
+  },
+  "E-39": {
+    "section": "E",
+    "div": "39",
+    "title": "Remediation and other waste management service activities",
+    "keywords": [
+      "management",
+      "remediation",
+      "waste"
+    ]
+  },
+  "F-41": {
+    "section": "F",
+    "div": "41",
+    "title": "Construction of residential and non-residential buildings",
+    "keywords": [
+      "building",
+      "buildings",
+      "construction",
+      "housing construction",
+      "non-residential",
+      "residential"
+    ]
+  },
+  "F-42": {
+    "section": "F",
+    "div": "42",
+    "title": "Civil engineering",
+    "keywords": [
+      "civil",
+      "engineering"
+    ]
+  },
+  "F-43": {
+    "section": "F",
+    "div": "43",
+    "title": "Specialized construction activities",
+    "keywords": [
+      "construction",
+      "specialized"
+    ]
+  },
+  "G-46": {
+    "section": "G",
+    "div": "46",
+    "title": "Wholesale trade",
+    "keywords": [
+      "trade",
+      "wholesale"
+    ]
+  },
+  "G-47": {
+    "section": "G",
+    "div": "47",
+    "title": "Retail trade",
+    "keywords": [
+      "consumer",
+      "market trade",
+      "retail",
+      "shopping",
+      "trade"
+    ]
+  },
+  "H-49": {
+    "section": "H",
+    "div": "49",
+    "title": "Land transport and transport via pipelines",
+    "keywords": [
+      "commuting",
+      "mobility",
+      "pipelines",
+      "railway",
+      "traffic",
+      "transport"
+    ]
+  },
+  "H-50": {
+    "section": "H",
+    "div": "50",
+    "title": "Water transport",
+    "keywords": [
+      "transport",
+      "water"
+    ]
+  },
+  "H-51": {
+    "section": "H",
+    "div": "51",
+    "title": "Air transport",
+    "keywords": [
+      "air travel",
+      "airline",
+      "aviation",
+      "transport"
+    ]
+  },
+  "H-52": {
+    "section": "H",
+    "div": "52",
+    "title": "Warehousing and support activities for transportation",
+    "keywords": [
+      "support",
+      "transportation",
+      "warehousing"
+    ]
+  },
+  "H-53": {
+    "section": "H",
+    "div": "53",
+    "title": "Postal and courier activities",
+    "keywords": [
+      "courier",
+      "postal"
+    ]
+  },
+  "I-55": {
+    "section": "I",
+    "div": "55",
+    "title": "Accommodation",
+    "keywords": [
+      "accommodation",
+      "hospitality",
+      "hotel",
+      "tourism"
+    ]
+  },
+  "I-56": {
+    "section": "I",
+    "div": "56",
+    "title": "Food and beverage service activities",
+    "keywords": [
+      "beverage",
+      "catering",
+      "food service",
+      "restaurant"
+    ]
+  },
+  "J-58": {
+    "section": "J",
+    "div": "58",
+    "title": "Publishing activities",
+    "keywords": [
+      "books",
+      "publishing"
+    ]
+  },
+  "J-59": {
+    "section": "J",
+    "div": "59",
+    "title": "Motion picture, video and television programme production, sound recording and music publishing activities",
+    "keywords": [
+      "cinema",
+      "documentary",
+      "film",
+      "motion",
+      "music",
+      "picture",
+      "production",
+      "programme",
+      "publishing",
+      "recording",
+      "sound",
+      "television",
+      "video"
+    ]
+  },
+  "J-60": {
+    "section": "J",
+    "div": "60",
+    "title": "Programming, broadcasting, news agency and other content distribution activities",
+    "keywords": [
+      "agency",
+      "broadcasting",
+      "content",
+      "distribution",
+      "journalism",
+      "news",
+      "programming",
+      "radio",
+      "television"
+    ]
+  },
+  "K-61": {
+    "section": "K",
+    "div": "61",
+    "title": "Telecommunications",
+    "keywords": [
+      "mobile phone",
+      "telecom",
+      "telecommunications"
+    ]
+  },
+  "K-62": {
+    "section": "K",
+    "div": "62",
+    "title": "Computer programming, consultancy and related activities",
+    "keywords": [
+      "app development",
+      "coding",
+      "computer",
+      "consultancy",
+      "information technology",
+      "programming",
+      "software"
+    ]
+  },
+  "K-63": {
+    "section": "K",
+    "div": "63",
+    "title": "Computing infrastructure, data processing, hosting, and other information service activities",
+    "keywords": [
+      "artificial intelligence",
+      "computing",
+      "data processing",
+      "hosting",
+      "information",
+      "infrastructure",
+      "internet",
+      "online platform",
+      "processing",
+      "social media",
+      "web hosting"
+    ]
+  },
+  "L-64": {
+    "section": "L",
+    "div": "64",
+    "title": "Financial service activities, except insurance and pension funding",
+    "keywords": [
+      "activities",
+      "banking",
+      "credit",
+      "finance",
+      "financial",
+      "funding",
+      "insurance",
+      "investment",
+      "loan",
+      "pension"
+    ]
+  },
+  "L-65": {
+    "section": "L",
+    "div": "65",
+    "title": "Insurance, reinsurance and pension funding, except compulsory social security",
+    "keywords": [
+      "funding",
+      "insurance",
+      "pension",
+      "pension fund",
+      "reinsurance",
+      "security",
+      "social"
+    ]
+  },
+  "L-66": {
+    "section": "L",
+    "div": "66",
+    "title": "Activities auxiliary to financial service and insurance activities",
+    "keywords": [
+      "financial",
+      "insurance"
+    ]
+  },
+  "M-68": {
+    "section": "M",
+    "div": "68",
+    "title": "Real estate activities",
+    "keywords": [
+      "estate",
+      "housing market",
+      "property",
+      "real estate"
+    ]
+  },
+  "N-69": {
+    "section": "N",
+    "div": "69",
+    "title": "Legal and accounting activities",
+    "keywords": [
+      "accounting",
+      "court",
+      "justice",
+      "law",
+      "lawyer",
+      "legal",
+      "litigation"
+    ]
+  },
+  "N-70": {
+    "section": "N",
+    "div": "70",
+    "title": "Activities of head offices; management consultancy activities",
+    "keywords": [
+      "business strategy",
+      "consultancy",
+      "management",
+      "management consulting",
+      "offices"
+    ]
+  },
+  "N-71": {
+    "section": "N",
+    "div": "71",
+    "title": "Architectural and engineering activities; technical testing and analysis",
+    "keywords": [
+      "activities",
+      "analysis",
+      "architectural",
+      "architecture",
+      "engineering",
+      "technical",
+      "testing"
+    ]
+  },
+  "N-72": {
+    "section": "N",
+    "div": "72",
+    "title": "Scientific research and development ",
+    "keywords": [
+      "development",
+      "experiment",
+      "innovation",
+      "laboratory",
+      "methodology",
+      "research",
+      "science",
+      "scientific"
+    ]
+  },
+  "N-73": {
+    "section": "N",
+    "div": "73",
+    "title": "Activities of advertising, market research and public relations",
+    "keywords": [
+      "advertising",
+      "market",
+      "market research",
+      "marketing",
+      "public",
+      "public relations",
+      "relations",
+      "research"
+    ]
+  },
+  "N-74": {
+    "section": "N",
+    "div": "74",
+    "title": "Other professional, scientific and technical activities",
+    "keywords": [
+      "professional",
+      "scientific",
+      "technical"
+    ]
+  },
+  "N-75": {
+    "section": "N",
+    "div": "75",
+    "title": "Veterinary activities ",
+    "keywords": [
+      "animal health",
+      "veterinary"
+    ]
+  },
+  "O-77": {
+    "section": "O",
+    "div": "77",
+    "title": "Rental and leasing activities",
+    "keywords": [
+      "leasing",
+      "rental"
+    ]
+  },
+  "O-78": {
+    "section": "O",
+    "div": "78",
+    "title": "Employment activities",
+    "keywords": [
+      "career",
+      "employment",
+      "job",
+      "labor",
+      "labour market",
+      "occupation",
+      "recruitment",
+      "work",
+      "workplace"
+    ]
+  },
+  "O-79": {
+    "section": "O",
+    "div": "79",
+    "title": "Travel agency, tour operator, and other travel related activities",
+    "keywords": [
+      "agency",
+      "operator",
+      "travel"
+    ]
+  },
+  "O-80": {
+    "section": "O",
+    "div": "80",
+    "title": "Investigation and security activities",
+    "keywords": [
+      "investigation",
+      "security",
+      "security service",
+      "surveillance"
+    ]
+  },
+  "O-81": {
+    "section": "O",
+    "div": "81",
+    "title": "Services to buildings and landscape activities",
+    "keywords": [
+      "buildings",
+      "landscape"
+    ]
+  },
+  "O-82": {
+    "section": "O",
+    "div": "82",
+    "title": "Office administrative, office support and other business support activities",
+    "keywords": [
+      "administrative",
+      "business",
+      "office",
+      "support"
+    ]
+  },
+  "P-84": {
+    "section": "P",
+    "div": "84",
+    "title": "Public administration and defence; compulsory social security",
+    "keywords": [
+      "administration",
+      "citizenship",
+      "conflict",
+      "defence",
+      "democracy",
+      "election",
+      "governance",
+      "government",
+      "human rights",
+      "migration",
+      "military",
+      "nationalism",
+      "peace",
+      "policy",
+      "politics",
+      "public",
+      "public administration",
+      "public sector",
+      "refugee",
+      "security",
+      "social",
+      "state",
+      "war"
+    ]
+  },
+  "Q-85": {
+    "section": "Q",
+    "div": "85",
+    "title": "Education",
+    "keywords": [
+      "academic",
+      "adolescent",
+      "childhood",
+      "classroom",
+      "curriculum",
+      "education",
+      "learning",
+      "literacy",
+      "pedagogy",
+      "school",
+      "student",
+      "teacher",
+      "teaching",
+      "university"
+    ]
+  },
+  "R-86": {
+    "section": "R",
+    "div": "86",
+    "title": "Human health activities",
+    "keywords": [
+      "clinical",
+      "covid",
+      "disease",
+      "doctor",
+      "health",
+      "healthcare",
+      "hospital",
+      "human",
+      "illness",
+      "medical",
+      "medicine",
+      "mental health",
+      "nursing",
+      "pandemic",
+      "patient",
+      "pregnancy",
+      "psychological",
+      "therapy",
+      "wellbeing"
+    ]
+  },
+  "R-87": {
+    "section": "R",
+    "div": "87",
+    "title": "Residential care activities",
+    "keywords": [
+      "care home",
+      "elderly care",
+      "nursing home",
+      "residential",
+      "residential care"
+    ]
+  },
+  "R-88": {
+    "section": "R",
+    "div": "88",
+    "title": "Social work activities without accommodation ",
+    "keywords": [
+      "abuse",
+      "accommodation",
+      "ageing",
+      "disability",
+      "discrimination",
+      "ethnic",
+      "family",
+      "feminism",
+      "gender",
+      "homeless",
+      "inequality",
+      "minority",
+      "poverty",
+      "social",
+      "social service",
+      "social work",
+      "violence",
+      "vulnerable",
+      "welfare",
+      "youth"
+    ]
+  },
+  "S-90": {
+    "section": "S",
+    "div": "90",
+    "title": "Arts creation and performing arts activities",
+    "keywords": [
+      "art",
+      "artist",
+      "creation",
+      "creative",
+      "cultural",
+      "culture",
+      "literature",
+      "music",
+      "performance",
+      "performing",
+      "theatre"
+    ]
+  },
+  "S-91": {
+    "section": "S",
+    "div": "91",
+    "title": "Library, archives, museum and other cultural activities ",
+    "keywords": [
+      "archive",
+      "archives",
+      "cultural",
+      "heritage",
+      "library",
+      "museum"
+    ]
+  },
+  "S-92": {
+    "section": "S",
+    "div": "92",
+    "title": "Gambling and betting activities",
+    "keywords": [
+      "betting",
+      "gambling"
+    ]
+  },
+  "S-93": {
+    "section": "S",
+    "div": "93",
+    "title": "Sports activities and amusement and recreation activities",
+    "keywords": [
+      "amusement",
+      "athletics",
+      "exercise",
+      "fitness",
+      "leisure",
+      "recreation",
+      "sport",
+      "sports"
+    ]
+  },
+  "T-94": {
+    "section": "T",
+    "div": "94",
+    "title": "Activities of membership organizations",
+    "keywords": [
+      "activism",
+      "association",
+      "church",
+      "community organization",
+      "membership",
+      "ngo",
+      "organizations",
+      "political party",
+      "religion",
+      "religious",
+      "social movement",
+      "union"
+    ]
+  },
+  "T-95": {
+    "section": "T",
+    "div": "95",
+    "title": "Repair and maintenance of computers, personal and household goods, and motor vehicles and motorcycles",
+    "keywords": [
+      "computers",
+      "goods",
+      "household",
+      "maintenance",
+      "motor",
+      "motorcycles",
+      "personal",
+      "repair",
+      "vehicles"
+    ]
+  },
+  "T-96": {
+    "section": "T",
+    "div": "96",
+    "title": "Personal service activities",
+    "keywords": [
+      "lifestyle",
+      "personal",
+      "personal service"
+    ]
+  },
+  "U-97": {
+    "section": "U",
+    "div": "97",
+    "title": "Activities of households as employers of domestic personnel",
+    "keywords": [
+      "domestic",
+      "domestic worker",
+      "employers",
+      "household employment",
+      "households",
+      "personnel"
+    ]
+  },
+  "U-98": {
+    "section": "U",
+    "div": "98",
+    "title": "Undifferentiated goods- and services-producing activities of private households for own use",
+    "keywords": [
+      "goods-",
+      "households",
+      "private",
+      "services-producing",
+      "undifferentiated"
+    ]
+  },
+  "V-99": {
+    "section": "V",
+    "div": "99",
+    "title": "Activities of extraterritorial organizations and bodies ",
+    "keywords": [
+      "bodies",
+      "diplomacy",
+      "extraterritorial",
+      "international organization",
+      "organizations",
+      "united nations"
+    ]
+  }
+}
